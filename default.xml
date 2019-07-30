@@ -23,10 +23,7 @@
   <project path="build/blueprint" name="platform/build/blueprint" groups="pdk,tradefed" />
   <project path="build/pesto" name="platform/build/pesto" groups="pdk" />
   <project path="build/release" name="platform/build/release" groups="pdk,tradefed,sysui-studio" />
-  <project path="build/soong" name="platform/build/soong" groups="pdk,tradefed,sysui-studio" >
-    <linkfile src="root.bp" dest="Android.bp" />
-    <linkfile src="bootstrap.bash" dest="bootstrap.bash" />
-  </project>
+  <project path="build/soong" name="platform/build/soong" groups="pdk,tradefed,sysui-studio" />
   <project path="art" name="platform/art" groups="pdk" />
   <project path="bionic" name="platform/bionic" groups="pdk" />
   <project path="bootable/deprecated-ota" name="platform/bootable/deprecated-ota" groups="pdk-cw" />

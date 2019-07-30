@@ -23,10 +23,7 @@
         <linkfile src="target" dest="build/target" />
         <linkfile src="tools" dest="build/tools" />
     </project>
-    <project path="build/soong" name="LMODroid/platform_build_soong" remote="lmodroid" >
-        <linkfile src="root.bp" dest="Android.bp" />
-        <linkfile src="bootstrap.bash" dest="bootstrap.bash" />
-    </project>
+    <project path="build/soong" name="LMODroid/platform_build_soong" remote="lmodroid" />
 
     <!-- Device -->
     <project path="device/generic/car" name="LMODroid-Devices/device_generic_car" groups="pdk" remote="lmodroid" />
