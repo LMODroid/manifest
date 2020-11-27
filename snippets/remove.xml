@@ -62,5 +62,4 @@
 
     <!-- Build -->
     <remove-project name="platform/build" />
-
 </manifest>
