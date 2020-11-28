@@ -20,6 +20,7 @@
         <linkfile src="root.bp" dest="Android.bp" />
         <linkfile src="bootstrap.bash" dest="bootstrap.bash" />
     </project>
+    <project path="build/blueprint" name="LMODroid/platform_build_blueprint" remote="lmodroid" />
 
     <!-- Device -->
     <project path="device/lmodroid/sepolicy" name="LMODroid/platform_device_lmodroid_sepolicy" remote="lmodroid" />
