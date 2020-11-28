@@ -19,6 +19,10 @@
 
     <!-- Device -->
     <project path="device/lmodroid/sepolicy" name="LMODroid/platform_device_lmodroid_sepolicy" remote="lmodroid" />
+    <project path="device/qcom/sepolicy" name="LMODroid/platform_device_qcom_sepolicy" remote="lmodroid" />
+    <project path="device/qcom/sepolicy-legacy" name="LMODroid/platform_device_qcom_sepolicy-legacy" remote="lmodroid" />
+    <project path="device/qcom/sepolicy-legacy-um" name="LMODroid/platform_device_qcom_sepolicy-legacy-um" remote="lmodroid" />
+    <project path="device/qcom/sepolicy_vndr" name="LMODroid/platform_device_qcom_sepolicy_vndr" remote="lmodroid" />
 
     <!-- Manifest -->
     <project path="manifest" name="LMODroid/manifest" remote="lmodroid" />
