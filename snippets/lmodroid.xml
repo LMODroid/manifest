@@ -17,6 +17,9 @@
         <linkfile src="tools" dest="build/tools" />
     </project>
 
+    <!-- Device -->
+    <project path="device/lmodroid/sepolicy" name="LMODroid/platform_device_lmodroid_sepolicy" remote="lmodroid" />
+
     <!-- Manifest -->
     <project path="manifest" name="LMODroid/manifest" remote="lmodroid" />
     
