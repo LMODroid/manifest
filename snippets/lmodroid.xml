@@ -32,6 +32,9 @@
     <project path="device/qcom/sepolicy-legacy-um" name="LMODroid/platform_device_qcom_sepolicy-legacy-um" remote="lmodroid" />
     <project path="device/qcom/sepolicy_vndr" name="LMODroid/platform_device_qcom_sepolicy_vndr" remote="lmodroid" />
 
+    <!-- Hardware -->
+    <project path="hardware/libhardware" name="LMODroid/platform_hardware_libhardware" remote="lmodroid" />
+
     <!-- Manifest -->
     <project path="manifest" name="LMODroid/manifest" remote="lmodroid" />
     
