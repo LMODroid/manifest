@@ -1,7 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
+    <!-- Build -->
+    <remove-project name="platform/build" />
+    <remove-project name="platform/build/soong" />
 
-    <!-- Google Device Trees -->
+    <!-- Google device trees -->
     <remove-project name="device/amlogic/yukawa" />
     <remove-project name="device/amlogic/yukawa-kernel" />
     <remove-project name="device/common" />
@@ -59,7 +62,4 @@
     <remove-project name="device/sample" />
     <remove-project name="device/ti/beagle-x15" />
     <remove-project name="device/ti/beagle-x15-kernel" />
-
-    <!-- Build -->
-    <remove-project name="platform/build" />
 </manifest>
