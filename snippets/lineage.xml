@@ -87,6 +87,7 @@
 
     <!-- Packages -->
     <project path="packages/resources/devicesettings" name="android_packages_resources_devicesettings" remote="lineage" />
+    <project path="packages/apps/Snap" name="android_packages_apps_Snap" remote="lineage" />
 
     <!-- Prebuilts -->
     <project path="prebuilts/tools-lineage" name="android_prebuilts_tools-lineage" remote="lineage" clone-depth="1" />
