@@ -38,6 +38,9 @@
     <!-- Manifest -->
     <project path="manifest" name="LMODroid/manifest" remote="lmodroid" />
     
+    <!-- System -->
+    <project path="system/sepolicy" name="LMODroid/platform_system_sepolicy" remote="lmodroid" />
+
     <!-- Vendor -->
     <project path="vendor/lmodroid" name="LMODroid/platform_vendor_lmodroid" remote="lmodroid" />
 
