@@ -69,7 +69,8 @@
 
     <!-- Hardware -->
     <remove-project name="platform/hardware/libhardware" />
-    
+    <remove-project name="platform/hardware/broadcom/libbt" />
+
     <!-- Prebuilts -->
     <remove-project name="platform/prebuilts/build-tools" />
 </manifest>

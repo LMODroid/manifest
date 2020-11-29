@@ -18,6 +18,7 @@
     <project path="external/ntfs-3g" name="android_external_ntfs-3g" remote="lineage" />
 
     <!-- Hardware -->
+    <project path="hardware/broadcom/libbt" name="android_hardware_broadcom_libbt" remote="lineage" />
     <project path="hardware/broadcom/nfc" name="android_hardware_broadcom_nfc" remote="lineage" />
     <project path="hardware/qcom-caf/apq8084/audio" name="android_hardware_qcom_audio" remote="lineage" revision="lineage-18.0-caf-apq8084" />
     <project path="hardware/qcom-caf/apq8084/display" name="android_hardware_qcom_display" remote="lineage" revision="lineage-18.0-caf-apq8084" />
