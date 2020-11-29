@@ -72,6 +72,7 @@
     <remove-project name="platform/hardware/broadcom/libbt" />
     <remove-project name="platform/hardware/knowles/athletico/sound_trigger_hal" />
     <remove-project name="platform/hardware/nxp/nfc" />
+    <remove-project name="platform/hardware/qcom/audio" />
 
     <!-- Prebuilts -->
     <remove-project name="platform/prebuilts/build-tools" />
