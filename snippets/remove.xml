@@ -69,4 +69,7 @@
 
     <!-- Hardware -->
     <remove-project name="platform/hardware/libhardware" />
+    
+    <!-- Prebuilts -->
+    <remove-project name="platform/prebuilts/build-tools" />
 </manifest>
