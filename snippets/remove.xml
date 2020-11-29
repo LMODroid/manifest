@@ -79,6 +79,7 @@
     <remove-project name="platform/hardware/qcom/gps" />
     <remove-project name="platform/hardware/qcom/keymaster" />
     <remove-project name="platform/hardware/qcom/media" />
+    <remove-project name="platform/hardware/ril" />
 
     <!-- Prebuilts -->
     <remove-project name="platform/prebuilts/build-tools" />
