@@ -13,6 +13,7 @@
 
     <!-- Framworks -->
     <remove-project name="platform/frameworks/av" />
+    <remove-project name="platform/frameworks/base" />
 
     <!-- Google device trees -->
     <remove-project name="device/amlogic/yukawa" />
