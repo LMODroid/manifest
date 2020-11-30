@@ -95,6 +95,9 @@
     <remove-project name="platform/hardware/qcom/sm8150/display" />
     <remove-project name="platform/hardware/qcom/sm8150/media" />
 
+    <!-- Packages -->
+    <remove-project name="platform/packages/apps/Settings" />
+
     <!-- Prebuilts -->
     <remove-project name="platform/prebuilts/build-tools" />
 
