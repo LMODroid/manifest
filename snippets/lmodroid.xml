@@ -42,6 +42,7 @@
 
     <!-- Hardware -->
     <project path="hardware/libhardware" name="LMODroid/platform_hardware_libhardware" remote="lmodroid" />
+    <project path="hardware/libhardware_legacy" name="LMODroid/platform_hardware_libhardware_legacy" remote="lmodroid" />
 
     <!-- Manifest -->
     <project path="manifest" name="LMODroid/manifest" remote="lmodroid" />
