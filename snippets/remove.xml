@@ -8,6 +8,9 @@
     <remove-project name="platform/build/soong" />
     <remove-project name="platform/build/blueprint" />
 
+    <!-- External -->
+    <remove-project name="platform/external/tinycompress" />
+
     <!-- Google device trees -->
     <remove-project name="device/amlogic/yukawa" />
     <remove-project name="device/amlogic/yukawa-kernel" />
