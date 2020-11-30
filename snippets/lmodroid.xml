@@ -35,6 +35,9 @@
     <!-- External -->
     <project path="external/tinycompress" name="LMODroid/platform_external_tinycompress" remote="lmodroid" />
 
+    <!-- Frameworks -->
+    <project path="frameworks/av" name="LMODroid/platform_frameworks_av" remote="lmodroid" />
+
     <!-- Hardware -->
     <project path="hardware/libhardware" name="LMODroid/platform_hardware_libhardware" remote="lmodroid" />
 

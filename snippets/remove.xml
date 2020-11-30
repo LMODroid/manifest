@@ -11,6 +11,9 @@
     <!-- External -->
     <remove-project name="platform/external/tinycompress" />
 
+    <!-- Framworks -->
+    <remove-project name="platform/frameworks/av" />
+
     <!-- Google device trees -->
     <remove-project name="device/amlogic/yukawa" />
     <remove-project name="device/amlogic/yukawa-kernel" />
