@@ -68,6 +68,9 @@
     <project path="packages/apps/Settings" name="LMODroid/platform_packages_apps_Settings" remote="lmodroid" />
     <project path="packages/overlays/LMODroid" name="LMODroid/platform_packages_overlays_LMODroid" remote="lmodroid" />
     <project path="packages/resources/devicesettings" name="LMODroid/platform_packages_resources_devicesettings" remote="lmodroid" />
+    
+    <!-- System -->
+    <project path="system/core" name="LMODroid/platform_system_core" remote="lmodroid" />
 
     <!-- Vendor -->
     <project path="vendor/codeaurora/telephony" name="LMODroid/platform_vendor_codeaurora_telephony" remote="lmodroid" />
