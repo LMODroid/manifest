@@ -6,6 +6,9 @@
         revision="eleven"
         review="gerrit.libremobileos.com" />
 
+    <!-- Bootable -->
+    <project path="bootable/recovery" name="LMODroid/platform_bootable_recovery" remote="lmodroid" />
+
     <!-- Bionic -->
     <project path="bionic" name="LMODroid/platform_bionic" remote="lmodroid" />
 
