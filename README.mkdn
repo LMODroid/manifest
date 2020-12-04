@@ -1,0 +1,21 @@
+LMODroid 
+===========
+
+Getting started
+---------------
+
+To get started with Android/LMODroid, you'll need to get
+familiar with [Repo](https://source.android.com/source/using-repo.html) and [Version Control with Git](https://source.android.com/source/version-control.html).
+
+To initialize your local repository using the LMODroid trees, use a command like this:
+```
+repo init -u https://git.libremobileos.com/LMODroid/manifest.git -b eleven
+```
+Then to sync up:
+```
+repo sync -c -j$(nproc --all) --force-sync --no-clone-bundle --no-tags
+```
+Credits
+-------
+* [**LineageOS**](https://github.com/LineageOS)
+* [**Pixel Experience**](https://github.com/PixelExperience)
