@@ -19,3 +19,4 @@ Credits
 -------
 * [**LineageOS**](https://github.com/LineageOS)
 * [**Pixel Experience**](https://github.com/PixelExperience)
+* [**Dirty Unicorns**](https://github.com/DirtyUnicorns)
