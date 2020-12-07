@@ -57,6 +57,14 @@
     <project path="packages/apps/Settings" name="LMODroid/platform_packages_apps_Settings" remote="lmodroid" />
     <project path="packages/apps/LMODroidLab" name="LMODroid/platform_packages_apps_LMODroidLab" remote="lmodroid" />
 
+    <!-- Prebuilts -->
+    <project path="prebuilts/gcc/darwin-x86/aarch64/aarch64-linux-android-4.9" name="LMODroid/platform_prebuilts_gcc_darwin-x86_aarch64_aarch64-linux-android-4.9" remote="lmodroid" clone-depth="1" />
+    <project path="prebuilts/gcc/darwin-x86/arm/arm-linux-androideabi-4.9" name="LMODroid/platform_prebuilts_gcc_darwin-x86_arm_arm-linux-androideabi-4.9" remote="lmodroid" clone-depth="1" />
+    <project path="prebuilts/gcc/darwin-x86/x86/x86_64-linux-android-4.9" name="LMODroid/platform_prebuilts_gcc_darwin-x86_x86_x86_64-linux-android-4.9" remote="lmodroid" clone-depth="1" />
+    <project path="prebuilts/gcc/linux-x86/aarch64/aarch64-linux-android-4.9" name="LMODroid/platform_prebuilts_gcc_linux-x86_aarch64_aarch64-linux-android-4.9" remote="lmodroid" clone-depth="1" />
+    <project path="prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.9" name="LMODroid/platform_prebuilts_gcc_linux-x86_arm_arm-linux-androideabi-4.9" remote="lmodroid" clone-depth="1" />
+    <project path="prebuilts/gcc/linux-x86/x86/x86_64-linux-android-4.9" name="LMODroid/platform_prebuilts_gcc_linux-x86_x86_x86_64-linux-android-4.9" remote="lmodroid" clone-depth="1" />
+    
     <!-- System -->
     <project path="system/core" name="LMODroid/platform_system_core" remote="lmodroid" />
     <project path="system/sepolicy" name="LMODroid/platform_system_sepolicy" remote="lmodroid" />
