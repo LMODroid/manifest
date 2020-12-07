@@ -36,6 +36,7 @@
     <project path="device/qcom/sepolicy_vndr" name="LMODroid/platform_device_qcom_sepolicy_vndr" remote="lmodroid" />
 
     <!-- External -->
+    <project path="external/e2fsprogs" name="LMODroid/platform_external_e2fsprogs" remote="lmodroid" />
     <project path="external/tinycompress" name="LMODroid/platform_external_tinycompress" remote="lmodroid" />
 
     <!-- Frameworks -->
