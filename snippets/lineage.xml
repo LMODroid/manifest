@@ -121,6 +121,7 @@
     <project path="system/incremental_delivery" name="android_system_incremental_delivery" remote="lineage" />
     <project path="system/qcom" name="android_system_qcom" remote="lineage" />
     <project path="system/tools/dtbtool" name="android_system_tools_dtbtool" remote="lineage" />
+    <project path="system/tools/mkbootimg" name="android_system_tools_mkbootimg" remote="lineage" />
 
     <!-- Tools -->
     <project path="tools/extract-utils" name="android_tools_extract-utils" remote="lineage" />
