@@ -7,6 +7,7 @@
 
     <!-- Device -->
     <project path="device/generic/goldfish" name="android_device_generic_goldfish" remote="lineage" />
+    <project path="device/generic/goldfish-opengl" name="android_device_generic_goldfish-opengl" remote="lineage" />
 
     <!-- External -->
     <project path="external/ant-wireless/ant_client" name="android_external_ant-wireless_ant_client" remote="lineage" />
