@@ -5,6 +5,9 @@
       fetch="https://github.com/LineageOS"
       revision="lineage-18.1" />
 
+    <!-- Device -->
+    <project path="device/generic/goldfish" name="android_device_generic_goldfish" remote="lineage" />
+
     <!-- External -->
     <project path="external/ant-wireless/ant_client" name="android_external_ant-wireless_ant_client" remote="lineage" />
     <project path="external/ant-wireless/ant_native" name="android_external_ant-wireless_ant_native" remote="lineage" />
