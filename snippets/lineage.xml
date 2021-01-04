@@ -115,6 +115,7 @@
     <project path="prebuilts/tools-lineage" name="android_prebuilts_tools-lineage" remote="lineage" clone-depth="1" />
 
     <!-- System -->
+    <project path="system/incremental_delivery" name="android_system_incremental_delivery" remote="lineage" />
     <project path="system/qcom" name="android_system_qcom" remote="lineage" />
     <project path="system/tools/dtbtool" name="android_system_tools_dtbtool" remote="lineage" />
 
