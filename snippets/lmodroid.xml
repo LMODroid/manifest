@@ -54,6 +54,7 @@
     
     <!-- Packages -->
     <project path="packages/apps/LMODroidLab" name="LMODroid/platform_packages_apps_LMODroidLab" remote="lmodroid" />
+    <project path="packages/apps/PermissionController" name="LMODroid/platform_packages_apps_PackageInstaller" remote="lmodroid" />
     <project path="packages/apps/Snap" name="LMODroid/platform_packages_apps_Snap" remote="lmodroid" />
     <project path="packages/apps/Settings" name="LMODroid/platform_packages_apps_Settings" remote="lmodroid" />
 
