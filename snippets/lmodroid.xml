@@ -6,6 +6,9 @@
         revision="eleven"
         review="gerrit.libremobileos.com" />
 
+    <!-- Art -->
+    <project path="art" name="LMODroid/platform_art" remote="lmodroid" />
+
     <!-- Bootable -->
     <project path="bootable/recovery" name="LMODroid/platform_bootable_recovery" remote="lmodroid" />
 
