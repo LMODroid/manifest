@@ -70,6 +70,7 @@
     <project path="prebuilts/lmodroid" name="LMODroid/platform_prebuilts_lmodroid" remote="lmodroid" />
 
     <!-- System -->
+    <project path="system/bt" name="LMODroid/platform_system_bt" remote="lmodroid" />
     <project path="system/core" name="LMODroid/platform_system_core" remote="lmodroid" />
     <project path="system/sepolicy" name="LMODroid/platform_system_sepolicy" remote="lmodroid" />
     <project path="system/vold" name="LMODroid/platform_system_vold" remote="lmodroid" />
