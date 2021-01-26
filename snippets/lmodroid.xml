@@ -51,8 +51,9 @@
 
     <!-- Manifest -->
     <project path="manifest" name="LMODroid/manifest" remote="lmodroid" />
-    
+
     <!-- Packages -->
+    <project path="packages/apps/Bluetooth" name="LMODroid/platform_packages_apps_Bluetooth" remote="lmodroid" />
     <project path="packages/apps/LMODroidLab" name="LMODroid/platform_packages_apps_LMODroidLab" remote="lmodroid" />
     <project path="packages/apps/PermissionController" name="LMODroid/platform_packages_apps_PackageInstaller" remote="lmodroid" />
     <project path="packages/apps/Snap" name="LMODroid/platform_packages_apps_Snap" remote="lmodroid" />
