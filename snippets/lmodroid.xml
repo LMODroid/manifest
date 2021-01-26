@@ -58,6 +58,7 @@
     <project path="packages/apps/PermissionController" name="LMODroid/platform_packages_apps_PackageInstaller" remote="lmodroid" />
     <project path="packages/apps/Snap" name="LMODroid/platform_packages_apps_Snap" remote="lmodroid" />
     <project path="packages/apps/Settings" name="LMODroid/platform_packages_apps_Settings" remote="lmodroid" />
+    <project path="packages/services/Telecomm" name="LMODroid/platform_packages_services_Telecomm" remote="lmodroid" />
 
     <!-- Prebuilts -->
     <project path="prebuilts/gcc/darwin-x86/aarch64/aarch64-linux-android-4.9" name="LMODroid/platform_prebuilts_gcc_darwin-x86_aarch64_aarch64-linux-android-4.9" remote="lmodroid" clone-depth="1" />
