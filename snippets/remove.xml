@@ -57,8 +57,6 @@
     <remove-project name="device/google/crosshatch" />
     <remove-project name="device/google/crosshatch-kernel" />
     <remove-project name="device/google/crosshatch-sepolicy" />
-    <remove-project name="device/google/cuttlefish" />
-    <remove-project name="device/google/cuttlefish_kernel" />
     <remove-project name="device/google/cuttlefish_vmm" />
     <remove-project name="device/google/fuchsia" />
     <remove-project name="device/google/trout" />
