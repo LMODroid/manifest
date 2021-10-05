@@ -135,6 +135,7 @@
     <project path="system/media" name="android_system_media" remote="lineage" />
     <project path="system/qcom" name="android_system_qcom" remote="lineage" />
     <project path="system/tools/dtbtool" name="android_system_tools_dtbtool" remote="lineage" />
+    <project path="system/tools/hidl" name="android_system_tools_hidl" remote="lineage" />
     <project path="system/tools/mkbootimg" name="android_system_tools_mkbootimg" remote="lineage" />
 
     <!-- Tools -->
