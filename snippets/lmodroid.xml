@@ -81,6 +81,7 @@
 
     <!-- Vendor -->
     <project path="vendor/lmodroid" name="LMODroid/platform_vendor_lmodroid" remote="lmodroid" />
+    <project path="vendor/qcom/opensource/power" name="LMODroid/platform_vendor_qcom_opensource_power" remote="lmodroid" />
     <project path="vendor/support" name="LMODroid/platform_vendor_support" remote="lmodroid" />
 
 </manifest>
