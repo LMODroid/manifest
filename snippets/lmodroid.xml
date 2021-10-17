@@ -62,6 +62,7 @@
     <project path="packages/apps/PermissionController" name="LMODroid/platform_packages_apps_PackageInstaller" remote="lmodroid" />
     <project path="packages/apps/Snap" name="LMODroid/platform_packages_apps_Snap" remote="lmodroid" />
     <project path="packages/apps/Settings" name="LMODroid/platform_packages_apps_Settings" remote="lmodroid" />
+    <project path="packages/resources/devicesettings" name="LMODroid/platform_packages_resources_devicesettings" remote="lmodroid" />
     <project path="packages/services/Telecomm" name="LMODroid/platform_packages_services_Telecomm" remote="lmodroid" />
 
     <!-- Prebuilts -->
