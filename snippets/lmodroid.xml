@@ -6,4 +6,7 @@
         revision="staging/twelve3"
         review="gerrit.libremobileos.com" />
 
+    <!-- Manifest -->
+    <project path="manifest" name="LMODroid/manifest" remote="lmodroid" />
+
 </manifest>
