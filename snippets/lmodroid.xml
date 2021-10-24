@@ -17,4 +17,7 @@
         <linkfile src="tools" dest="build/tools" />
     </project>
 
+    <!-- Manifest -->
+    <project path="manifest" name="LMODroid/manifest" remote="lmodroid" />
+
 </manifest>
