@@ -66,6 +66,7 @@
 
     <!-- Packages -->
     <project path="packages/apps/Settings" name="LMODroid/platform_packages_apps_Settings" remote="lmodroid" />
+    <project path="packages/overlays/LMODroid" name="LMODroid/platform_packages_overlays_LMODroid" remote="lmodroid" />
     <project path="packages/resources/devicesettings" name="LMODroid/platform_packages_resources_devicesettings" remote="lmodroid" />
 
     <!-- Vendor -->
