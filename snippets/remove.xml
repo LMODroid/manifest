@@ -16,6 +16,7 @@
 
     <!-- External -->
     <remove-project name="platform/external/e2fsprogs" />
+    <remove-project name="platform/external/gptfdisk" />
     <remove-project name="platform/external/guice" />
     <remove-project name="platform/external/perfetto" />
     <remove-project name="platform/external/tinycompress" />
