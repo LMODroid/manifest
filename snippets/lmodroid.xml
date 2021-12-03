@@ -22,6 +22,7 @@
 
     <!-- Prebuilts -->
     <project path="prebuilts/build-tools" name="LMODroid/platform_prebuilts_build-tools" remote="lmodroid" />
+    <project path="prebuilts/tools-lmodroid" name="LMODroid/platform_prebuilts_tools-lmodroid" remote="lmodroid" />
 
     <!-- Vendor -->
     <project path="vendor/lmodroid" name="LMODroid/platform_vendor_lmodroid" remote="lmodroid" />
