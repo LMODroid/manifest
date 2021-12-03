@@ -3,6 +3,7 @@
 
     <!-- Build -->
     <remove-project name="platform/build" />
+    <remove-project name="platform/build/soong" />
 
     <!-- Prebuilts -->
     <remove-project name="platform/prebuilts/build-tools" />
