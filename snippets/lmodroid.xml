@@ -19,7 +19,10 @@
 
     <!-- Manifest -->
     <project path="manifest" name="LMODroid/manifest" remote="lmodroid" />
-    
+
+    <!-- Prebuilts -->
+    <project path="prebuilts/build-tools" name="LMODroid/platform_prebuilts_build-tools" remote="lmodroid" />
+
     <!-- Vendor -->
     <project path="vendor/lmodroid" name="LMODroid/platform_vendor_lmodroid" remote="lmodroid" />
 

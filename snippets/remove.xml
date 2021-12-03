@@ -4,4 +4,7 @@
     <!-- Build -->
     <remove-project name="platform/build" />
 
+    <!-- Prebuilts -->
+    <remove-project name="platform/prebuilts/build-tools" />
+
 </manifest>
