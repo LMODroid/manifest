@@ -25,6 +25,7 @@
     <project path="hardware/knowles/athletico/sound_trigger_hal" name="LMODroid/platform_hardware_knowles_athletico_sound_trigger_hal" remote="lmodroid" />
     <project path="hardware/qcom/audio" name="LMODroid/platform_hardware_qcom_audio" remote="lmodroid" />
     <project path="hardware/qcom/data/ipacfg-mgr" name="LMODroid/platform_hardware_qcom_data_ipacfg-mgr" remote="lmodroid" />
+    <project path="hardware/qcom/sdm845/display" name="LMODroid/platform_hardware_qcom_sdm845_display" remote="lmodroid" />
 
     <!-- Manifest -->
     <project path="manifest" name="LMODroid/manifest" remote="lmodroid" />

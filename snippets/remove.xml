@@ -9,6 +9,7 @@
     <remove-project name="platform/hardware/knowles/athletico/sound_trigger_hal" />
     <remove-project name="platform/hardware/qcom/audio" />
     <remove-project name="platform/hardware/qcom/data/ipacfg-mgr" />
+    <remove-project name="platform/hardware/qcom/sdm845/display" />
 
     <!-- Prebuilts -->
     <remove-project name="platform/prebuilts/build-tools" />
