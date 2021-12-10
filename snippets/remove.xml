@@ -6,6 +6,7 @@
     <remove-project name="platform/build/soong" />
 
     <!-- Hardware -->
+    <remove-project name="platform/hardware/google/pixel" />
     <remove-project name="platform/hardware/knowles/athletico/sound_trigger_hal" />
     <remove-project name="platform/hardware/qcom/audio" />
     <remove-project name="platform/hardware/qcom/data/ipacfg-mgr" />
