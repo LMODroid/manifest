@@ -35,6 +35,7 @@
     <project path="hardware/qcom/sm8150/data/ipacfg-mgr" name="LMODroid/platform_hardware_qcom_sm8150_data_ipacfg-mgr" remote="lmodroid" />
     <project path="hardware/qcom/sm8150/display" name="LMODroid/platform_hardware_qcom_sm8150_display" remote="lmodroid" />
     <project path="hardware/qcom/sm8150/media" name="LMODroid/platform_hardware_qcom_sm8150_media" remote="lmodroid" />
+    <project path="hardware/qcom/wlan" name="LMODroid/platform_hardware_qcom_wlan" remote="lmodroid" />
 
     <!-- Manifest -->
     <project path="manifest" name="LMODroid/manifest" remote="lmodroid" />
