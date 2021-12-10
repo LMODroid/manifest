@@ -20,6 +20,10 @@
         <linkfile src="root.bp" dest="Android.bp" />
         <linkfile src="bootstrap.bash" dest="bootstrap.bash" />
     </project>
+
+    <!-- External -->
+    <project path="external/ant-wireless/antradio-library" name="LMODroid/platform_external_ant-wireless_antradio-library" remote="lmodroid" />
+
     <!-- Manifest -->
     <project path="manifest" name="LMODroid/manifest" remote="lmodroid" />
 
