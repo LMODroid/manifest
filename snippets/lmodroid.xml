@@ -23,6 +23,9 @@
     <!-- Manifest -->
     <project path="manifest" name="LMODroid/manifest" remote="lmodroid" />
 
+    <!-- Packages -->
+    <project path="packages/resources/devicesettings" name="LMODroid/platform_packages_resources_devicesettings" remote="lmodroid" />
+
     <!-- Prebuilts -->
     <project path="prebuilts/build-tools" name="LMODroid/platform_prebuilts_build-tools" remote="lmodroid" />
     <project path="prebuilts/tools-lmodroid" name="LMODroid/platform_prebuilts_tools-lmodroid" remote="lmodroid" />
