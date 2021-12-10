@@ -31,6 +31,7 @@
     <project path="hardware/qcom/sdm845/display" name="LMODroid/platform_hardware_qcom_sdm845_display" remote="lmodroid" />
     <project path="hardware/qcom/sdm845/media" name="LMODroid/platform_hardware_qcom_sdm845_media" remote="lmodroid" />
     <project path="hardware/qcom/sm7250/display" name="LMODroid/platform_hardware_qcom_sm7250_display" remote="lmodroid" />
+    <project path="hardware/qcom/sm7250/media" name="LMODroid/platform_hardware_qcom_sm7250_display" remote="lmodroid" />
 
     <!-- Manifest -->
     <project path="manifest" name="LMODroid/manifest" remote="lmodroid" />
