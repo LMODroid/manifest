@@ -23,6 +23,7 @@
 
     <!-- Hardware -->
     <project path="hardware/knowles/athletico/sound_trigger_hal" name="LMODroid/platform_hardware_knowles_athletico_sound_trigger_hal" remote="lmodroid" />
+    <project path="hardware/qcom/audio" name="LMODroid/platform_hardware_qcom_audio" remote="lmodroid" />
 
     <!-- Manifest -->
     <project path="manifest" name="LMODroid/manifest" remote="lmodroid" />
