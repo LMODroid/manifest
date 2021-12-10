@@ -20,6 +20,10 @@
         <linkfile src="root.bp" dest="Android.bp" />
         <linkfile src="bootstrap.bash" dest="bootstrap.bash" />
     </project>
+
+    <!-- Hardware -->
+    <project path="hardware/knowles/athletico/sound_trigger_hal" name="LMODroid/platform_hardware_knowles_athletico_sound_trigger_hal" remote="lmodroid" />
+
     <!-- Manifest -->
     <project path="manifest" name="LMODroid/manifest" remote="lmodroid" />
 

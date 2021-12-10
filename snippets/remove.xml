@@ -5,6 +5,9 @@
     <remove-project name="platform/build" />
     <remove-project name="platform/build/soong" />
 
+    <!-- Hardware -->
+    <remove-project name="platform/hardware/knowles/athletico/sound_trigger_hal" />
+
     <!-- Prebuilts -->
     <remove-project name="platform/prebuilts/build-tools" />
 
