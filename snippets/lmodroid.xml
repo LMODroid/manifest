@@ -33,6 +33,7 @@
     <project path="hardware/qcom/sm7250/display" name="LMODroid/platform_hardware_qcom_sm7250_display" remote="lmodroid" />
     <project path="hardware/qcom/sm7250/media" name="LMODroid/platform_hardware_qcom_sm7250_media" remote="lmodroid" />
     <project path="hardware/qcom/sm8150/data/ipacfg-mgr" name="LMODroid/platform_hardware_qcom_sm8150_data_ipacfg-mgr" remote="lmodroid" />
+    <project path="hardware/qcom/sm8150/display" name="LMODroid/platform_hardware_qcom_sm8150_display" remote="lmodroid" />
 
     <!-- Manifest -->
     <project path="manifest" name="LMODroid/manifest" remote="lmodroid" />

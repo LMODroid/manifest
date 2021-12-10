@@ -17,6 +17,7 @@
     <remove-project name="platform/hardware/qcom/sm7250/display" />
     <remove-project name="platform/hardware/qcom/sm7250/media" />
     <remove-project name="platform/hardware/qcom/sm8150/data/ipacfg-mgr" />
+    <remove-project name="platform/hardware/qcom/sm8150/display" />
 
     <!-- Prebuilts -->
     <remove-project name="platform/prebuilts/build-tools" />
