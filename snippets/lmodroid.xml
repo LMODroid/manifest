@@ -23,6 +23,7 @@
 
     <!-- Hardware -->
     <project path="hardware/google/pixel" name="LMODroid/platform_hardware_google_pixel" remote="lmodroid" />
+    <project path="hardware/google/pixel-sepolicy" name="LMODroid/platform_hardware_google_pixel-sepolicy" remote="lmodroid" />
     <project path="hardware/knowles/athletico/sound_trigger_hal" name="LMODroid/platform_hardware_knowles_athletico_sound_trigger_hal" remote="lmodroid" />
     <project path="hardware/qcom/audio" name="LMODroid/platform_hardware_qcom_audio" remote="lmodroid" />
     <project path="hardware/qcom/data/ipacfg-mgr" name="LMODroid/platform_hardware_qcom_data_ipacfg-mgr" remote="lmodroid" />
