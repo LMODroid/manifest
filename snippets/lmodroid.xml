@@ -29,6 +29,7 @@
     <project path="hardware/qcom/camera" name="LMODroid/platform_hardware_qcom_camera" remote="lmodroid" />
     <project path="hardware/qcom/data/ipacfg-mgr" name="LMODroid/platform_hardware_qcom_data_ipacfg-mgr" remote="lmodroid" />
     <project path="hardware/qcom/sdm845/display" name="LMODroid/platform_hardware_qcom_sdm845_display" remote="lmodroid" />
+    <project path="hardware/qcom/sdm845/media" name="LMODroid/platform_hardware_qcom_sdm845_media" remote="lmodroid" />
 
     <!-- Manifest -->
     <project path="manifest" name="LMODroid/manifest" remote="lmodroid" />
