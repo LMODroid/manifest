@@ -39,7 +39,13 @@
     <project path="hardware/qcom-caf/common" name="LMODroid/platform_hardware_qcom-caf_common" groups="qcom,pdk-qcom" remote="lmodroid" >
         <!-- add guard for AOSP hardware/qcom dir -->
         <linkfile src="os_pickup_aosp.mk" dest="hardware/qcom/Android.mk" />
+        <!-- add guards for CAF repositories -->
+        <linkfile src="os_pickup_qssi.bp" dest="hardware/qcom-caf/sm8150/Android.bp" />
+        <linkfile src="os_pickup.mk" dest="hardware/qcom-caf/sm8150/Android.mk" />
     </project>
+    <project path="hardware/qcom-caf/sm8150/audio" name="LMODroid/platform_hardware_qcom_audio" groups="qcom,qcom_audio,pdk-qcom" remote="lmodroid" revision="staging/twelve-caf-sm8150" />
+    <project path="hardware/qcom-caf/sm8150/display" name="LMODroid/platform_hardware_qcom_display" groups="pdk-qcom,qcom,qcom_display" remote="lmodroid" revision="staging/twelve-caf-sm8150" />
+    <project path="hardware/qcom-caf/sm8150/media" name="LMODroid/platform_hardware_qcom_media" groups="qcom,pdk-qcom" remote="lmodroid" revision="staging/twelve-caf-sm8150" />
 
     <!-- Manifest -->
     <project path="manifest" name="LMODroid/manifest" remote="lmodroid" />
