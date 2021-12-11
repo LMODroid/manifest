@@ -61,6 +61,7 @@
     <project path="vendor/codeaurora/telephony" name="LMODroid/platform_vendor_codeaurora_telephony" remote="lmodroid" />
     <project path="vendor/lmodroid" name="LMODroid/platform_vendor_lmodroid" remote="lmodroid" />
     <project path="vendor/qcom/opensource/commonsys/display" name="LMODroid/platform_vendor_qcom_opensource_display-commonsys" groups="qcom,pdk-qcom" remote="lmodroid" />
+    <project path="vendor/qcom/opensource/commonsys-intf/display" name="LMODroid/platform_vendor_qcom_opensource_display-commonsys-intf" groups="qcom,pdk-qcom" remote="lmodroid" />
     <project path="vendor/support" name="LMODroid/platform_vendor_support" remote="lmodroid" />
 
 </manifest>
