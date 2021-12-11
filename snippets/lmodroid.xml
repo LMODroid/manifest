@@ -36,6 +36,10 @@
     <project path="hardware/qcom/sm8150/display" name="LMODroid/platform_hardware_qcom_sm8150_display" remote="lmodroid" />
     <project path="hardware/qcom/sm8150/media" name="LMODroid/platform_hardware_qcom_sm8150_media" remote="lmodroid" />
     <project path="hardware/qcom/wlan" name="LMODroid/platform_hardware_qcom_wlan" remote="lmodroid" />
+    <project path="hardware/qcom-caf/common" name="LMODroid/platform_hardware_qcom-caf_common" groups="qcom,pdk-qcom" remote="lmodroid" >
+        <!-- add guard for AOSP hardware/qcom dir -->
+        <linkfile src="os_pickup_aosp.mk" dest="hardware/qcom/Android.mk" />
+    </project>
 
     <!-- Manifest -->
     <project path="manifest" name="LMODroid/manifest" remote="lmodroid" />
