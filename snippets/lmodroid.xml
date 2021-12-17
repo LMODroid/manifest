@@ -81,6 +81,7 @@
     <!-- System -->
     <project path="system/bt" name="LMODroid/platform_system_bt" remote="lmodroid" />
     <project path="system/core" name="LMODroid/platform_system_core" remote="lmodroid" />
+    <project path="system/libufdt" name="LMODroid/platform_system_libufdt" remote="lmodroid" />
     <project path="system/sepolicy" name="LMODroid/platform_system_sepolicy" remote="lmodroid" />
     <project path="system/update_engine" name="LMODroid/platform_system_update_engine" remote="lmodroid" />
     <project path="system/vold" name="LMODroid/platform_system_vold" remote="lmodroid" />
