@@ -41,6 +41,7 @@
     <!-- External -->
     <project path="external/e2fsprogs" name="LMODroid/platform_external_e2fsprogs" remote="lmodroid" />
     <project path="external/gptfdisk" name="LMODroid/platform_external_gptfdisk" remote="lmodroid" />
+    <project path="external/libcxx" name="LMODroid/platform_external_libcxx" remote="lmodroid" />
     <project path="external/tinycompress" name="LMODroid/platform_external_tinycompress" remote="lmodroid" />
 
     <!-- Frameworks -->
