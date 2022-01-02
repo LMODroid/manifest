@@ -68,10 +68,6 @@
     <project path="packages/apps/Settings" name="LMODroid/platform_packages_apps_Settings" remote="lmodroid" />
     <project path="packages/resources/devicesettings" name="LMODroid/platform_packages_resources_devicesettings" remote="lmodroid" />
 
-    <!-- Prebuilts -->
-    <project path="prebuilts/build-tools" name="LMODroid/platform_prebuilts_build-tools" remote="lmodroid" />
-    <project path="prebuilts/tools-lmodroid" name="LMODroid/platform_prebuilts_tools-lmodroid" remote="lmodroid" />
-
     <!-- Vendor -->
     <project path="vendor/codeaurora/telephony" name="LMODroid/platform_vendor_codeaurora_telephony" remote="lmodroid" />
     <project path="vendor/lmodroid" name="LMODroid/platform_vendor_lmodroid" remote="lmodroid" />
