@@ -21,6 +21,9 @@
         <linkfile src="bootstrap.bash" dest="bootstrap.bash" />
     </project>
 
+    <!-- Frameworks -->
+    <project path="frameworks/base" name="LMODroid/platform_frameworks_base" remote="lmodroid" />
+
     <!-- Hardware -->
     <project path="hardware/google/pixel" name="LMODroid/platform_hardware_google_pixel" remote="lmodroid" />
     <project path="hardware/google/pixel-sepolicy" name="LMODroid/platform_hardware_google_pixel-sepolicy" remote="lmodroid" />
@@ -62,6 +65,7 @@
     <project path="manifest" name="LMODroid/manifest" remote="lmodroid" />
 
     <!-- Packages -->
+    <project path="packages/apps/Settings" name="LMODroid/platform_packages_apps_Settings" remote="lmodroid" />
     <project path="packages/resources/devicesettings" name="LMODroid/platform_packages_resources_devicesettings" remote="lmodroid" />
 
     <!-- Prebuilts -->

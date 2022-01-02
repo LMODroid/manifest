@@ -5,6 +5,9 @@
     <remove-project name="platform/build" />
     <remove-project name="platform/build/soong" />
 
+    <!-- Framworks -->
+    <remove-project name="platform/frameworks/base" />
+
     <!-- Hardware -->
     <remove-project name="platform/hardware/google/pixel" />
     <remove-project name="platform/hardware/google/pixel-sepolicy" />
@@ -20,6 +23,9 @@
     <remove-project name="platform/hardware/qcom/sm8150/display" />
     <remove-project name="platform/hardware/qcom/sm8150/media" />
     <remove-project name="platform/hardware/qcom/wlan" />
+
+    <!-- Packages -->
+    <remove-project name="platform/packages/apps/Settings" />
 
     <!-- Prebuilts -->
     <remove-project name="platform/prebuilts/build-tools" />
