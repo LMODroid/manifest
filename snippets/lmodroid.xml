@@ -71,6 +71,7 @@
     
     <!-- System -->
     <project path="system/core" name="LMODroid/platform_system_core" remote="lmodroid" />
+    <project path="system/sepolicy" name="LMODroid/platform_system_sepolicy" remote="lmodroid" />
     <project path="system/update_engine" name="LMODroid/platform_system_update_engine" remote="lmodroid" />
 
     <!-- Vendor -->
