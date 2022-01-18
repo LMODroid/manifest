@@ -35,7 +35,10 @@
     <project path="hardware/qcom/sdm845/media" name="LMODroid/platform_hardware_qcom_sdm845_media" remote="lmodroid" />
     <project path="hardware/qcom/sm7250/display" name="LMODroid/platform_hardware_qcom_sm7250_display" remote="lmodroid" />
     <project path="hardware/qcom/sm7250/media" name="LMODroid/platform_hardware_qcom_sm7250_media" remote="lmodroid" />
-    <project path="hardware/qcom/sm8150/data/ipacfg-mgr" name="LMODroid/platform_hardware_qcom_sm8150_data_ipacfg-mgr" remote="lmodroid" />
+    <project path="hardware/qcom/sm8150/data/ipacfg-mgr" name="LMODroid/platform_hardware_qcom_sm8150_data_ipacfg-mgr" remote="lmodroid" >
+    <linkfile src="os_pickup.mk" dest="hardware/qcom/sm8150/Android.mk" />
+    <linkfile src="os_pickup.bp" dest="hardware/qcom/sm8150/Android.bp" />
+    </project>
     <project path="hardware/qcom/sm8150/display" name="LMODroid/platform_hardware_qcom_sm8150_display" remote="lmodroid" />
     <project path="hardware/qcom/sm8150/media" name="LMODroid/platform_hardware_qcom_sm8150_media" remote="lmodroid" />
     <project path="hardware/qcom/wlan" name="LMODroid/platform_hardware_qcom_wlan" remote="lmodroid" />
