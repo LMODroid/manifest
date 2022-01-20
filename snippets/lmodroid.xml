@@ -59,6 +59,8 @@
         <linkfile src="os_pickup.mk" dest="hardware/qcom-caf/sdm845/Android.mk" />
         <linkfile src="os_pickup_qssi.bp" dest="hardware/qcom-caf/sm8150/Android.bp" />
         <linkfile src="os_pickup.mk" dest="hardware/qcom-caf/sm8150/Android.mk" />
+        <linkfile src="os_pickup_qssi.bp" dest="hardware/qcom-caf/sm8250/Android.bp" />
+        <linkfile src="os_pickup.mk" dest="hardware/qcom-caf/sm8250/Android.mk" />
     </project>
     <project path="hardware/qcom-caf/msm8996/audio" name="LMODroid/platform_hardware_qcom_audio" groups="qcom,qcom_audio,pdk-qcom" remote="lmodroid" revision="staging/twelve-caf-msm8996" />
     <project path="hardware/qcom-caf/msm8996/display" name="LMODroid/platform_hardware_qcom_display" groups="pdk-qcom,qcom,qcom_display" remote="lmodroid" revision="staging/twelve-caf-msm8996" />
@@ -69,6 +71,9 @@
     <project path="hardware/qcom-caf/sm8150/audio" name="LMODroid/platform_hardware_qcom_audio" groups="qcom,qcom_audio,pdk-qcom" remote="lmodroid" revision="staging/twelve-caf-sm8150" />
     <project path="hardware/qcom-caf/sm8150/display" name="LMODroid/platform_hardware_qcom_display" groups="pdk-qcom,qcom,qcom_display" remote="lmodroid" revision="staging/twelve-caf-sm8150" />
     <project path="hardware/qcom-caf/sm8150/media" name="LMODroid/platform_hardware_qcom_media" groups="qcom,pdk-qcom" remote="lmodroid" revision="staging/twelve-caf-sm8150" />
+    <project path="hardware/qcom-caf/sm8250/audio" name="LMODroid/platform_hardware_qcom_audio" groups="qcom,qcom_audio,pdk-qcom" remote="lmodroid" revision="staging/twelve-caf-sm8250" />
+    <project path="hardware/qcom-caf/sm8250/display" name="LMODroid/platform_hardware_qcom_display" groups="pdk-qcom,qcom,qcom_display" remote="lmodroid" revision="staging/twelve-caf-sm8250" />
+    <project path="hardware/qcom-caf/sm8250/media" name="LMODroid/platform_hardware_qcom_media" groups="qcom,pdk-qcom" remote="lmodroid" revision="staging/twelve-caf-sm8250" />
     <project path="hardware/qcom-caf/wlan" name="LMODroid/platform_hardware_qcom_wlan" groups="qcom_wlan,pdk-qcom" remote="lmodroid" revision="staging/twelve-caf" />
 
     <!-- Manifest -->
