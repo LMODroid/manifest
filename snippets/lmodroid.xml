@@ -6,6 +6,9 @@
         revision="staging/twelve"
         review="gerrit.libremobileos.com" />
 
+    <!-- Bootable -->
+    <project path="bootable/recovery" name="LMODroid/platform_bootable_recovery" remote="lmodroid" />
+
     <!-- Build -->
     <project path="build/make" name="LMODroid/platform_build" remote="lmodroid">
         <copyfile src="core/root.mk" dest="Makefile" />
