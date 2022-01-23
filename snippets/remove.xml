@@ -88,6 +88,9 @@
     <remove-project name="platform/external/tinycompress" />
     <remove-project name="platform/external/wpa_supplicant_8" />
 
+    <!-- Packages -->
+    <remove-project name="platform/packages/apps/ThemePicker" />
+
     <!-- Prebuilts -->
     <remove-project name="platform/prebuilts/build-tools" />
     <remove-project name="platform/prebuilts/gcc/darwin-x86/aarch64/aarch64-linux-android-4.9" />
