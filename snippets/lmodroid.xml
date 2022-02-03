@@ -104,6 +104,7 @@
     <project path="vendor/qcom/opensource/interfaces" name="LMODroid/platform_vendor_qcom_opensource_interfaces" groups="qcom,pdk-qcom" remote="lmodroid" />
     <project path="vendor/qcom/opensource/power" name="LMODroid/platform_vendor_qcom_opensource_power" groups="qcom,pdk-qcom" remote="lmodroid" />
     <project path="vendor/qcom/opensource/thermal-engine" name="LMODroid/platform_vendor_qcom_opensource_thermal-engine" groups="qcom,pdk-qcom" remote="lmodroid" />
+    <project path="vendor/qcom/opensource/usb" name="LMODroid/platform_vendor_qcom_opensource_usb" groups="qcom,pdk-qcom" remote="lmodroid" />
     <project path="vendor/qcom/opensource/vibrator" name="LMODroid/platform_vendor_qcom_opensource_vibrator" groups="qcom,pdk-qcom" remote="lmodroid" />
     <project path="vendor/support" name="LMODroid/platform_vendor_support" remote="lmodroid" />
 
