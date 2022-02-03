@@ -87,7 +87,7 @@
     <project path="packages/apps/WallpaperPicker2" name="LMODroid/platform_packages_apps_WallpaperPicker2" remote="lmodroid" />
     <project path="packages/overlays/LMODroid" name="LMODroid/platform_packages_overlays_LMODroid" remote="lmodroid" />
     <project path="packages/resources/devicesettings" name="LMODroid/platform_packages_resources_devicesettings" remote="lmodroid" />
-    
+
     <!-- System -->
     <project path="system/core" name="LMODroid/platform_system_core" remote="lmodroid" />
     <project path="system/sepolicy" name="LMODroid/platform_system_sepolicy" remote="lmodroid" />
@@ -102,6 +102,7 @@
     <project path="vendor/qcom/opensource/data-ipa-cfg-mgr" name="LMODroid/platform_vendor_qcom_opensource_data-ipa-cfg-mgr" groups="qcom,pdk-qcom" remote="lmodroid" />
     <project path="vendor/qcom/opensource/dataservices" name="LMODroid/platform_vendor_qcom_opensource_dataservices" groups="qcom,pdk-qcom" remote="lmodroid" />
     <project path="vendor/qcom/opensource/interfaces" name="LMODroid/platform_vendor_qcom_opensource_interfaces" groups="qcom,pdk-qcom" remote="lmodroid" />
+    <project path="vendor/qcom/opensource/power" name="LMODroid/platform_vendor_qcom_opensource_power" groups="qcom,pdk-qcom" remote="lmodroid" />
     <project path="vendor/qcom/opensource/thermal-engine" name="LMODroid/platform_vendor_qcom_opensource_thermal-engine" groups="qcom,pdk-qcom" remote="lmodroid" />
     <project path="vendor/qcom/opensource/vibrator" name="LMODroid/platform_vendor_qcom_opensource_vibrator" groups="qcom,pdk-qcom" remote="lmodroid" />
     <project path="vendor/support" name="LMODroid/platform_vendor_support" remote="lmodroid" />
