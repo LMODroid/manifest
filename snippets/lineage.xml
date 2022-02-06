@@ -9,7 +9,7 @@
     <project path="bionic" name="android_bionic" remote="lineage" />
 
     <!-- Device -->
-    <project path="device/lineage/sepolicy" name="android_device_lineage_sepolicy " remote="lineage" />
+    <project path="device/lineage/sepolicy" name="android_device_lineage_sepolicy" remote="lineage" />
 
     <!-- External -->
     <project path="external/ant-wireless/ant_client" name="android_external_ant-wireless_ant_client" remote="lineage" />
