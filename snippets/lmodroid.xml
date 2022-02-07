@@ -39,6 +39,7 @@
     <project path="packages/apps/ExactCalculator" name="LMODroid/platform_packages_apps_ExactCalculator" remote="lmodroid" />
     <project path="packages/apps/Launcher3" name="LMODroid/platform_packages_apps_Launcher3" remote="lmodroid" />
     <project path="packages/apps/Messaging" name="LMODroid/platform_packages_apps_Messaging" remote="lmodroid" />
+    <project path="packages/apps/QuickSearchBox" name="LMODroid/platform_packages_apps_QuickSearchBox" remote="lmodroid" />
     <project path="packages/apps/Settings" name="LMODroid/platform_packages_apps_Settings" remote="lmodroid" />
     <project path="packages/modules/Connectivity" name="LMODroid/platform_packages_modules_Connectivity" remote="lmodroid" />
     <project path="packages/services/Telecomm" name="LMODroid/platform_packages_services_Telecomm" remote="lmodroid" />
