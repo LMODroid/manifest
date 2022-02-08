@@ -81,6 +81,7 @@
     <remove-project name="platform/packages/apps/QuickSearchBox" />
     <remove-project name="platform/packages/apps/Settings" />
     <remove-project name="platform/packages/modules/adb" />
+    <remove-project name="platform/packages/modules/common" />
 
     <!-- External -->
     <remove-project name="platform/external/e2fsprogs" />
@@ -107,6 +108,7 @@
     <!-- System -->
     <remove-project name="platform/system/core" />
     <remove-project name="platform/system/libziparchive" />
+    <remove-project name="platform/system/logging" />
     <remove-project name="platform/system/media" />
     <remove-project name="platform/system/sepolicy" />
     <remove-project name="platform/system/update_engine" />
