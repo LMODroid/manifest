@@ -30,6 +30,7 @@
     <!-- Frameworks -->
     <project path="frameworks/av" name="LMODroid/platform_frameworks_av" remote="lmodroid" />
     <project path="frameworks/base" name="LMODroid/platform_frameworks_base" remote="lmodroid" />
+    <project path="frameworks/native" name="LMODroid/platform_frameworks_native" remote="lmodroid" />
 
     <!-- Hardware -->
     <project path="hardware/google/pixel" name="LMODroid/platform_hardware_google_pixel" remote="lmodroid" />
