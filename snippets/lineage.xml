@@ -29,6 +29,9 @@
     <project path="external/tinycompress" name="android_external_tinycompress" remote="lineage" />
     <project path="external/wpa_supplicant_8" name="android_external_wpa_supplicant_8" remote="lineage" />
 
+    <!-- Hardware -->
+    <project path="hardware/lineage/interfaces" name="android_hardware_lineage_interfaces" remote="lineage" />
+
     <!-- Packages -->
     <project path="packages/apps/SimpleDeviceConfig" name="android_packages_apps_SimpleDeviceConfig" remote="lineage" />
     <project path="packages/modules/adb" name="android_packages_modules_adb" remote="lineage" />
