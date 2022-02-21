@@ -84,6 +84,7 @@
     <remove-project name="platform/packages/apps/Settings" />
     <remove-project name="platform/packages/modules/adb" />
     <remove-project name="platform/packages/modules/common" />
+    <remove-project name="platform/packages/services/Telecomm" />
 
     <!-- External -->
     <remove-project name="platform/external/e2fsprogs" />

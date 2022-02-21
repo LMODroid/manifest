@@ -94,6 +94,7 @@
     <project path="packages/apps/WallpaperPicker2" name="LMODroid/platform_packages_apps_WallpaperPicker2" remote="lmodroid" />
     <project path="packages/overlays/LMODroid" name="LMODroid/platform_packages_overlays_LMODroid" remote="lmodroid" />
     <project path="packages/resources/devicesettings" name="LMODroid/platform_packages_resources_devicesettings" remote="lmodroid" />
+    <project path="packages/services/Telecomm" name="LMODroid/platform_packages_services_Telecomm" remote="lmodroid" />
 
     <!-- Prebuilt -->
     <project path="prebuilts/lmodroid" name="LMODroid/platform_prebuilts_lmodroid" remote="lmodroid" />
