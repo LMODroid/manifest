@@ -89,6 +89,7 @@
     <!-- Packages -->
     <project path="packages/apps/Browser2" name="LMODroid/platform_packages_apps_Browser2" remote="lmodroid" />
     <project path="packages/apps/Camera" name="LMODroid/platform_packages_apps_Camera" remote="lmodroid" />
+    <project path="packages/apps/DeskClock" name="LMODroid/platform_packages_apps_DeskClock" remote="lmodroid" />
     <project path="packages/apps/Etar" name="LMODroid/platform_packages_apps_Etar" remote="lmodroid" />
     <project path="packages/apps/ExactCalculator" name="LMODroid/platform_packages_apps_ExactCalculator" remote="lmodroid" />
     <project path="packages/apps/Launcher3" name="LMODroid/platform_packages_apps_Launcher3" remote="lmodroid" />
