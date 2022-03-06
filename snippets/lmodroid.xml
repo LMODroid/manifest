@@ -43,6 +43,7 @@
     <project path="packages/apps/Launcher3" name="LMODroid/platform_packages_apps_Launcher3" remote="lmodroid" />
     <project path="packages/apps/Messaging" name="LMODroid/platform_packages_apps_Messaging" remote="lmodroid" />
     <project path="packages/apps/QuickSearchBox" name="LMODroid/platform_packages_apps_QuickSearchBox" remote="lmodroid" />
+    <project path="packages/apps/Recorder" name="LMODroid/platform_packages_apps_Recorder" remote="lmodroid" />
     <project path="packages/apps/Settings" name="LMODroid/platform_packages_apps_Settings" remote="lmodroid" />
     <project path="packages/apps/ThemePicker" name="LMODroid/platform_packages_apps_ThemePicker" remote="lmodroid" />
     <project path="packages/apps/TouchGestures" name="LMODroid/platform_packages_apps_TouchGestures" remote="lmodroid" />
