@@ -52,6 +52,9 @@
     <project path="system/logging" name="android_system_logging" remote="lineage" />
     <project path="system/media" name="android_system_media" remote="lineage" />
 
+    <!-- Vendor  -->
+   <project path="vendor/qcom/opensource/wfd-commonsys" name="android_vendor_qcom_opensource_wfd-commonsys" groups="qcom,pdk" remote="lineage" />
+
     <!-- Tools -->
     <project path="tools/extract-utils" name="android_tools_extract-utils" remote="lineage" />
 </manifest>
