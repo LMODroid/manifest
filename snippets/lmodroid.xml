@@ -40,6 +40,7 @@
     <project path="packages/apps/Contacts" name="LMODroid/platform_packages_apps_Contacts" remote="lmodroid" />
     <project path="packages/apps/DeskClock" name="LMODroid/platform_packages_apps_DeskClock" remote="lmodroid" />
     <project path="packages/apps/Dialer" name="LMODroid/platform_packages_apps_Dialer" remote="lmodroid" />
+    <project path="packages/apps/Etar" name="LMODroid/platform_packages_apps_Etar" remote="lmodroid" />
     <project path="packages/apps/ExactCalculator" name="LMODroid/platform_packages_apps_ExactCalculator" remote="lmodroid" />
     <project path="packages/apps/Launcher3" name="LMODroid/platform_packages_apps_Launcher3" remote="lmodroid" />
     <project path="packages/apps/Messaging" name="LMODroid/platform_packages_apps_Messaging" remote="lmodroid" />
