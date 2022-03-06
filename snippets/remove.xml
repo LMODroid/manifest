@@ -79,12 +79,16 @@
 
     <!-- Packages -->
     <remove-project name="platform/packages/apps/Browser2" />
+    <remove-project name="platform/packages/apps/Calendar" />
+    <remove-project name="platform/packages/apps/DeskClock" />
     <remove-project name="platform/packages/apps/Launcher3" />
     <remove-project name="platform/packages/apps/QuickSearchBox" />
     <remove-project name="platform/packages/apps/Settings" />
     <remove-project name="platform/packages/modules/adb" />
     <remove-project name="platform/packages/modules/common" />
     <remove-project name="platform/packages/services/Telecomm" />
+    <remove-project name="platform/packages/apps/ThemePicker" />
+    <remove-project name="platform/packages/apps/WallpaperPicker2" />
 
     <!-- External -->
     <remove-project name="platform/external/e2fsprogs" />
@@ -94,12 +98,6 @@
     <remove-project name="platform/external/openssh" />
     <remove-project name="platform/external/tinycompress" />
     <remove-project name="platform/external/wpa_supplicant_8" />
-
-    <!-- Packages -->
-    <remove-project name="platform/packages/apps/Calendar" />
-    <remove-project name="platform/packages/apps/DeskClock" />
-    <remove-project name="platform/packages/apps/ThemePicker" />
-    <remove-project name="platform/packages/apps/WallpaperPicker2" />
 
     <!-- Prebuilts -->
     <remove-project name="platform/prebuilts/build-tools" />
