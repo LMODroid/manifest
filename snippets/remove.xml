@@ -51,6 +51,7 @@
     <!-- Packages -->
     <remove-project name="platform/packages/apps/Bluetooth" />
     <remove-project name="platform/packages/apps/Browser2" />
+    <remove-project name="platform/packages/apps/Contacts" />
     <remove-project name="platform/packages/apps/Nfc" />
     <remove-project name="platform/packages/apps/Settings" />
     <remove-project name="platform/packages/apps/SettingsIntelligence" />
