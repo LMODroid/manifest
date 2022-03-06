@@ -96,6 +96,7 @@
     <remove-project name="platform/external/wpa_supplicant_8" />
 
     <!-- Packages -->
+    <remove-project name="platform/packages/apps/Calendar" />
     <remove-project name="platform/packages/apps/ThemePicker" />
     <remove-project name="platform/packages/apps/WallpaperPicker2" />
 
