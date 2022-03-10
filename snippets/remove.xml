@@ -57,5 +57,6 @@
 
     <!-- Framworks -->
     <remove-project name="platform/frameworks/av" />
+    <remove-project name="platform/frameworks/base" />
 
 </manifest>
