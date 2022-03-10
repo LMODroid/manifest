@@ -5,6 +5,9 @@
       fetch="https://github.com/LineageOS"
       revision="lineage-19.0" />
 
+    <!-- Bionic -->
+    <project path="bionic" name="android_bionic" remote="lineage" />
+
     <!-- CodeAurora additions -->
     <project path="device/qcom/sepolicy" name="android_device_qcom_sepolicy" groups="qcom,pdk-qcom" remote="lineage" />
     <!--<project path="device/qcom/sepolicy-legacy" name="android_device_qcom_sepolicy" groups="qcom,pdk-qcom" revision="lineage-19.0-legacy" remote="lineage" />-->
