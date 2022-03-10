@@ -60,4 +60,7 @@
     <remove-project name="platform/frameworks/base" />
     <remove-project name="platform/frameworks/native" />
 
+    <!-- System -->
+    <remove-project name="platform/system/core" />
+
 </manifest>
