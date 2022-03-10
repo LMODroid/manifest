@@ -60,6 +60,9 @@
     <remove-project name="platform/frameworks/base" />
     <remove-project name="platform/frameworks/native" />
 
+    <!-- Packages -->
+    <remove-project name="platform/packages/apps/ThemePicker" />
+
     <!-- System -->
     <remove-project name="platform/system/core" />
 
