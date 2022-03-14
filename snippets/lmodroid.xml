@@ -40,6 +40,18 @@
     <project path="manifest" name="LMODroid/manifest" remote="lmodroid" />
 
     <!-- Packages -->
+    <project path="packages/apps/Browser2" name="LMODroid/platform_packages_apps_Browser2" remote="lmodroid" />
+    <project path="packages/apps/Camera" name="LMODroid/platform_packages_apps_Camera" remote="lmodroid" />
+    <project path="packages/apps/Contacts" name="LMODroid/platform_packages_apps_Contacts" remote="lmodroid" />
+    <project path="packages/apps/DeskClock" name="LMODroid/platform_packages_apps_DeskClock" remote="lmodroid" />
+    <project path="packages/apps/Dialer" name="LMODroid/platform_packages_apps_Dialer" remote="lmodroid" />
+    <project path="packages/apps/Etar" name="LMODroid/platform_packages_apps_Etar" remote="lmodroid" />
+    <project path="packages/apps/ExactCalculator" name="LMODroid/platform_packages_apps_ExactCalculator" remote="lmodroid" />
+    <project path="packages/apps/Gallery2" name="LMODroid/platform_packages_apps_Gallery2" remote="lmodroid" />
+    <project path="packages/apps/Launcher3" name="LMODroid/platform_packages_apps_Launcher3" remote="lmodroid" />
+    <project path="packages/apps/Messaging" name="LMODroid/platform_packages_apps_Messaging" remote="lmodroid" />
+    <project path="packages/apps/QuickSearchBox" name="LMODroid/platform_packages_apps_QuickSearchBox" remote="lmodroid" />
+    <project path="packages/apps/Recorder" name="LMODroid/platform_packages_apps_Recorder" remote="lmodroid" />
     <project path="packages/apps/ThemePicker" name="LMODroid/platform_packages_apps_ThemePicker" remote="lmodroid" />
     <project path="packages/apps/WallpaperPicker2" name="LMODroid/platform_packages_apps_WallpaperPicker2" remote="lmodroid" />
     <project path="packages/overlays/LMODroid" name="LMODroid/platform_packages_overlays_LMODroid" remote="lmodroid" />
