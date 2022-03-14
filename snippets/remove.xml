@@ -112,6 +112,8 @@
     <remove-project name="platform/packages/providers/DownloadProvider" />
     <remove-project name="platform/packages/providers/MediaProvider" />
     <remove-project name="platform/packages/providers/TelephonyProvider" />
+    <remove-project name="platform/packages/services/Mms" />
+    <remove-project name="platform/packages/services/Telephony" />
 
     <!-- Prebuilts -->
     <remove-project name="platform/prebuilts/build-tools" />
