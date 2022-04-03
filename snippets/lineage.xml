@@ -184,5 +184,6 @@
 
     <!-- Prebuilts -->
     <project path="prebuilts/tools-lmodroid" name="android_prebuilts_tools-lineage" remote="lineage" clone-depth="1" />
+    <project path="prebuilts/build-tools" name="android_prebuilts_build-tools" groups="pdk" remote="lineage" clone-depth="1" />
 
 </manifest>
