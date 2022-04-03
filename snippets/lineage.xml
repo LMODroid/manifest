@@ -156,6 +156,7 @@
         <linkfile src="os_pickup.bp" dest="hardware/qcom/sm8150/Android.bp" />
     </project>
     <project path="hardware/qcom/sm8150/display" name="android_hardware_qcom_sm8150_display" groups="qcom_sm8150" remote="lineage" />
+    <project path="hardware/qcom/sm8150/media" name="android_hardware_qcom_sm8150_media" groups="qcom_sm8150" remote="lineage" />
 
     <!-- Prebuilts -->
     <project path="prebuilts/tools-lmodroid" name="android_prebuilts_tools-lineage" remote="lineage" clone-depth="1" />
