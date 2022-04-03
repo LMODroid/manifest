@@ -136,6 +136,7 @@
 
     <!-- Frameworks -->
     <project path="frameworks/opt/telephony" name="android_frameworks_opt_telephony" groups="pdk" remote="lineage" />
+    <project path="frameworks/opt/timezonepicker" name="android_frameworks_opt_timezonepicker" groups="pdk-cw-fs,pdk-fs" remote="lineage" />
 
     <!-- Prebuilts -->
     <project path="prebuilts/tools-lmodroid" name="android_prebuilts_tools-lineage" remote="lineage" clone-depth="1" />

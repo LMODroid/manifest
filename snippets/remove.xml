@@ -21,5 +21,6 @@
 
     <!-- Frameworks -->
     <remove-project name="platform/frameworks/opt/telephony" />
+    <remove-project name="platform/frameworks/opt/timezonepicker" />
 
 </manifest>
