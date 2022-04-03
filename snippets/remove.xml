@@ -45,4 +45,7 @@
     <!-- Kernel -->
     <remove-project name="kernel/configs" />
 
+    <!-- Packages -->
+    <remove-project name="platform/packages/apps/Bluetooth" />
+
 </manifest>
