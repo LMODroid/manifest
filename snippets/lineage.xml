@@ -160,6 +160,9 @@
     <project path="hardware/qcom/wlan" name="android_hardware_qcom_wlan" groups="qcom_wlan,pdk-qcom" remote="lineage" />
     <project path="hardware/ril" name="android_hardware_ril" groups="pdk" remote="lineage" />
 
+    <!-- Kernel -->
+    <project path="kernel/configs" name="android_kernel_configs" groups="vts,pdk" remote="lineage" />
+
     <!-- Prebuilts -->
     <project path="prebuilts/tools-lmodroid" name="android_prebuilts_tools-lineage" remote="lineage" clone-depth="1" />
 

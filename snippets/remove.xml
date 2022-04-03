@@ -42,4 +42,7 @@
     <remove-project name="platform/hardware/qcom/wlan" />
     <remove-project name="platform/hardware/ril" />
 
+    <!-- Kernel -->
+    <remove-project name="kernel/configs" />
+
 </manifest>
