@@ -47,5 +47,6 @@
 
     <!-- Packages -->
     <remove-project name="platform/packages/apps/Bluetooth" />
+    <remove-project name="platform/packages/apps/Nfc" />
 
 </manifest>
