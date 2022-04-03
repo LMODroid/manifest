@@ -140,6 +140,7 @@
 
     <!-- Hardware -->
     <project path="hardware/google/pixel" name="android_hardware_google_pixel" groups="generic_fs,pixel" remote="lineage" />
+    <project path="hardware/google/pixel-sepolicy" name="android_hardware_google_pixel-sepolicy" groups="generic_fs,pixel" remote="lineage" />
 
     <!-- Prebuilts -->
     <project path="prebuilts/tools-lmodroid" name="android_prebuilts_tools-lineage" remote="lineage" clone-depth="1" />

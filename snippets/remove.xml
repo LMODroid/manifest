@@ -25,5 +25,6 @@
 
     <!-- Hardware -->
     <remove-project name="platform/hardware/google/pixel" />
+    <remove-project name="platform/hardware/google/pixel-sepolicy" />
 
 </manifest>
