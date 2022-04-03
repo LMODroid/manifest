@@ -31,5 +31,6 @@
     <remove-project name="platform/hardware/libhardware" />
     <remove-project name="platform/hardware/qcom/audio" />
     <remove-project name="platform/hardware/qcom/camera" />
+    <remove-project name="platform/hardware/qcom/data/ipacfg-mgr" />
 
 </manifest>
