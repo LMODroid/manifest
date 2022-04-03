@@ -77,5 +77,6 @@
     <remove-project name="platform/system/bt" />
     <remove-project name="platform/system/extras" />
     <remove-project name="platform/system/libziparchive" />
+    <remove-project name="platform/system/logging" />
 
 </manifest>
