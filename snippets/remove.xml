@@ -19,4 +19,7 @@
     <remove-project name="platform/external/tinycompress" />
     <remove-project name="platform/external/wpa_supplicant_8" />
 
+    <!-- Frameworks -->
+    <remove-project name="platform/frameworks/opt/telephony" />
+
 </manifest>
