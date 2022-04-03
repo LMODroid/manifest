@@ -50,5 +50,6 @@
     <remove-project name="platform/packages/apps/Nfc" />
     <remove-project name="platform/packages/apps/SettingsIntelligence" />
     <remove-project name="platform/packages/apps/Stk" />
+    <remove-project name="platform/packages/modules/adb" />
 
 </manifest>
