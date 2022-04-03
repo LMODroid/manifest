@@ -53,5 +53,13 @@
     <remove-project name="platform/packages/modules/adb" />
     <remove-project name="platform/packages/modules/common" />
     <remove-project name="platform/packages/modules/Wifi" />
+    <remove-project name="platform/packages/providers/BlockedNumberProvider" />
+    <remove-project name="platform/packages/providers/BookmarkProvider" />
+    <remove-project name="platform/packages/providers/CalendarProvider" />
+    <remove-project name="platform/packages/providers/CallLogProvider" />
+    <remove-project name="platform/packages/providers/ContactsProvider" />
+    <remove-project name="platform/packages/providers/DownloadProvider" />
+    <remove-project name="platform/packages/providers/MediaProvider" />
+    <remove-project name="platform/packages/providers/TelephonyProvider" />
 
 </manifest>
