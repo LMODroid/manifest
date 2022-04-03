@@ -142,6 +142,7 @@
     <project path="hardware/google/pixel" name="android_hardware_google_pixel" groups="generic_fs,pixel" remote="lineage" />
     <project path="hardware/google/pixel-sepolicy" name="android_hardware_google_pixel-sepolicy" groups="generic_fs,pixel" remote="lineage" />
     <project path="hardware/interfaces" name="android_hardware_interfaces" groups="pdk" remote="lineage" />
+    <project path="hardware/knowles/athletico/sound_trigger_hal" name="android_hardware_knowles_athletico_sound_trigger_hal" groups="coral,generic_fs" remote="lineage" />
 
     <!-- Prebuilts -->
     <project path="prebuilts/tools-lmodroid" name="android_prebuilts_tools-lineage" remote="lineage" clone-depth="1" />
