@@ -134,6 +134,9 @@
     <project path="external/tinycompress" name="android_external_tinycompress" groups="pdk" remote="lineage" />
     <project path="external/wpa_supplicant_8" name="android_external_wpa_supplicant_8" groups="pdk" remote="lineage" />
 
+    <!-- Frameworks -->
+    <project path="frameworks/opt/telephony" name="android_frameworks_opt_telephony" groups="pdk" remote="lineage" />
+
     <!-- Prebuilts -->
     <project path="prebuilts/tools-lmodroid" name="android_prebuilts_tools-lineage" remote="lineage" clone-depth="1" />
 
