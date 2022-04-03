@@ -29,5 +29,6 @@
     <remove-project name="platform/hardware/interfaces" />
     <remove-project name="platform/hardware/knowles/athletico/sound_trigger_hal" />
     <remove-project name="platform/hardware/libhardware" />
+    <remove-project name="platform/hardware/qcom/audio" />
 
 </manifest>
