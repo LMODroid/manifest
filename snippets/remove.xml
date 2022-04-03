@@ -64,4 +64,7 @@
     <remove-project name="platform/packages/services/Mms" />
     <remove-project name="platform/packages/services/Telephony" />
 
+    <!-- Prebuilts -->
+    <remove-project name="platform/prebuilts/build-tools" />
+
 </manifest>
