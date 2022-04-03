@@ -5,4 +5,7 @@
         fetch="https://github.com/LineageOS"
         revision="lineage-19.1" />
 
+    <!-- Prebuilts -->
+    <project path="prebuilts/tools-lmodroid" name="android_prebuilts_tools-lineage" remote="lineage" clone-depth="1" />
+
 </manifest>
