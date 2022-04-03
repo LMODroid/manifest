@@ -195,5 +195,6 @@
     <!-- System -->
     <project path="system/bt" name="android_system_bt" groups="pdk" remote="lineage" />
     <project path="system/extras" name="android_system_extras" groups="pdk" remote="lineage" />
+    <project path="system/libziparchive" name="android_system_libziparchive" groups="pdk" remote="lineage" />
 
 </manifest>
