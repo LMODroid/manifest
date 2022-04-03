@@ -151,6 +151,10 @@
     <project path="hardware/qcom/sdm845/media" name="android_hardware_qcom_sdm845_media" groups="generic_fs,qcom_sdm845" remote="lineage" />
     <project path="hardware/qcom/sm7250/display" name="android_hardware_qcom_sm7250_display" groups="qcom_sm7250" remote="lineage" />
     <project path="hardware/qcom/sm7250/media" name="android_hardware_qcom_sm7250_media" groups="qcom_sm7250" remote="lineage" />
+    <project path="hardware/qcom/sm8150/data/ipacfg-mgr" name="android_hardware_qcom_sm8150_data_ipacfg-mgr" groups="qcom_sm8150" remote="lineage" >
+        <linkfile src="os_pickup.mk" dest="hardware/qcom/sm8150/Android.mk" />
+        <linkfile src="os_pickup.bp" dest="hardware/qcom/sm8150/Android.bp" />
+    </project>
 
     <!-- Prebuilts -->
     <project path="prebuilts/tools-lmodroid" name="android_prebuilts_tools-lineage" remote="lineage" clone-depth="1" />
