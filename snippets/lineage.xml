@@ -125,6 +125,7 @@
 
     <!-- External -->
     <project path="external/android-nn-driver" name="android_external_android-nn-driver" groups="pdk-lassen" remote="lineage" />
+    <project path="external/armnn" name="android_external_armnn" groups="pdk-lassen" remote="lineage" />
 
     <!-- Prebuilts -->
     <project path="prebuilts/tools-lmodroid" name="android_prebuilts_tools-lineage" remote="lineage" clone-depth="1" />
