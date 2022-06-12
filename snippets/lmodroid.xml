@@ -26,6 +26,7 @@
 
     <!-- Frameworks -->
     <project path="frameworks/base" name="LMODroid/platform_frameworks_base" remote="lmodroid" />
+    <project path="frameworks/native" name="LMODroid/platform_frameworks_native" remote="lmodroid" />
 
     <!-- Manifest -->
     <project path="manifest" name="LMODroid/manifest" remote="lmodroid" />
