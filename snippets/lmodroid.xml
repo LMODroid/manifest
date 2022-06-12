@@ -31,6 +31,9 @@
     <!-- Manifest -->
     <project path="manifest" name="LMODroid/manifest" remote="lmodroid" />
 
+    <!-- Packages -->
+    <project path="packages/modules/Connectivity" name="LMODroid/platform_packages_modules_Connectivity" remote="lmodroid" />
+
     <!-- Vendor -->
     <project path="vendor/lmodroid" name="LMODroid/platform_vendor_lmodroid" remote="lmodroid" />
 

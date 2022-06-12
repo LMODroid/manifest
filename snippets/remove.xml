@@ -55,6 +55,7 @@
     <remove-project name="platform/packages/apps/Stk" />
     <remove-project name="platform/packages/modules/adb" />
     <remove-project name="platform/packages/modules/common" />
+    <remove-project name="platform/packages/modules/Connectivity" />
     <remove-project name="platform/packages/modules/Wifi" />
     <remove-project name="platform/packages/providers/BlockedNumberProvider" />
     <remove-project name="platform/packages/providers/BookmarkProvider" />
