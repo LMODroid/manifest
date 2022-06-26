@@ -5,6 +5,9 @@
         fetch="https://github.com/LineageOS"
         revision="lineage-19.1" />
 
+    <remote name="lineage-gitlab"
+        fetch="https://gitlab.com/LineageOS" />
+
     <!-- Bionic -->
     <project path="bionic" name="android_bionic" groups="pdk" remote="lineage" />
 
