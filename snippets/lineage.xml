@@ -102,6 +102,7 @@
     <project path="vendor/qcom/opensource/wfd-commonsys" name="android_vendor_qcom_opensource_wfd-commonsys" groups="qcom,sdm845" remote="lineage" />
 
     <!-- Device -->
+    <project path="device/google/atv" name="android_device_google_atv" groups="device,broadcom_pdk,generic_fs,pdk" remote="lineage" />
     <project path="device/lineage/sepolicy" name="android_device_lineage_sepolicy" remote="lineage" />
 
     <!-- External -->

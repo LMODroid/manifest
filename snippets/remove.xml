@@ -12,6 +12,7 @@
     <remove-project name="platform/build/soong" />
 
     <!-- Device -->
+    <remove-project name="device/google/atv" />
     <remove-project name="device/google/barbet" />
     <remove-project name="device/google/barbet-kernel" />
     <remove-project name="device/google/barbet-sepolicy" />
