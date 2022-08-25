@@ -3,14 +3,14 @@
 
     <remote name="lmodroid"
         fetch="https://git.libremobileos.com"
-        revision="twelve"
+        revision="staging/thirteen"
         review="gerrit.libremobileos.com" />
 
     <!-- Bootable -->
-    <project path="bootable/recovery" name="LMODroid/platform_bootable_recovery" remote="lmodroid" />
+    <!-- <project path="bootable/recovery" name="LMODroid/platform_bootable_recovery" remote="lmodroid" /> -->
 
     <!-- Bionic -->
-    <project path="bionic" name="LMODroid/platform_bionic" groups="pdk" remote="lmodroid" />
+    <!-- <project path="bionic" name="LMODroid/platform_bionic" groups="pdk" remote="lmodroid" /> -->
 
     <!-- Build -->
     <project path="build/make" name="LMODroid/platform_build" remote="lmodroid">
@@ -28,53 +28,53 @@
     </project>
 
     <!-- Device -->
-    <project path="device/lmodroid/sepolicy" name="LMODroid/platform_device_lmodroid_sepolicy" remote="lmodroid" />
+    <!-- <project path="device/lmodroid/sepolicy" name="LMODroid/platform_device_lmodroid_sepolicy" remote="lmodroid" /> -->
 
     <!-- External -->
-    <project path="external/svox" name="LMODroid/platform_external_svox" remote="lmodroid" />
-    <project path="external/tinyxml" name="platform/external/tinyxml" groups="pdk" remote="aosp" revision="refs/tags/android-11.0.0_r46" />
+    <!-- <project path="external/svox" name="LMODroid/platform_external_svox" remote="lmodroid" /> -->
+    <!-- <project path="external/tinyxml" name="platform/external/tinyxml" groups="pdk" remote="aosp" revision="refs/tags/android-11.0.0_r46" /> -->
 
     <!-- Frameworks -->
-    <project path="frameworks/av" name="LMODroid/platform_frameworks_av" remote="lmodroid" />
-    <project path="frameworks/base" name="LMODroid/platform_frameworks_base" remote="lmodroid" />
-    <project path="frameworks/libs/net" name="LMODroid/platform_frameworks_libs_net" remote="lmodroid" />
-    <project path="frameworks/native" name="LMODroid/platform_frameworks_native" remote="lmodroid" />
+    <!-- <project path="frameworks/av" name="LMODroid/platform_frameworks_av" remote="lmodroid" /> -->
+    <!-- <project path="frameworks/base" name="LMODroid/platform_frameworks_base" remote="lmodroid" /> -->
+    <!-- <project path="frameworks/libs/net" name="LMODroid/platform_frameworks_libs_net" remote="lmodroid" /> -->
+    <!-- <project path="frameworks/native" name="LMODroid/platform_frameworks_native" remote="lmodroid" /> -->
 
     <!-- Manifest -->
     <project path="manifest" name="LMODroid/manifest" remote="lmodroid" />
 
     <!-- Packages -->
-    <project path="packages/apps/Browser2" name="LMODroid/platform_packages_apps_Browser2" remote="lmodroid" />
-    <project path="packages/apps/Camera" name="LMODroid/platform_packages_apps_Camera" remote="lmodroid" />
-    <project path="packages/apps/Contacts" name="LMODroid/platform_packages_apps_Contacts" remote="lmodroid" />
+    <!-- <project path="packages/apps/Browser2" name="LMODroid/platform_packages_apps_Browser2" remote="lmodroid" /> -->
+    <!-- <project path="packages/apps/Camera" name="LMODroid/platform_packages_apps_Camera" remote="lmodroid" /> -->
+    <!-- <project path="packages/apps/Contacts" name="LMODroid/platform_packages_apps_Contacts" remote="lmodroid" /> -->
     <project path="packages/apps/DeskClock" name="LMODroid/platform_packages_apps_DeskClock" remote="lmodroid" />
-    <project path="packages/apps/Dialer" name="LMODroid/platform_packages_apps_Dialer" remote="lmodroid" />
-    <project path="packages/apps/Etar" name="LMODroid/platform_packages_apps_Etar" remote="lmodroid" />
+    <!-- <project path="packages/apps/Dialer" name="LMODroid/platform_packages_apps_Dialer" remote="lmodroid" /> -->
+    <!-- <project path="packages/apps/Etar" name="LMODroid/platform_packages_apps_Etar" remote="lmodroid" /> -->
     <project path="packages/apps/ExactCalculator" name="LMODroid/platform_packages_apps_ExactCalculator" remote="lmodroid" />
     <project path="packages/apps/Gallery2" name="LMODroid/platform_packages_apps_Gallery2" remote="lmodroid" />
-    <project path="packages/apps/GameSpace" name="LMODroid/platform_packages_apps_GameSpace" remote="lmodroid" />
-    <project path="packages/apps/Launcher3" name="LMODroid/platform_packages_apps_Launcher3" remote="lmodroid" />
-    <project path="packages/apps/Messaging" name="LMODroid/platform_packages_apps_Messaging" remote="lmodroid" />
-    <project path="packages/apps/Music" name="LMODroid/platform_packages_apps_Music" remote="lmodroid" />
-    <project path="packages/apps/QuickSearchBox" name="LMODroid/platform_packages_apps_QuickSearchBox" remote="lmodroid" />
-    <project path="packages/apps/Recorder" name="LMODroid/platform_packages_apps_Recorder" remote="lmodroid" />
-    <project path="packages/apps/Settings" name="LMODroid/platform_packages_apps_Settings" remote="lmodroid" />
-    <project path="packages/apps/SetupWizard" name="LMODroid/platform_packages_apps_SetupWizard" remote="lmodroid" />
-    <project path="packages/apps/ThemePicker" name="LMODroid/platform_packages_apps_ThemePicker" remote="lmodroid" />
-    <project path="packages/apps/TouchGestures" name="LMODroid/platform_packages_apps_TouchGestures" remote="lmodroid" />
-    <project path="packages/apps/Updater" name="LMODroid/platform_packages_apps_Updater" remote="lmodroid" />
-    <project path="packages/apps/WallpaperPicker2" name="LMODroid/platform_packages_apps_WallpaperPicker2" remote="lmodroid" />
-    <project path="packages/inputmethods/LatinIME" name="LMODroid/platform_packages_inputmethods_LatinIME" remote="lmodroid" />
-    <project path="packages/modules/Connectivity" name="LMODroid/platform_packages_modules_Connectivity" remote="lmodroid" />
+    <!-- <project path="packages/apps/GameSpace" name="LMODroid/platform_packages_apps_GameSpace" remote="lmodroid" /> -->
+    <!-- <project path="packages/apps/Launcher3" name="LMODroid/platform_packages_apps_Launcher3" remote="lmodroid" /> -->
+    <!-- <project path="packages/apps/Messaging" name="LMODroid/platform_packages_apps_Messaging" remote="lmodroid" /> -->
+    <!-- <project path="packages/apps/Music" name="LMODroid/platform_packages_apps_Music" remote="lmodroid" /> -->
+    <!-- <project path="packages/apps/QuickSearchBox" name="LMODroid/platform_packages_apps_QuickSearchBox" remote="lmodroid" /> -->
+    <!-- <project path="packages/apps/Recorder" name="LMODroid/platform_packages_apps_Recorder" remote="lmodroid" /> -->
+    <!-- <project path="packages/apps/Settings" name="LMODroid/platform_packages_apps_Settings" remote="lmodroid" /> -->
+    <!-- <project path="packages/apps/SetupWizard" name="LMODroid/platform_packages_apps_SetupWizard" remote="lmodroid" /> -->
+    <!-- <project path="packages/apps/ThemePicker" name="LMODroid/platform_packages_apps_ThemePicker" remote="lmodroid" /> -->
+    <!-- <project path="packages/apps/TouchGestures" name="LMODroid/platform_packages_apps_TouchGestures" remote="lmodroid" /> -->
+    <!-- <project path="packages/apps/Updater" name="LMODroid/platform_packages_apps_Updater" remote="lmodroid" /> -->
+    <!-- <project path="packages/apps/WallpaperPicker2" name="LMODroid/platform_packages_apps_WallpaperPicker2" remote="lmodroid" /> -->
+    <!-- <project path="packages/inputmethods/LatinIME" name="LMODroid/platform_packages_inputmethods_LatinIME" remote="lmodroid" /> -->
+    <!-- <project path="packages/modules/Connectivity" name="LMODroid/platform_packages_modules_Connectivity" remote="lmodroid" /> -->
     <project path="packages/overlays/LMODroid" name="LMODroid/platform_packages_overlays_LMODroid" remote="lmodroid" />
     <project path="packages/resources/devicesettings" name="LMODroid/platform_packages_resources_devicesettings" remote="lmodroid" />
-    <project path="packages/services/Telecomm" name="LMODroid/platform_packages_services_Telecomm" remote="lmodroid" />
+    <!-- <project path="packages/services/Telecomm" name="LMODroid/platform_packages_services_Telecomm" remote="lmodroid" /> -->
 
     <!-- Prebuilts -->
-    <project path="prebuilts/lmodroid" name="LMODroid/platform_prebuilts_lmodroid" remote="lmodroid" />
+    <!-- <project path="prebuilts/lmodroid" name="LMODroid/platform_prebuilts_lmodroid" remote="lmodroid" /> -->
 
     <!-- System -->
-    <project path="system/core" name="LMODroid/platform_system_core" remote="lmodroid" />
+    <!-- <project path="system/core" name="LMODroid/platform_system_core" remote="lmodroid" /> -->
 
     <!-- Vendor -->
     <project path="vendor/lmodroid" name="LMODroid/platform_vendor_lmodroid" remote="lmodroid" />
