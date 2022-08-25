@@ -14,11 +14,10 @@
     <!-- Device -->
     <remove-project name="device/google/atv" />
     <remove-project name="device/google/barbet" />
-    <remove-project name="device/google/barbet-kernel" />
     <remove-project name="device/google/barbet-sepolicy" />
-    <remove-project name="device/google/bonito" />
-    <remove-project name="device/google/bonito-kernel" />
-    <remove-project name="device/google/bonito-sepolicy" />
+    <remove-project name="device/google/bluejay" />
+    <remove-project name="device/google/bluejay-kernel" />
+    <remove-project name="device/google/bluejay-sepolicy" />
     <remove-project name="device/google/bramble" />
     <remove-project name="device/google/bramble-sepolicy" />
     <remove-project name="device/google/coral" />
@@ -26,7 +25,6 @@
     <remove-project name="device/google/coral-sepolicy" />
     <remove-project name="device/google/gs101" />
     <remove-project name="device/google/gs101-sepolicy" />
-    <remove-project name="device/google/gs-common" />
     <remove-project name="device/google/raviole" />
     <remove-project name="device/google/raviole-kernel" />
     <remove-project name="device/google/redbull" />
@@ -37,10 +35,6 @@
     <remove-project name="device/google/sunfish" />
     <remove-project name="device/google/sunfish-kernel" />
     <remove-project name="device/google/sunfish-sepolicy" />
-    <remove-project name="device/google/crosshatch" />
-    <remove-project name="device/google/crosshatch-kernel" />
-    <remove-project name="device/google/crosshatch-sepolicy" />
-    <remove-project name="device/google/fuchsia" />
     <remove-project name="device/google/trout" />
     <remove-project name="device/google_car" />
 
@@ -52,7 +46,6 @@
     <remove-project name="platform/external/gptfdisk" />
     <remove-project name="platform/external/libcxx" />
     <remove-project name="platform/external/mksh" />
-    <remove-project name="platform/external/openssh" />
     <remove-project name="platform/external/setupcompat" />
     <remove-project name="platform/external/tinycompress" />
     <remove-project name="platform/external/wpa_supplicant_8" />
@@ -127,13 +120,6 @@
 
     <!-- Prebuilts -->
     <remove-project name="platform/prebuilts/build-tools" />
-    <remove-project name="platform/prebuilts/gcc/darwin-x86/aarch64/aarch64-linux-android-4.9" />
-    <remove-project name="platform/prebuilts/gcc/darwin-x86/arm/arm-linux-androideabi-4.9" />
-    <remove-project name="platform/prebuilts/gcc/darwin-x86/x86/x86_64-linux-android-4.9" />
-    <remove-project name="platform/prebuilts/gcc/linux-x86/aarch64/aarch64-linux-android-4.9" />
-    <remove-project name="platform/prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.9" />
-    <remove-project name="platform/prebuilts/gcc/linux-x86/x86/x86_64-linux-android-4.9" />
-
     <!-- System-->
     <remove-project name="platform/system/bt" />
     <remove-project name="platform/system/core" />
@@ -143,7 +129,7 @@
     <remove-project name="platform/system/libziparchive" />
     <remove-project name="platform/system/logging" />
     <remove-project name="platform/system/media" />
-    <remove-project name="platform/system/security" /> 
+    <remove-project name="platform/system/security" />
     <remove-project name="platform/system/sepolicy" />
     <remove-project name="platform/system/tools/mkbootimg" />
     <remove-project name="platform/system/update_engine" />
