@@ -5,7 +5,7 @@
     <!-- <remove-project name="platform/bootable/recovery" /> -->
 
     <!-- Bionic -->
-    <!-- <remove-project name="platform/bionic" /> -->
+    <remove-project name="platform/bionic" />
 
     <!-- Build -->
     <remove-project name="platform/build" />
