@@ -10,7 +10,7 @@
     <!-- <project path="bootable/recovery" name="LMODroid/platform_bootable_recovery" remote="lmodroid" /> -->
 
     <!-- Bionic -->
-    <!-- <project path="bionic" name="LMODroid/platform_bionic" groups="pdk" remote="lmodroid" /> -->
+    <project path="bionic" name="LMODroid/platform_bionic" groups="pdk" remote="lmodroid" />
 
     <!-- Build -->
     <project path="build/make" name="LMODroid/platform_build" remote="lmodroid">
