@@ -44,6 +44,7 @@
     <project path="manifest" name="LMODroid/manifest" remote="lmodroid" />
 
     <!-- Packages -->
+    <project path="packages/apps/Backgrounds" name="LMODroid/platform_packages_apps_Backgrounds" remote="lmodroid" />
     <project path="packages/apps/Browser2" name="LMODroid/platform_packages_apps_Browser2" remote="lmodroid" />
     <project path="packages/apps/Camera" name="LMODroid/platform_packages_apps_Camera" remote="lmodroid" />
     <project path="packages/apps/Contacts" name="LMODroid/platform_packages_apps_Contacts" remote="lmodroid" />
