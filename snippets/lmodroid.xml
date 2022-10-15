@@ -71,6 +71,7 @@
     <project path="packages/apps/PdfViewer" name="LMODroid/platform_packages_apps_PdfViewer" remote="lmodroid" />
     <project path="packages/apps/QuickSearchBox" name="LMODroid/platform_packages_apps_QuickSearchBox" remote="lmodroid" />
     <project path="packages/apps/Recorder" name="LMODroid/platform_packages_apps_Recorder" remote="lmodroid" />
+    <project path="packages/apps/Ripple" name="LMODroid/platform_packages_apps_Ripple" remote="lmodroid" />
     <project path="packages/apps/Settings" name="LMODroid/platform_packages_apps_Settings" remote="lmodroid" />
     <project path="packages/apps/SetupWizard" name="LMODroid/platform_packages_apps_SetupWizard" remote="lmodroid" />
     <project path="packages/apps/ThemePicker" name="LMODroid/platform_packages_apps_ThemePicker" remote="lmodroid" />
