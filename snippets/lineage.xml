@@ -123,6 +123,7 @@
     <project path="external/exfatprogs" name="android_external_exfatprogs" remote="lineage" />
     <project path="external/gptfdisk" name="android_external_gptfdisk" groups="pdk" remote="lineage" />
     <project path="external/htop" name="android_external_htop" remote="lineage" />
+    <project path="external/icu" name="android_external_icu" groups="pdk" remote="lineage" />
     <project path="external/libcxx" name="android_external_libcxx" groups="pdk" remote="lineage" />
     <project path="external/libncurses" name="android_external_libncurses" remote="lineage" />
     <project path="external/mksh" name="android_external_mksh" groups="pdk" remote="lineage" />
@@ -166,6 +167,9 @@
     <project path="hardware/qcom/sm8150/media" name="android_hardware_qcom_sm8150_media" groups="qcom_sm8150" remote="lineage" />
     <project path="hardware/qcom/wlan" name="android_hardware_qcom_wlan" groups="qcom_wlan,pdk-qcom" remote="lineage" />
     <project path="hardware/ril" name="android_hardware_ril" groups="pdk" remote="lineage" />
+
+    <!-- Libs -->
+    <project path="libcore" name="android_libcore" groups="pdk" remote="lineage" />
 
     <!-- Kernel -->
     <project path="kernel/configs" name="android_kernel_configs" groups="vts,pdk" remote="lineage" />
@@ -215,6 +219,7 @@
     <project path="system/media" name="android_system_media" groups="pdk" remote="lineage" />
     <project path="system/security" name="android_system_security" groups="pdk" remote="lineage" />
     <project path="system/sepolicy" name="android_system_sepolicy" groups="pdk" remote="lineage" />
+    <project path="system/timezone" name="android_system_timezone" groups="pdk" remote="lineage" />
     <project path="system/tools/mkbootimg" name="android_system_tools_mkbootimg" groups="pdk" remote="lineage" />
     <project path="system/update_engine" name="android_system_update_engine" groups="pdk" remote="lineage" />
     <project path="system/vold" name="android_system_vold" groups="pdk" remote="lineage" />
