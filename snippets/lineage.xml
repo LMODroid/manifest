@@ -139,6 +139,7 @@
     <project path="hardware/google/graphics/common" name="android_hardware_google_graphics_common" groups="pdk-lassen" remote="lineage" />
     <project path="hardware/google/pixel" name="android_hardware_google_pixel" groups="generic_fs,pixel" remote="lineage" />
     <project path="hardware/google/pixel-sepolicy" name="android_hardware_google_pixel-sepolicy" groups="generic_fs,pixel" remote="lineage" />
+    <project path="hardware/lineage/compat" name="android_hardware_lineage_compat" remote="lineage" />
     <project path="hardware/interfaces" name="android_hardware_interfaces" groups="pdk" remote="lineage" />
     <project path="hardware/libhardware" name="android_hardware_libhardware" groups="pdk" remote="lineage" />
     <project path="hardware/lineage/interfaces" name="android_hardware_lineage_interfaces" remote="lineage" />
