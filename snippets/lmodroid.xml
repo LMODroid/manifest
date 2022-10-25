@@ -84,6 +84,7 @@
 
     <!-- System -->
     <project path="system/core" name="LMODroid/platform_system_core" remote="lmodroid" />
+    <project path="system/netd" name="LMODroid/platform_system_netd" remote="lmodroid" />
 
     <!-- Vendor -->
     <project path="vendor/lmodroid" name="LMODroid/platform_vendor_lmodroid" remote="lmodroid" />
