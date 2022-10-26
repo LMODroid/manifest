@@ -41,6 +41,11 @@
     <project path="frameworks/base" name="LMODroid/platform_frameworks_base" remote="lmodroid" />
     <project path="frameworks/libs/net" name="LMODroid/platform_frameworks_libs_net" remote="lmodroid" />
     <project path="frameworks/native" name="LMODroid/platform_frameworks_native" remote="lmodroid" />
+    <project path="frameworks/opt/net/ims" name="LMODroid/platform_frameworks_opt_net_ims" remote="lmodroid" />
+    <project path="frameworks/opt/telephony" name="LMODroid/platform_frameworks_opt_telephony" groups="pdk" remote="lmodroid" />
+
+    <!-- Hardware -->
+    <project path="hardware/mediatek" name="LMODroid/platform_hardware_mediatek" remote="lmodroid" />
 
     <!-- Manifest -->
     <project path="manifest" name="LMODroid/manifest" remote="lmodroid" />
@@ -60,6 +65,7 @@
     <project path="packages/apps/GameSpace" name="LMODroid/platform_packages_apps_GameSpace" remote="lmodroid" />
     <project path="packages/apps/Launcher3" name="LMODroid/platform_packages_apps_Launcher3" remote="lmodroid" />
     <project path="packages/apps/Messaging" name="LMODroid/platform_packages_apps_Messaging" remote="lmodroid" />
+    <project path="packages/apps/MtkFMRadio" name="LMODroid/platform_packages_apps_MtkFMRadio" remote="lmodroid" />
     <project path="packages/apps/Music" name="LMODroid/platform_packages_apps_Music" remote="lmodroid" />
     <project path="packages/apps/MusicFX" name="LMODroid/platform_packages_apps_MusicFX" remote="lmodroid" />
     <project path="packages/apps/ParallelSpace" name="LMODroid/platform_packages_apps_ParallelSpace" remote="lmodroid" />
@@ -76,6 +82,7 @@
     <project path="packages/inputmethods/LatinIME" name="LMODroid/platform_packages_inputmethods_LatinIME" remote="lmodroid" />
     <project path="packages/modules/Connectivity" name="LMODroid/platform_packages_modules_Connectivity" remote="lmodroid" />
     <project path="packages/modules/Permission" name="LMODroid/platform_packages_modules_Permission" remote="lmodroid" />
+    <project path="packages/modules/Wifi" name="LMODroid/platform_packages_modules_Wifi" remote="lmodroid" />
     <project path="packages/overlays/LMODroid" name="LMODroid/platform_packages_overlays_LMODroid" remote="lmodroid" />
     <project path="packages/resources/devicesettings" name="LMODroid/platform_packages_resources_devicesettings" remote="lmodroid" />
     <project path="packages/services/Telecomm" name="LMODroid/platform_packages_services_Telecomm" remote="lmodroid" />
