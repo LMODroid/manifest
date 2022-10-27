@@ -30,6 +30,7 @@
     <!-- Device -->
     <project path="device/lmodroid/atv" name="LMODroid-Devices/device_lmodroid_atv" remote="lmodroid" />
     <project path="device/lmodroid/sepolicy" name="LMODroid/platform_device_lmodroid_sepolicy" remote="lmodroid" />
+    <project path="device/mediatek/sepolicy_vndr" name="LMODroid/platform_device_mediatek_sepolicy_vndr" remote="lmodroid" />
 
     <!-- External -->
     <project path="external/svox" name="LMODroid/platform_external_svox" remote="lmodroid" />
