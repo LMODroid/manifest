@@ -61,6 +61,7 @@
     <project path="packages/apps/GameSpace" name="LMODroid/platform_packages_apps_GameSpace" remote="lmodroid" />
     <project path="packages/apps/Launcher3" name="LMODroid/platform_packages_apps_Launcher3" remote="lmodroid" />
     <project path="packages/apps/Messaging" name="LMODroid/platform_packages_apps_Messaging" remote="lmodroid" />
+    <project path="packages/apps/MtkFMRadio" name="LMODroid/platform_packages_apps_MtkFMRadio" remote="lmodroid" />
     <project path="packages/apps/Music" name="LMODroid/platform_packages_apps_Music" remote="lmodroid" />
     <project path="packages/apps/MusicFX" name="LMODroid/platform_packages_apps_MusicFX" remote="lmodroid" />
     <project path="packages/apps/ParallelSpace" name="LMODroid/platform_packages_apps_ParallelSpace" remote="lmodroid" />
