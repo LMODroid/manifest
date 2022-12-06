@@ -139,6 +139,7 @@
     <project path="external/setupcompat" name="android_external_setupcompat" groups="pdk" remote="lineage" />
 
     <!-- Frameworks -->
+    <project path="frameworks/minikin" name="android_frameworks_minikin" groups="pdk-cw-fs,pdk-fs" remote="lineage" />
     <project path="frameworks/opt/timezonepicker" name="android_frameworks_opt_timezonepicker" groups="pdk-cw-fs,pdk-fs" remote="lineage" />
 
     <!-- Hardware -->
