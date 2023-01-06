@@ -101,6 +101,7 @@
     <!-- External -->
     <project path="external/android-nn-driver" name="android_external_android-nn-driver" groups="pdk-lassen" remote="lineage" />
     <project path="external/armnn" name="android_external_armnn" groups="pdk-lassen" remote="lineage" />
+    <project path="external/avb" name="android_external_avb" groups="pdk" remote="lineage" />
     <project path="external/bash" name="android_external_bash" remote="lineage" />
     <project path="external/chromium-webview/patches" name="android_external_chromium-webview_patches" groups="pdk" revision="main" remote="lineage" >
       <linkfile src="Android.mk" dest="external/chromium-webview/Android.mk" />
