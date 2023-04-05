@@ -182,6 +182,7 @@
     <project path="vendor/nxp/secure_element_extns" name="android_vendor_nxp_secure_element_extns" remote="lineage" />
 
     <!-- Packages -->
+    <project path="packages/apps/Car/Settings" name="android_packages_apps_Car_Settings" remote="lineage" />
     <project path="packages/apps/Nfc" name="android_packages_apps_Nfc" groups="apps_nfc,pdk-fs" remote="lineage" />
     <project path="packages/apps/Seedvault" name="android_packages_apps_Seedvault" remote="lineage" />
     <project path="packages/apps/SimpleDeviceConfig" name="android_packages_apps_SimpleDeviceConfig" remote="lineage" />
@@ -189,6 +190,7 @@
     <project path="packages/apps/Stk" name="android_packages_apps_Stk" groups="apps_stk,pdk-fs" remote="lineage" />
     <project path="packages/modules/adb" name="android_packages_modules_adb" groups="pdk" remote="lineage" />
     <project path="packages/modules/common" name="android_packages_modules_common" groups="pdk-cw-fs,pdk-fs" remote="lineage" />
+    <project path="packages/modules/Permission" name="android_packages_modules_Permission" groups="pdk" remote="lineage" />
     <project path="packages/modules/Virtualization" name="android_packages_modules_Virtualization" groups="pdk" remote="lineage" />
     <project path="packages/modules/Wifi" name="android_packages_modules_Wifi" groups="pdk-cw-fs,pdk-fs" remote="lineage" />
     <project path="packages/providers/BlockedNumberProvider" name="android_packages_providers_BlockedNumberProvider" groups="pdk-fs" remote="lineage" />
