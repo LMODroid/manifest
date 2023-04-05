@@ -39,6 +39,7 @@
     <project path="external/svox" name="LMODroid/platform_external_svox" remote="lmodroid" />
     <project path="external/tigervnc" name="LMODroid/platform_external_tigervnc" remote="lmodroid" />
     <project path="external/tinyxml" name="platform/external/tinyxml" groups="pdk" remote="aosp" revision="refs/tags/android-11.0.0_r46" />
+    <project path="external/yifan" name="LMODroid/platform_external_yifan" remote="lmodroid" />
 
     <!-- Frameworks -->
     <project path="frameworks/av" name="LMODroid/platform_frameworks_av" remote="lmodroid" />
@@ -61,6 +62,7 @@
     <project path="packages/apps/Etar" name="LMODroid/platform_packages_apps_Etar" remote="lmodroid" />
     <project path="packages/apps/ExactCalculator" name="LMODroid/platform_packages_apps_ExactCalculator" remote="lmodroid" />
     <project path="packages/apps/F-DroidPrivilegedExtension" name="LMODroid/platform_packages_apps_F-DroidPrivilegedExtension" remote="lmodroid" />
+    <project path="packages/apps/FaceUnlock" name="LMODroid/platform_packages_apps_FaceUnlock" remote="lmodroid" />
     <project path="packages/apps/Gallery2" name="LMODroid/platform_packages_apps_Gallery2" remote="lmodroid" />
     <project path="packages/apps/GameSpace" name="LMODroid/platform_packages_apps_GameSpace" remote="lmodroid" />
     <project path="packages/apps/Launcher3" name="LMODroid/platform_packages_apps_Launcher3" remote="lmodroid" />
