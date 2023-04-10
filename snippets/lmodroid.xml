@@ -26,6 +26,7 @@
         <linkfile src="root.bp" dest="Android.bp" />
         <linkfile src="bootstrap.bash" dest="bootstrap.bash" />
     </project>
+    <project path="build/blueprint" name="LMODroid/platform_build_blueprint" remote="lmodroid" groups="pdk,tradefed" />
 
     <!-- Device -->
     <project path="device/generic/common" name="LMODroid-Devices/device_generic_common" remote="lmodroid" />
