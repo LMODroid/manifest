@@ -45,6 +45,7 @@
     <remove-project name="device/google_car" />
 
     <!-- External -->
+    <remove-project name="platform/external/angle" />
     <remove-project name="platform/external/android-nn-driver" />
     <remove-project name="platform/external/armnn" />
     <remove-project name="platform/external/chromium-webview" />
