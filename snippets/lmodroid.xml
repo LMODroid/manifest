@@ -85,6 +85,7 @@
     <project path="packages/apps/Updater" name="LMODroid/platform_packages_apps_Updater" remote="lmodroid" />
     <project path="packages/apps/WallpaperPicker2" name="LMODroid/platform_packages_apps_WallpaperPicker2" remote="lmodroid" />
     <project path="packages/inputmethods/LatinIME" name="LMODroid/platform_packages_inputmethods_LatinIME" remote="lmodroid" />
+    <project path="packages/modules/adb" name="LMODroid/platform_packages_modules_adb" remote="lmodroid" />
     <project path="packages/modules/Bluetooth" name="LMODroid/platform_packages_modules_Bluetooth" remote="lmodroid" />
     <project path="packages/modules/Connectivity" name="LMODroid/platform_packages_modules_Connectivity" remote="lmodroid" />
     <project path="packages/overlays/LMODroid" name="LMODroid/platform_packages_overlays_LMODroid" remote="lmodroid" />
