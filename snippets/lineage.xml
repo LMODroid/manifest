@@ -103,7 +103,7 @@
     <project path="vendor/qcom/opensource/wfd-commonsys" name="android_vendor_qcom_opensource_wfd-commonsys" groups="qcom,waipio-vendor" remote="lineage" />
 
     <!-- Device -->
-    <project path="device/google/atv" name="android_device_google_atv" groups="device,broadcom_pdk,generic_fs,pdk" remote="lineage" />
+    <project path="device/google/atv" name="android_device_google_atv" groups="device,broadcom_pdk,generic_fs,pdk" remote="lineage" revision="d8e63edaed5a5b07d3106ba09c948cc2e498b863" />
     <project path="device/lineage/sepolicy" name="android_device_lineage_sepolicy" remote="lineage" />
 
     <!-- External -->
@@ -125,7 +125,7 @@
     <project path="external/exfatprogs" name="android_external_exfatprogs" remote="lineage" />
     <project path="external/gptfdisk" name="android_external_gptfdisk" groups="pdk" remote="lineage" />
     <project path="external/htop" name="android_external_htop" remote="lineage" />
-    <project path="external/icu" name="android_external_icu" groups="pdk" remote="lineage" />
+    <project path="external/icu" name="android_external_icu" groups="pdk" remote="lineage" revision="32739310d51d771ff8639c1109bfc90a8edf65de" />
     <project path="external/libcxx" name="android_external_libcxx" groups="pdk" remote="lineage" />
     <project path="external/libncurses" name="android_external_libncurses" remote="lineage" />
     <project path="external/mksh" name="android_external_mksh" groups="pdk" remote="lineage" />
@@ -136,21 +136,21 @@
     <project path="external/tinycompress" name="android_external_tinycompress" groups="pdk" remote="lineage" />
     <project path="external/unrar" name="android_external_unrar" remote="lineage" />
     <project path="external/vim" name="android_external_vim" remote="lineage" />
-    <project path="external/wpa_supplicant_8" name="android_external_wpa_supplicant_8" groups="pdk" remote="lineage" />
+    <project path="external/wpa_supplicant_8" name="android_external_wpa_supplicant_8" groups="pdk" remote="lineage" revision="54182a1ba7724cc2efbb8a438ba271561e92cadb" />
     <project path="external/setupcompat" name="android_external_setupcompat" groups="pdk" remote="lineage" />
     <project path="external/zstd" name="android_external_zstd" groups="pdk" remote="lineage" />
 
     <!-- Frameworks -->
-    <project path="frameworks/opt/telephony" name="android_frameworks_opt_telephony" groups="pdk" remote="lineage" />
+    <project path="frameworks/opt/telephony" name="android_frameworks_opt_telephony" groups="pdk" remote="lineage" revision="be016951b92706c2e491f4da606975136d896f3c" />
     <project path="frameworks/opt/timezonepicker" name="android_frameworks_opt_timezonepicker" groups="pdk-cw-fs,pdk-fs" remote="lineage" />
 
     <!-- Hardware -->
-    <project path="hardware/google/gchips" name="android_hardware_google_gchips" groups="pdk-lassen" remote="lineage" />
-    <project path="hardware/google/graphics/common" name="android_hardware_google_graphics_common" groups="pdk-lassen" remote="lineage" />
-    <project path="hardware/google/pixel" name="android_hardware_google_pixel" groups="generic_fs,pixel" remote="lineage" />
+    <project path="hardware/google/gchips" name="android_hardware_google_gchips" groups="pdk-lassen" remote="lineage" revision="5ff4c71032539ed63b7fd78d65ca501b87976a13" />
+    <project path="hardware/google/graphics/common" name="android_hardware_google_graphics_common" groups="pdk-lassen" remote="lineage" revision="0af754a6cd776dd754b6feb07a733ba2374a2d05" />
+    <project path="hardware/google/pixel" name="android_hardware_google_pixel" groups="generic_fs,pixel" remote="lineage" revision="222544ec1166be5d49face442f5c6600fd9e8424" />
     <project path="hardware/google/pixel-sepolicy" name="android_hardware_google_pixel-sepolicy" groups="generic_fs,pixel" remote="lineage" />
     <project path="hardware/lineage/compat" name="android_hardware_lineage_compat" remote="lineage" />
-    <project path="hardware/interfaces" name="android_hardware_interfaces" groups="pdk" remote="lineage" />
+    <project path="hardware/interfaces" name="android_hardware_interfaces" groups="pdk" remote="lineage" revision="091da41caf7efd7c27c93f04d3aebb6da05dee40" />
     <project path="hardware/libhardware" name="android_hardware_libhardware" groups="pdk" remote="lineage" />
     <project path="hardware/lineage/interfaces" name="android_hardware_lineage_interfaces" remote="lineage" />
     <project path="hardware/lineage/livedisplay" name="android_hardware_lineage_livedisplay" remote="lineage" />
@@ -162,13 +162,13 @@
     <project path="hardware/qcom/media" name="android_hardware_qcom_media" groups="qcom,pdk-qcom" remote="lineage" />
     <project path="hardware/qcom/sdm845/display" name="android_hardware_qcom_sdm845_display" groups="generic_fs,qcom,qcom_sdm845" remote="lineage" />
     <project path="hardware/qcom/sdm845/media" name="android_hardware_qcom_sdm845_media" groups="generic_fs,qcom,qcom_sdm845" remote="lineage" />
-    <project path="hardware/qcom/sm7250/display" name="android_hardware_qcom_sm7250_display" groups="qcom,qcom_sm7250" remote="lineage" />
+    <project path="hardware/qcom/sm7250/display" name="android_hardware_qcom_sm7250_display" groups="qcom,qcom_sm7250" remote="lineage" revision="4a774c4bed765d3020f5ced6f7a63c7e9d4c8d5a" />
     <project path="hardware/qcom/sm7250/media" name="android_hardware_qcom_sm7250_media" groups="qcom,qcom_sm7250" remote="lineage" />
     <project path="hardware/qcom/sm8150/data/ipacfg-mgr" name="android_hardware_qcom_sm8150_data_ipacfg-mgr" groups="qcom,qcom_sm8150" remote="lineage" >
         <linkfile src="os_pickup.mk" dest="hardware/qcom/sm8150/Android.mk" />
         <linkfile src="os_pickup.bp" dest="hardware/qcom/sm8150/Android.bp" />
     </project>
-    <project path="hardware/qcom/sm8150/display" name="android_hardware_qcom_sm8150_display" groups="qcom,qcom_sm8150" remote="lineage" />
+    <project path="hardware/qcom/sm8150/display" name="android_hardware_qcom_sm8150_display" groups="qcom,qcom_sm8150" remote="lineage" revision="dbc6718881962fb7bb0dc8f82244be158f25ba59" />
     <project path="hardware/qcom/sm8150/media" name="android_hardware_qcom_sm8150_media" groups="qcom,qcom_sm8150" remote="lineage" />
     <project path="hardware/qcom/wlan" name="android_hardware_qcom_wlan" groups="qcom,qcom_wlan,pdk-qcom" remote="lineage" />
     <project path="hardware/ril" name="android_hardware_ril" groups="pdk" remote="lineage" />
@@ -187,25 +187,25 @@
     <!-- Packages -->
     <project path="packages/apps/Car/Settings" name="android_packages_apps_Car_Settings" remote="lineage" />
     <project path="packages/apps/LineageCustomizer" name="android_packages_apps_LineageCustomizer" remote="lineage" />
-    <project path="packages/apps/Nfc" name="android_packages_apps_Nfc" groups="apps_nfc,pdk-fs" remote="lineage" />
+    <project path="packages/apps/Nfc" name="android_packages_apps_Nfc" groups="apps_nfc,pdk-fs" remote="lineage" revision="ee09c18a394ac3b8206a3485a9c289f2ceb52d25" />
     <project path="packages/apps/Seedvault" name="android_packages_apps_Seedvault" remote="lineage" />
     <project path="packages/apps/SimpleDeviceConfig" name="android_packages_apps_SimpleDeviceConfig" remote="lineage" />
-    <project path="packages/apps/SettingsIntelligence" name="android_packages_apps_SettingsIntelligence" groups="pdk-fs" remote="lineage" />
+    <project path="packages/apps/SettingsIntelligence" name="android_packages_apps_SettingsIntelligence" groups="pdk-fs" remote="lineage" revision="c827f3e0b870d6d22efa1fca3fea04af379eed0c" />
     <project path="packages/apps/Stk" name="android_packages_apps_Stk" groups="apps_stk,pdk-fs" remote="lineage" />
-    <project path="packages/modules/common" name="android_packages_modules_common" groups="pdk-cw-fs,pdk-fs" remote="lineage" />
-    <project path="packages/modules/Permission" name="android_packages_modules_Permission" groups="pdk" remote="lineage" />
+    <project path="packages/modules/common" name="android_packages_modules_common" groups="pdk-cw-fs,pdk-fs" remote="lineage" revision="62839e3ba3f59b30c7c7f2779b7c9cbb0498e585" />
+    <project path="packages/modules/Permission" name="android_packages_modules_Permission" groups="pdk" remote="lineage" revision="24f8c7cafe90fedc7e863913d640ff960c0d68ac" />
     <project path="packages/modules/Virtualization" name="android_packages_modules_Virtualization" groups="pdk" remote="lineage" />
-    <project path="packages/modules/Wifi" name="android_packages_modules_Wifi" groups="pdk-cw-fs,pdk-fs" remote="lineage" />
-    <project path="packages/providers/BlockedNumberProvider" name="android_packages_providers_BlockedNumberProvider" groups="pdk-fs" remote="lineage" />
+    <project path="packages/modules/Wifi" name="android_packages_modules_Wifi" groups="pdk-cw-fs,pdk-fs" remote="lineage" revision="b7ca9669bed0c2f629e3315fe7ab4192f54d9849" />
+    <project path="packages/providers/BlockedNumberProvider" name="android_packages_providers_BlockedNumberProvider" groups="pdk-fs" remote="lineage" revision="40a1e7e0a33a3889aad46f8971178ad9a865c951" />
     <project path="packages/providers/BookmarkProvider" name="android_packages_providers_BookmarkProvider" groups="pdk-fs" remote="lineage" />
     <project path="packages/providers/CalendarProvider" name="android_packages_providers_CalendarProvider" groups="pdk-cw-fs,pdk-fs" remote="lineage" />
     <project path="packages/providers/CallLogProvider" name="android_packages_providers_CallLogProvider" groups="pdk-fs" remote="lineage" />
     <project path="packages/providers/ContactsProvider" name="android_packages_providers_ContactsProvider" groups="pdk-cw-fs,pdk-fs" remote="lineage" />
-    <project path="packages/providers/DownloadProvider" name="android_packages_providers_DownloadProvider" groups="pdk-cw-fs,pdk-fs" remote="lineage" />
-    <project path="packages/providers/MediaProvider" name="android_packages_providers_MediaProvider" groups="pdk-cw-fs,pdk-fs" remote="lineage" />
-    <project path="packages/providers/TelephonyProvider" name="android_packages_providers_TelephonyProvider" groups="pdk-cw-fs,pdk-fs" remote="lineage" />
-    <project path="packages/services/Mms" name="android_packages_services_Mms" groups="pdk-cw-fs,pdk-fs" remote="lineage" />
-    <project path="packages/services/Telephony" name="android_packages_services_Telephony" groups="pdk-cw-fs,pdk-fs" remote="lineage" />
+    <project path="packages/providers/DownloadProvider" name="android_packages_providers_DownloadProvider" groups="pdk-cw-fs,pdk-fs" remote="lineage" revision="dedc5768b77d2e4f7f89bf31b221e839afd0a521" />
+    <project path="packages/providers/MediaProvider" name="android_packages_providers_MediaProvider" groups="pdk-cw-fs,pdk-fs" remote="lineage" revision="1cde084329178bd682b44896adac399ada264fd5" />
+    <project path="packages/providers/TelephonyProvider" name="android_packages_providers_TelephonyProvider" groups="pdk-cw-fs,pdk-fs" remote="lineage" revision="185c6291284769c01614b3984cdab2d16488df73" />
+    <project path="packages/services/Mms" name="android_packages_services_Mms" groups="pdk-cw-fs,pdk-fs" remote="lineage" revision="e0c738df88538dbe36e71ba041296081bd3091f2" />
+    <project path="packages/services/Telephony" name="android_packages_services_Telephony" groups="pdk-cw-fs,pdk-fs" remote="lineage" revision="512b850d8f991dca9791562f96e9dcab6d8f375d" />
 
     <!-- Prebuilts -->
     <project path="prebuilts/tools-lmodroid" name="android_prebuilts_tools-lineage" remote="lineage" clone-depth="1" />
@@ -220,18 +220,18 @@
 
     <!-- System -->
     <project path="system/apex" name="android_system_apex" groups="pdk" remote="lineage" />
-    <project path="system/extras" name="android_system_extras" groups="pdk" remote="lineage" />
+    <project path="system/extras" name="android_system_extras" groups="pdk" remote="lineage" revision="e575f4ed9681c65ccb531275f63937dcabb83141" />
     <project path="system/keymaster" name="android_system_keymaster" groups="pdk" remote="lineage" />
     <project path="system/libhidl" name="android_system_libhidl" groups="pdk" remote="lineage" />
     <project path="system/libziparchive" name="android_system_libziparchive" groups="pdk" remote="lineage" />
     <project path="system/logging" name="android_system_logging" groups="pdk" remote="lineage" />
-    <project path="system/media" name="android_system_media" groups="pdk" remote="lineage" />
+    <project path="system/media" name="android_system_media" groups="pdk" remote="lineage" revision="b9a65d5f8af5c794d2f6a2c3dab946002721d999" />
     <project path="system/memory/lmkd" name="android_system_memory_lmkd" groups="pdk" remote="lineage" />
-    <project path="system/security" name="android_system_security" groups="pdk" remote="lineage" />
-    <project path="system/sepolicy" name="android_system_sepolicy" groups="pdk" remote="lineage" />
+    <project path="system/security" name="android_system_security" groups="pdk" remote="lineage" revision="29becc3733a4dbab4fd98236bb27f33ec1a93570" />
+    <project path="system/sepolicy" name="android_system_sepolicy" groups="pdk" remote="lineage" revision="7d29eba63e0b7caaf3f7119c147721bc904426e9" />
     <project path="system/timezone" name="android_system_timezone" groups="pdk" remote="lineage" />
     <project path="system/tools/mkbootimg" name="android_system_tools_mkbootimg" groups="pdk" remote="lineage" />
     <project path="system/update_engine" name="android_system_update_engine" groups="pdk" remote="lineage" />
-    <project path="system/vold" name="android_system_vold" groups="pdk" remote="lineage" />
+    <project path="system/vold" name="android_system_vold" groups="pdk" remote="lineage" revision="9345b18278f30f821c5d6c14076738aa73f7123c" />
 
 </manifest>
