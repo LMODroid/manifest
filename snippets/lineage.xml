@@ -232,6 +232,6 @@
     <project path="system/timezone" name="android_system_timezone" groups="pdk" remote="lineage" />
     <project path="system/tools/mkbootimg" name="android_system_tools_mkbootimg" groups="pdk" remote="lineage" />
     <project path="system/update_engine" name="android_system_update_engine" groups="pdk" remote="lineage" />
-    <project path="system/vold" name="android_system_vold" groups="pdk" remote="lineage" revision="9345b18278f30f821c5d6c14076738aa73f7123c" />
+    <project path="system/vold" name="android_system_vold" groups="pdk" remote="lineage" revision="2711bf7059318aa6a61e37392a0aee6263bff0a0" />
 
 </manifest>
