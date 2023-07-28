@@ -104,6 +104,7 @@
 
     <!-- Device -->
     <project path="device/google/atv" name="android_device_google_atv" groups="device,broadcom_pdk,generic_fs,pdk" remote="lineage" />
+    <project path="device/google/contexthub" name="android_device_google_contexthub" groups="device,pdk" remote="lineage" />
     <project path="device/lineage/sepolicy" name="android_device_lineage_sepolicy" remote="lineage" />
 
     <!-- External -->
