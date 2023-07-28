@@ -7,13 +7,13 @@
         review="gerrit.libremobileos.com" />
 
     <!-- Bootable -->
-    <project path="bootable/recovery" name="LMODroid/platform_bootable_recovery" remote="lmodroid" />
+    <project path="bootable/recovery" name="LMODroid/platform_bootable_recovery" remote="lmodroid" revision="d24dd286f6d693dd6bd48a5d42787df5bafed2e4" upstream="thirteen" dest-branch="thirteen"/>
 
     <!-- Bionic -->
-    <project path="bionic" name="LMODroid/platform_bionic" groups="pdk" remote="lmodroid" />
+    <project path="bionic" name="LMODroid/platform_bionic" remote="lmodroid" revision="63434ba86a9d47a60b0671be33bfd4aeacfa4920" upstream="thirteen" dest-branch="thirteen" groups="pdk"/>
 
     <!-- Build -->
-    <project path="build/make" name="LMODroid/platform_build" remote="lmodroid">
+    <project path="build/make" name="LMODroid/platform_build" remote="lmodroid" revision="c955947ebe336eccc249845fed9e5270c1041168" upstream="thirteen" dest-branch="thirteen">
         <copyfile src="core/root.mk" dest="Makefile" />
         <linkfile src="CleanSpec.mk" dest="build/CleanSpec.mk" />
         <linkfile src="buildspec.mk.default" dest="build/buildspec.mk.default" />
@@ -22,88 +22,88 @@
         <linkfile src="target" dest="build/target" />
         <linkfile src="tools" dest="build/tools" />
     </project>
-    <project path="build/soong" name="LMODroid/platform_build_soong" remote="lmodroid" >
+    <project path="build/soong" name="LMODroid/platform_build_soong" remote="lmodroid" revision="971d3fdcf7ffa8819a92ac3eddfd382a6a8be36c" upstream="thirteen" dest-branch="thirteen">
         <linkfile src="root.bp" dest="Android.bp" />
         <linkfile src="bootstrap.bash" dest="bootstrap.bash" />
     </project>
-    <project path="build/blueprint" name="LMODroid/platform_build_blueprint" remote="lmodroid" groups="pdk,tradefed" />
+    <project path="build/blueprint" name="LMODroid/platform_build_blueprint" remote="lmodroid" revision="e1ea4dc9a8353ae0a80b087befe1380b310be6a8" upstream="thirteen" dest-branch="thirteen" groups="pdk,tradefed"/>
 
     <!-- Device -->
-    <project path="device/generic/common" name="LMODroid-Devices/device_generic_common" remote="lmodroid" />
-    <project path="device/lmodroid/atv" name="LMODroid-Devices/device_lmodroid_atv" remote="lmodroid" />
-    <project path="device/lmodroid/sepolicy" name="LMODroid/platform_device_lmodroid_sepolicy" remote="lmodroid" />
+    <project path="device/generic/common" name="LMODroid-Devices/device_generic_common" remote="lmodroid" revision="2b56b48911b23e4c9a4d31f1ba48309f77fe73cb" upstream="thirteen" dest-branch="thirteen"/>
+    <project path="device/lmodroid/atv" name="LMODroid-Devices/device_lmodroid_atv" remote="lmodroid" revision="b19faf09d04ce6fee3ca54b6de4fd827e0838c88" upstream="thirteen" dest-branch="thirteen"/>
+    <project path="device/lmodroid/sepolicy" name="LMODroid/platform_device_lmodroid_sepolicy" remote="lmodroid" revision="0c99cb909074f49a50ef727b169dff87a8a5be46" upstream="thirteen" dest-branch="thirteen"/>
 
     <!-- External -->
     <project path="external/dwarves" name="platform/external/dwarves" remote="aosp" revision="3c8f7e8b2cf7ff902b71c42d00fda30f30114b07" />
-    <project path="external/svox" name="LMODroid/platform_external_svox" remote="lmodroid" />
-    <project path="external/tigervnc" name="LMODroid/platform_external_tigervnc" remote="lmodroid" />
+    <project path="external/svox" name="LMODroid/platform_external_svox" remote="lmodroid" revision="9625f6c0d797603e7ef32b11386ccd60ddadf110" upstream="thirteen" dest-branch="thirteen"/>
+    <project path="external/tigervnc" name="LMODroid/platform_external_tigervnc" remote="lmodroid" revision="59667601f8d50e2ee2bcb91f1752e0925d42f1aa" upstream="thirteen" dest-branch="thirteen"/>
     <project path="external/tinyxml" name="platform/external/tinyxml" groups="pdk" remote="aosp" revision="refs/tags/android-11.0.0_r46" />
-    <project path="external/yifan" name="LMODroid/platform_external_yifan" remote="lmodroid" />
+    <project path="external/yifan" name="LMODroid/platform_external_yifan" remote="lmodroid" revision="b3996763c3f4bea151c52fa49a4ced2b7f4e26b8" upstream="thirteen" dest-branch="thirteen"/>
 
     <!-- Frameworks -->
-    <project path="frameworks/av" name="LMODroid/platform_frameworks_av" remote="lmodroid" />
-    <project path="frameworks/base" name="LMODroid/platform_frameworks_base" remote="lmodroid" />
-    <project path="frameworks/libs/net" name="LMODroid/platform_frameworks_libs_net" remote="lmodroid" />
-    <project path="frameworks/libs/systemui" name="LMODroid/platform_frameworks_libs_systemui" groups="pdk-cw-fs,pdk-fs" remote="lmodroid" />
-    <project path="frameworks/native" name="LMODroid/platform_frameworks_native" remote="lmodroid" />
+    <project path="frameworks/av" name="LMODroid/platform_frameworks_av" remote="lmodroid" revision="0e8822fafc212caa8a5dd58672c3d194efec6505" upstream="thirteen" dest-branch="thirteen"/>
+    <project path="frameworks/base" name="LMODroid/platform_frameworks_base" remote="lmodroid" revision="1d152cdf78a1a5a57e35dec026b9d37a634d2ece" upstream="thirteen" dest-branch="thirteen"/>
+    <project path="frameworks/libs/net" name="LMODroid/platform_frameworks_libs_net" remote="lmodroid" revision="849a3d3175903230500f403bd48ead8b33b804c5" upstream="thirteen" dest-branch="thirteen"/>
+    <project path="frameworks/libs/systemui" name="LMODroid/platform_frameworks_libs_systemui" remote="lmodroid" revision="2c180628e795fd91bd711c51df06de28f9a81b95" upstream="thirteen" dest-branch="thirteen" groups="pdk-cw-fs,pdk-fs"/>
+    <project path="frameworks/native" name="LMODroid/platform_frameworks_native" remote="lmodroid" revision="90ec072efcd2bb03e901b6a2a994bba5957e49d3" upstream="thirteen" dest-branch="thirteen"/>
 
     <!-- Manifest -->
-    <project path="manifest" name="LMODroid/manifest" remote="lmodroid" />
+    <project path="manifest" name="LMODroid/manifest" remote="lmodroid" revision="93ec5fa2f05a4be5dc7f94456af67ebc52baa193" upstream="thirteen" dest-branch="thirteen"/>
 
     <!-- Packages -->
-    <project path="packages/apps/Aperture" name="LMODroid/platform_packages_apps_Aperture" remote="lmodroid" />
-    <project path="packages/apps/Backgrounds" name="LMODroid/platform_packages_apps_Backgrounds" remote="lmodroid" />
-    <project path="packages/apps/Contacts" name="LMODroid/platform_packages_apps_Contacts" remote="lmodroid" />
-    <project path="packages/apps/DeskClock" name="LMODroid/platform_packages_apps_DeskClock" remote="lmodroid" />
-    <project path="packages/apps/DesktopMode" name="LMODroid/platform_packages_apps_DesktopMode" remote="lmodroid" />
-    <project path="packages/apps/Dialer" name="LMODroid/platform_packages_apps_Dialer" remote="lmodroid" />
-    <project path="packages/apps/DocumentsUI" name="LMODroid/platform_packages_apps_DocumentsUI" remote="lmodroid" />
-    <project path="packages/apps/Etar" name="LMODroid/platform_packages_apps_Etar" remote="lmodroid" />
-    <project path="packages/apps/ExactCalculator" name="LMODroid/platform_packages_apps_ExactCalculator" remote="lmodroid" />
-    <project path="packages/apps/F-DroidPrivilegedExtension" name="LMODroid/platform_packages_apps_F-DroidPrivilegedExtension" remote="lmodroid" />
-    <project path="packages/apps/FaceUnlock" name="LMODroid/platform_packages_apps_FaceUnlock" remote="lmodroid" />
-    <project path="packages/apps/FMRadio" name="LMODroid/platform_packages_apps_FMRadio" remote="lmodroid" />
-    <project path="packages/apps/FlipFlap" name="LMODroid/platform_packages_apps_FlipFlap" remote="lmodroid" />
-    <project path="packages/apps/Gallery2" name="LMODroid/platform_packages_apps_Gallery2" remote="lmodroid" />
-    <project path="packages/apps/GameSpace" name="LMODroid/platform_packages_apps_GameSpace" remote="lmodroid" />
-    <project path="packages/apps/Launcher3" name="LMODroid/platform_packages_apps_Launcher3" remote="lmodroid" />
-    <project path="packages/apps/ManagedProvisioning" name="LMODroid/platform_packages_apps_ManagedProvisioning" remote="lmodroid" />
-    <project path="packages/apps/Messaging" name="LMODroid/platform_packages_apps_Messaging" remote="lmodroid" />
-    <project path="packages/apps/Music" name="LMODroid/platform_packages_apps_Music" remote="lmodroid" />
-    <project path="packages/apps/MusicFX" name="LMODroid/platform_packages_apps_MusicFX" remote="lmodroid" />
-    <project path="packages/apps/OpenEUICC" name="LMODroid/platform_packages_apps_OpenEUICC" remote="lmodroid" />
-    <project path="packages/apps/ParallelSpace" name="LMODroid/platform_packages_apps_ParallelSpace" remote="lmodroid" />
-    <project path="packages/apps/PdfViewer" name="LMODroid/platform_packages_apps_PdfViewer" remote="lmodroid" />
-    <project path="packages/apps/QuickSearchBox" name="LMODroid/platform_packages_apps_QuickSearchBox" remote="lmodroid" />
-    <project path="packages/apps/Recorder" name="LMODroid/platform_packages_apps_Recorder" remote="lmodroid" />
-    <project path="packages/apps/Ripple" name="LMODroid/platform_packages_apps_Ripple" remote="lmodroid" />
-    <project path="packages/apps/Settings" name="LMODroid/platform_packages_apps_Settings" remote="lmodroid" />
-    <project path="packages/apps/SetupWizard" name="LMODroid/platform_packages_apps_SetupWizard" remote="lmodroid" />
-    <project path="packages/apps/ThemePicker" name="LMODroid/platform_packages_apps_ThemePicker" remote="lmodroid" />
-    <project path="packages/apps/TouchGestures" name="LMODroid/platform_packages_apps_TouchGestures" remote="lmodroid" />
-    <project path="packages/apps/TvSettings" name="LMODroid/platform_packages_apps_TvSettings" remote="lmodroid" />
-    <project path="packages/apps/Updater" name="LMODroid/platform_packages_apps_Updater" remote="lmodroid" />
-    <project path="packages/apps/WallpaperPicker2" name="LMODroid/platform_packages_apps_WallpaperPicker2" remote="lmodroid" />
-    <project path="packages/inputmethods/LatinIME" name="LMODroid/platform_packages_inputmethods_LatinIME" remote="lmodroid" />
-    <project path="packages/modules/adb" name="LMODroid/platform_packages_modules_adb" remote="lmodroid" />
-    <project path="packages/modules/Bluetooth" name="LMODroid/platform_packages_modules_Bluetooth" remote="lmodroid" />
-    <project path="packages/modules/Connectivity" name="LMODroid/platform_packages_modules_Connectivity" remote="lmodroid" />
-    <project path="packages/overlays/LMODroid" name="LMODroid/platform_packages_overlays_LMODroid" remote="lmodroid" />
-    <project path="packages/resources/devicesettings" name="LMODroid/platform_packages_resources_devicesettings" remote="lmodroid" />
-    <project path="packages/services/AlternativeNetworkAccess" name="LMODroid/platform_packages_services_AlternativeNetworkAccess" remote="lmodroid" />
-    <project path="packages/services/Telecomm" name="LMODroid/platform_packages_services_Telecomm" remote="lmodroid" />
-    <project path="packages/services/VncFlinger" name="LMODroid/platform_packages_services_VncFlinger" remote="lmodroid" />
+    <project path="packages/apps/Aperture" name="LMODroid/platform_packages_apps_Aperture" remote="lmodroid" revision="00ac9b1a8fb6c4ed1e3bb2490e38b33507d1f933" upstream="thirteen" dest-branch="thirteen"/>
+    <project path="packages/apps/Backgrounds" name="LMODroid/platform_packages_apps_Backgrounds" remote="lmodroid" revision="a23253e8434916b4c9501837160d1d93d4f7fe6c" upstream="thirteen" dest-branch="thirteen"/>
+    <project path="packages/apps/Contacts" name="LMODroid/platform_packages_apps_Contacts" remote="lmodroid" revision="08c62fe9ead1902949845215a28d97635175272c" upstream="thirteen" dest-branch="thirteen"/>
+    <project path="packages/apps/DeskClock" name="LMODroid/platform_packages_apps_DeskClock" remote="lmodroid" revision="f3ee34c2a8d11a0d5805ddb0da5b02841fe1fb8d" upstream="thirteen" dest-branch="thirteen"/>
+    <project path="packages/apps/DesktopMode" name="LMODroid/platform_packages_apps_DesktopMode" remote="lmodroid" revision="da4211fdb6f32d45ea4fe96a2feca20327deb794" upstream="thirteen" dest-branch="thirteen"/>
+    <project path="packages/apps/Dialer" name="LMODroid/platform_packages_apps_Dialer" remote="lmodroid" revision="b6fa9fa9d0b67b4f87183aabd48e61d988650b73" upstream="thirteen" dest-branch="thirteen"/>
+    <project path="packages/apps/DocumentsUI" name="LMODroid/platform_packages_apps_DocumentsUI" remote="lmodroid" revision="43b3e1ceda8daea7d8ad7508a73aaf6441aea8ab" upstream="thirteen" dest-branch="thirteen"/>
+    <project path="packages/apps/Etar" name="LMODroid/platform_packages_apps_Etar" remote="lmodroid" revision="0d31f92be6fbe40331b5ee8f4e9425c92cc378c2" upstream="thirteen" dest-branch="thirteen"/>
+    <project path="packages/apps/ExactCalculator" name="LMODroid/platform_packages_apps_ExactCalculator" remote="lmodroid" revision="a4ef31104164ddaf28ea9e5c09f2c002c17fdae9" upstream="thirteen" dest-branch="thirteen"/>
+    <project path="packages/apps/F-DroidPrivilegedExtension" name="LMODroid/platform_packages_apps_F-DroidPrivilegedExtension" remote="lmodroid" revision="bb896acf07724b468ac373bd094e3ac82c19454f" upstream="thirteen" dest-branch="thirteen"/>
+    <project path="packages/apps/FMRadio" name="LMODroid/platform_packages_apps_FMRadio" remote="lmodroid" revision="262c0950bd5a2b5b763759b2736900860d97f45a" upstream="thirteen" dest-branch="thirteen"/>
+    <project path="packages/apps/FaceUnlock" name="LMODroid/platform_packages_apps_FaceUnlock" remote="lmodroid" revision="b4fa991c82cdba379204be546eec03ba1229be87" upstream="thirteen" dest-branch="thirteen"/>
+    <project path="packages/apps/FlipFlap" name="LMODroid/platform_packages_apps_FlipFlap" remote="lmodroid" revision="fc178cf71c50c84bc6983ba7c9f0d7e09891cb11" upstream="thirteen" dest-branch="thirteen"/>
+    <project path="packages/apps/Gallery2" name="LMODroid/platform_packages_apps_Gallery2" remote="lmodroid" revision="93524ce87d0e21243fda08159626bb04341f52bb" upstream="thirteen" dest-branch="thirteen"/>
+    <project path="packages/apps/GameSpace" name="LMODroid/platform_packages_apps_GameSpace" remote="lmodroid" revision="30f65a446d67efb1258bf08e20dca9ae18a64ffe" upstream="thirteen" dest-branch="thirteen"/>
+    <project path="packages/apps/Launcher3" name="LMODroid/platform_packages_apps_Launcher3" remote="lmodroid" revision="0a5c333366393e639e61c1279cc34362c8f578c7" upstream="thirteen" dest-branch="thirteen"/>
+    <project path="packages/apps/ManagedProvisioning" name="LMODroid/platform_packages_apps_ManagedProvisioning" remote="lmodroid" revision="96e5c2d825d29a89bc5ba881fb9c92216f94822c" upstream="thirteen" dest-branch="thirteen"/>
+    <project path="packages/apps/Messaging" name="LMODroid/platform_packages_apps_Messaging" remote="lmodroid" revision="e36acd4bd932439936d1906ba692bc2e375b5e9c" upstream="thirteen" dest-branch="thirteen"/>
+    <project path="packages/apps/Music" name="LMODroid/platform_packages_apps_Music" remote="lmodroid" revision="ec531eae2ef04aa427f1a93fa956826508f23faf" upstream="thirteen" dest-branch="thirteen"/>
+    <project path="packages/apps/MusicFX" name="LMODroid/platform_packages_apps_MusicFX" remote="lmodroid" revision="0eebc5b3e09bb6aa376944a72edae32b6a3e484d" upstream="thirteen" dest-branch="thirteen"/>
+    <project path="packages/apps/OpenEUICC" name="LMODroid/platform_packages_apps_OpenEUICC" remote="lmodroid" revision="24bb4d21e11abc7455e75698d47d4a900730b82a" upstream="thirteen" dest-branch="thirteen"/>
+    <project path="packages/apps/ParallelSpace" name="LMODroid/platform_packages_apps_ParallelSpace" remote="lmodroid" revision="f2e3fe5bf6cc3c35d0f94a40aae6eb0314745353" upstream="thirteen" dest-branch="thirteen"/>
+    <project path="packages/apps/PdfViewer" name="LMODroid/platform_packages_apps_PdfViewer" remote="lmodroid" revision="3c2e197837b5ad03f4b19aa39cd5f2fa01884919" upstream="thirteen" dest-branch="thirteen"/>
+    <project path="packages/apps/QuickSearchBox" name="LMODroid/platform_packages_apps_QuickSearchBox" remote="lmodroid" revision="5252b411dd07887769fe6602b63e596e90553a1d" upstream="thirteen" dest-branch="thirteen"/>
+    <project path="packages/apps/Recorder" name="LMODroid/platform_packages_apps_Recorder" remote="lmodroid" revision="135990e6d0ff6e41f3a6a178c92aeb5a2b189327" upstream="thirteen" dest-branch="thirteen"/>
+    <project path="packages/apps/Ripple" name="LMODroid/platform_packages_apps_Ripple" remote="lmodroid" revision="d2b00024571d425e50d4f318b3c6fae5d609cbc0" upstream="thirteen" dest-branch="thirteen"/>
+    <project path="packages/apps/Settings" name="LMODroid/platform_packages_apps_Settings" remote="lmodroid" revision="9e1868cc840b5a5185826fea58e2add588a6c2dc" upstream="thirteen" dest-branch="thirteen"/>
+    <project path="packages/apps/SetupWizard" name="LMODroid/platform_packages_apps_SetupWizard" remote="lmodroid" revision="fd1612894a9e6a828b51c54e0a4afa09ec6401f2" upstream="thirteen" dest-branch="thirteen"/>
+    <project path="packages/apps/ThemePicker" name="LMODroid/platform_packages_apps_ThemePicker" remote="lmodroid" revision="1c6ffbbaef6263af345a245d01fd42a98409190b" upstream="thirteen" dest-branch="thirteen"/>
+    <project path="packages/apps/TouchGestures" name="LMODroid/platform_packages_apps_TouchGestures" remote="lmodroid" revision="9f5d8d9fed8508305b2908c8a0e63c09eef689b5" upstream="thirteen" dest-branch="thirteen"/>
+    <project path="packages/apps/TvSettings" name="LMODroid/platform_packages_apps_TvSettings" remote="lmodroid" revision="0f0af04ca8f66fcbf1ed4558b04c269c20192231" upstream="thirteen" dest-branch="thirteen"/>
+    <project path="packages/apps/Updater" name="LMODroid/platform_packages_apps_Updater" remote="lmodroid" revision="c641159e71e581eeaf0d1a8561308310ce4cc81b" upstream="thirteen" dest-branch="thirteen"/>
+    <project path="packages/apps/WallpaperPicker2" name="LMODroid/platform_packages_apps_WallpaperPicker2" remote="lmodroid" revision="e37be59c3dd0b548016a25bc4442005a993d1a64" upstream="thirteen" dest-branch="thirteen"/>
+    <project path="packages/inputmethods/LatinIME" name="LMODroid/platform_packages_inputmethods_LatinIME" remote="lmodroid" revision="bff4860b2024655fbd9ddcef4cfc6e5c4f3e0841" upstream="thirteen" dest-branch="thirteen"/>
+    <project path="packages/modules/Bluetooth" name="LMODroid/platform_packages_modules_Bluetooth" remote="lmodroid" revision="0c07be06e9e5814ea0046c4a94542fac16b4cfe7" upstream="thirteen" dest-branch="thirteen"/>
+    <project path="packages/modules/Connectivity" name="LMODroid/platform_packages_modules_Connectivity" remote="lmodroid" revision="466414ac0b21fa7f02a8a79596a3577e5651c608" upstream="thirteen" dest-branch="thirteen"/>
+    <project path="packages/modules/adb" name="LMODroid/platform_packages_modules_adb" remote="lmodroid" revision="57e84dffd0e2365ea3a2b5ddc4be0619042df2a0" upstream="thirteen" dest-branch="thirteen"/>
+    <project path="packages/overlays/LMODroid" name="LMODroid/platform_packages_overlays_LMODroid" remote="lmodroid" revision="d9d16dd9c4da42499621a648870ebc8c2e6f8411" upstream="thirteen" dest-branch="thirteen"/>
+    <project path="packages/resources/devicesettings" name="LMODroid/platform_packages_resources_devicesettings" remote="lmodroid" revision="a46d62e7febacf946998d92f82d9c157c13d9224" upstream="thirteen" dest-branch="thirteen"/>
+    <project path="packages/services/AlternativeNetworkAccess" name="LMODroid/platform_packages_services_AlternativeNetworkAccess" remote="lmodroid" revision="93877fb61f5d3a832d85bff168d75e8cd40fb3bc" upstream="thirteen" dest-branch="thirteen"/>
+    <project path="packages/services/Telecomm" name="LMODroid/platform_packages_services_Telecomm" remote="lmodroid" revision="916594977423f1f9014f8dcfe513fd71e6ffdfe4" upstream="thirteen" dest-branch="thirteen"/>
+    <project path="packages/services/VncFlinger" name="LMODroid/platform_packages_services_VncFlinger" remote="lmodroid" revision="d58cd44b1ac1f4ff50ac666f4cfc601a69ef224e" upstream="thirteen" dest-branch="thirteen"/>
 
     <!-- Prebuilts -->
     <project path="prebuilts/kernel-build-tools" name="kernel/prebuilts/build-tools" clone-depth="1" remote="aosp" revision="refs/tags/android-13.0.0_r0.75" />
-    <project path="prebuilts/lmodroid" name="LMODroid/platform_prebuilts_lmodroid" remote="lmodroid" />
+    <project path="prebuilts/lmodroid" name="LMODroid/platform_prebuilts_lmodroid" remote="lmodroid" revision="318a576a6d452bad1f17f45229143afffb5f5fef" upstream="thirteen" dest-branch="thirteen"/>
 
     <!-- System -->
-    <project path="system/core" name="LMODroid/platform_system_core" remote="lmodroid" />
-    <project path="system/netd" name="LMODroid/platform_system_netd" remote="lmodroid" />
+    <project path="system/core" name="LMODroid/platform_system_core" remote="lmodroid" revision="69f68bba628009f94b85ecb8738a8cdd42212a0a" upstream="thirteen" dest-branch="thirteen"/>
+    <project path="system/netd" name="LMODroid/platform_system_netd" remote="lmodroid" revision="b07afe4df06ce7baefbfdd5f4608037c8c2806b5" upstream="thirteen" dest-branch="thirteen"/>
 
     <!-- Vendor -->
-    <project path="vendor/lmodroid" name="LMODroid/platform_vendor_lmodroid" remote="lmodroid" />
-    <project path="vendor/support" name="LMODroid/platform_vendor_support" remote="lmodroid" />
+    <project path="vendor/lmodroid" name="LMODroid/platform_vendor_lmodroid" remote="lmodroid" revision="7f93963caf412dad9543ced70d91dfebf92b5dda" upstream="thirteen" dest-branch="thirteen"/>
+    <project path="vendor/support" name="LMODroid/platform_vendor_support" remote="lmodroid" revision="6ffef60bb0ca3b63472582d3f22b3ed73436f63b" upstream="thirteen" dest-branch="thirteen"/>
 
 </manifest>
