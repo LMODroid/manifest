@@ -13,7 +13,7 @@
     <project path="bionic" name="LMODroid/platform_bionic" remote="lmodroid" revision="63434ba86a9d47a60b0671be33bfd4aeacfa4920" upstream="thirteen" dest-branch="thirteen" groups="pdk"/>
 
     <!-- Build -->
-    <project path="build/make" name="LMODroid/platform_build" remote="lmodroid" revision="c955947ebe336eccc249845fed9e5270c1041168" upstream="thirteen" dest-branch="thirteen">
+    <project path="build/make" name="LMODroid/platform_build" remote="lmodroid" revision="1104ca429ebc2958a17776b38646f70d80502f1e" upstream="thirteen" dest-branch="thirteen">
         <copyfile src="core/root.mk" dest="Makefile" />
         <linkfile src="CleanSpec.mk" dest="build/CleanSpec.mk" />
         <linkfile src="buildspec.mk.default" dest="build/buildspec.mk.default" />
@@ -42,7 +42,7 @@
 
     <!-- Frameworks -->
     <project path="frameworks/av" name="LMODroid/platform_frameworks_av" remote="lmodroid" revision="0e8822fafc212caa8a5dd58672c3d194efec6505" upstream="thirteen" dest-branch="thirteen"/>
-    <project path="frameworks/base" name="LMODroid/platform_frameworks_base" remote="lmodroid" revision="1d152cdf78a1a5a57e35dec026b9d37a634d2ece" upstream="thirteen" dest-branch="thirteen"/>
+    <project path="frameworks/base" name="LMODroid/platform_frameworks_base" remote="lmodroid" revision="073be690f50a0eee508ab537fbde0e3780cb888e" upstream="thirteen" dest-branch="thirteen"/>
     <project path="frameworks/libs/net" name="LMODroid/platform_frameworks_libs_net" remote="lmodroid" revision="849a3d3175903230500f403bd48ead8b33b804c5" upstream="thirteen" dest-branch="thirteen"/>
     <project path="frameworks/libs/systemui" name="LMODroid/platform_frameworks_libs_systemui" remote="lmodroid" revision="2c180628e795fd91bd711c51df06de28f9a81b95" upstream="thirteen" dest-branch="thirteen" groups="pdk-cw-fs,pdk-fs"/>
     <project path="frameworks/native" name="LMODroid/platform_frameworks_native" remote="lmodroid" revision="90ec072efcd2bb03e901b6a2a994bba5957e49d3" upstream="thirteen" dest-branch="thirteen"/>
@@ -87,7 +87,7 @@
     <project path="packages/inputmethods/LatinIME" name="LMODroid/platform_packages_inputmethods_LatinIME" remote="lmodroid" revision="bff4860b2024655fbd9ddcef4cfc6e5c4f3e0841" upstream="thirteen" dest-branch="thirteen"/>
     <project path="packages/modules/Bluetooth" name="LMODroid/platform_packages_modules_Bluetooth" remote="lmodroid" revision="0c07be06e9e5814ea0046c4a94542fac16b4cfe7" upstream="thirteen" dest-branch="thirteen"/>
     <project path="packages/modules/Connectivity" name="LMODroid/platform_packages_modules_Connectivity" remote="lmodroid" revision="466414ac0b21fa7f02a8a79596a3577e5651c608" upstream="thirteen" dest-branch="thirteen"/>
-    <project path="packages/modules/adb" name="LMODroid/platform_packages_modules_adb" remote="lmodroid" revision="57e84dffd0e2365ea3a2b5ddc4be0619042df2a0" upstream="thirteen" dest-branch="thirteen"/>
+    <project path="packages/modules/adb" name="LMODroid/platform_packages_modules_adb" remote="lmodroid" revision="1b3ab630a5d60ec5ac55ecc00cb01fff743bfd02" upstream="thirteen" dest-branch="thirteen"/>
     <project path="packages/overlays/LMODroid" name="LMODroid/platform_packages_overlays_LMODroid" remote="lmodroid" revision="d9d16dd9c4da42499621a648870ebc8c2e6f8411" upstream="thirteen" dest-branch="thirteen"/>
     <project path="packages/resources/devicesettings" name="LMODroid/platform_packages_resources_devicesettings" remote="lmodroid" revision="a46d62e7febacf946998d92f82d9c157c13d9224" upstream="thirteen" dest-branch="thirteen"/>
     <project path="packages/services/AlternativeNetworkAccess" name="LMODroid/platform_packages_services_AlternativeNetworkAccess" remote="lmodroid" revision="93877fb61f5d3a832d85bff168d75e8cd40fb3bc" upstream="thirteen" dest-branch="thirteen"/>
@@ -99,11 +99,11 @@
     <project path="prebuilts/lmodroid" name="LMODroid/platform_prebuilts_lmodroid" remote="lmodroid" revision="318a576a6d452bad1f17f45229143afffb5f5fef" upstream="thirteen" dest-branch="thirteen"/>
 
     <!-- System -->
-    <project path="system/core" name="LMODroid/platform_system_core" remote="lmodroid" revision="69f68bba628009f94b85ecb8738a8cdd42212a0a" upstream="thirteen" dest-branch="thirteen"/>
+    <project path="system/core" name="LMODroid/platform_system_core" remote="lmodroid" revision="ec060bc154b426bf8a448a2567c0db78dd27a8b5" upstream="thirteen" dest-branch="thirteen"/>
     <project path="system/netd" name="LMODroid/platform_system_netd" remote="lmodroid" revision="b07afe4df06ce7baefbfdd5f4608037c8c2806b5" upstream="thirteen" dest-branch="thirteen"/>
 
     <!-- Vendor -->
-    <project path="vendor/lmodroid" name="LMODroid/platform_vendor_lmodroid" remote="lmodroid" revision="7f93963caf412dad9543ced70d91dfebf92b5dda" upstream="thirteen" dest-branch="thirteen"/>
+    <project path="vendor/lmodroid" name="LMODroid/platform_vendor_lmodroid" remote="lmodroid" revision="385661a28f089a2cd7df7a0d5d653e54d4931ac2" upstream="thirteen" dest-branch="thirteen"/>
     <project path="vendor/support" name="LMODroid/platform_vendor_support" remote="lmodroid" revision="6ffef60bb0ca3b63472582d3f22b3ed73436f63b" upstream="thirteen" dest-branch="thirteen"/>
 
 </manifest>
