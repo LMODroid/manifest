@@ -14,8 +14,8 @@
 
     <!-- Device -->
     <remove-project name="device/generic/common" />
-    <remove-project name="device/google/atv" />
-    <remove-project name="device/google/barbet" />
+    <!-- <remove-project name="device/google/atv" /> -->
+    <!-- <remove-project name="device/google/barbet" />
     <remove-project name="device/google/barbet-sepolicy" />
     <remove-project name="device/google/bluejay" />
     <remove-project name="device/google/bluejay-kernel" />
@@ -39,60 +39,57 @@
     <remove-project name="device/google/sunfish-kernel" />
     <remove-project name="device/google/sunfish-sepolicy" />
     <remove-project name="device/google/trout" />
-    <remove-project name="device/google_car" />
+    <remove-project name="device/google_car" /> -->
 
-    <!-- Development -->
-    <remove-project name="platform/development" />
+    <!-- Development
+    <remove-project name="platform/development" /> -->
 
     <!-- External -->
-    <remove-project name="platform/external/android-nn-driver" />
+    <!-- <remove-project name="platform/external/android-nn-driver" />
     <remove-project name="platform/external/armnn" />
-    <remove-project name="platform/external/avb" />
+    <remove-project name="platform/external/avb" /> -->
     <remove-project name="platform/external/chromium-webview" />
-    <remove-project name="platform/external/cldr" />
-    <remove-project name="platform/external/dtc" />
-    <remove-project name="platform/external/e2fsprogs" />
-    <remove-project name="platform/external/exfatprogs" />
-    <remove-project name="platform/external/gptfdisk" />
-    <remove-project name="platform/external/icu" />
-    <remove-project name="platform/external/libcxx" />
-    <remove-project name="platform/external/libvpx" />
-    <remove-project name="platform/external/libxml2" />
+    <!-- <remove-project name="platform/external/cldr" /> -->
+    <!-- <remove-project name="platform/external/dtc" /> -->
+    <!-- <remove-project name="platform/external/e2fsprogs" /> -->
+    <!-- <remove-project name="platform/external/exfatprogs" /> -->
+    <!-- <remove-project name="platform/external/gptfdisk" /> -->
+    <!-- <remove-project name="platform/external/icu" /> -->
+    <!-- <remove-project name="platform/external/libcxx" /> -->
+    <!-- <remove-project name="platform/external/libvpx" /> -->
+    <!-- <remove-project name="platform/external/libxml2" /> -->
     <remove-project name="platform/external/mksh" />
-    <remove-project name="platform/external/setupcompat" />
-    <remove-project name="platform/external/tinycompress" />
-    <remove-project name="platform/external/webp" />
-    <remove-project name="platform/external/wpa_supplicant_8" />
-    <remove-project name="platform/external/zstd" />
+    <!-- <remove-project name="platform/external/setupcompat" /> -->
+    <!-- <remove-project name="platform/external/tinycompress" /> -->
+    <!-- <remove-project name="platform/external/webp" /> -->
+    <!-- <remove-project name="platform/external/wpa_supplicant_8" /> -->
+    <!-- <remove-project name="platform/external/zstd" /> -->
 
     <!-- Frameworks -->
     <remove-project name="platform/frameworks/av" />
     <remove-project name="platform/frameworks/base" />
-    <remove-project name="platform/frameworks/libs/net" />
-    <remove-project name="platform/frameworks/libs/systemui" />
+    <!-- <remove-project name="platform/frameworks/libs/net" />
+    <remove-project name="platform/frameworks/libs/systemui" /> -->
     <remove-project name="platform/frameworks/native" />
-    <remove-project name="platform/frameworks/opt/colorpicker" />
+    <!-- <remove-project name="platform/frameworks/opt/colorpicker" />
     <remove-project name="platform/frameworks/opt/telephony" />
-    <remove-project name="platform/frameworks/opt/timezonepicker" />
+    <remove-project name="platform/frameworks/opt/timezonepicker" /> -->
 
     <!-- Hardware -->
-    <remove-project name="platform/hardware/broadcom/libbt" />
+    <!-- <remove-project name="platform/hardware/broadcom/libbt" />
     <remove-project name="platform/hardware/google/gchips" />
     <remove-project name="platform/hardware/google/graphics/common" />
     <remove-project name="platform/hardware/google/pixel" />
     <remove-project name="platform/hardware/google/pixel-sepolicy" />
     <remove-project name="platform/hardware/interfaces" />
     <remove-project name="platform/hardware/libhardware" />
-    <remove-project name="platform/hardware/libhardware_legacy" />
+    <remove-project name="platform/hardware/libhardware_legacy" /> -->
     <remove-project name="platform/hardware/qcom/audio" />
     <remove-project name="platform/hardware/qcom/camera" />
     <remove-project name="platform/hardware/qcom/display" />
     <remove-project name="platform/hardware/qcom/data/ipacfg-mgr" />
     <remove-project name="platform/hardware/qcom/gps" />
     <remove-project name="platform/hardware/qcom/media" />
-    <remove-project name="platform/hardware/qcom/sdm845/display" />
-    <remove-project name="platform/hardware/qcom/sdm845/gps" />
-    <remove-project name="platform/hardware/qcom/sdm845/media" />
     <remove-project name="platform/hardware/qcom/sm7150/gps" />
     <remove-project name="platform/hardware/qcom/sm7250/display" />
     <remove-project name="platform/hardware/qcom/sm7250/gps" />
@@ -103,62 +100,62 @@
     <remove-project name="platform/hardware/qcom/sm8150/media" />
     <remove-project name="platform/hardware/qcom/sm8150p/gps" />
     <remove-project name="platform/hardware/qcom/wlan" />
-    <remove-project name="platform/hardware/ril" />
+    <!-- <remove-project name="platform/hardware/ril" /> -->
 
     <!-- Kernel -->
-    <remove-project name="kernel/configs" />
+    <!-- <remove-project name="kernel/configs" /> -->
 
     <!-- Libs -->
-    <remove-project name="platform/libcore" />
+    <!-- <remove-project name="platform/libcore" /> -->
 
     <!-- Packages -->
-    <remove-project name="platform/packages/apps/Car/Settings" />
-    <remove-project name="platform/packages/apps/Calendar" />
-    <remove-project name="platform/packages/apps/Contacts" />
+    <!-- <remove-project name="platform/packages/apps/Car/Settings" /> -->
+    <!-- <remove-project name="platform/packages/apps/Calendar" /> -->
+    <!-- <remove-project name="platform/packages/apps/Contacts" /> -->
     <remove-project name="platform/packages/apps/DeskClock" />
-    <remove-project name="platform/packages/apps/DocumentsUI" />
-    <remove-project name="platform/packages/apps/Dialer" />
+    <!-- <remove-project name="platform/packages/apps/DocumentsUI" /> -->
+    <!-- <remove-project name="platform/packages/apps/Dialer" /> -->
     <remove-project name="platform/packages/apps/Gallery2" />
-    <remove-project name="platform/packages/apps/Launcher3" />
-    <remove-project name="platform/packages/apps/Nfc" />
-    <remove-project name="platform/packages/apps/ManagedProvisioning" />
-    <remove-project name="platform/packages/apps/Messaging" />
-    <remove-project name="platform/packages/apps/Music" />
-    <remove-project name="platform/packages/apps/MusicFX" />
-    <remove-project name="platform/packages/apps/QuickSearchBox" />
-    <remove-project name="platform/packages/apps/Settings" />
-    <remove-project name="platform/packages/apps/SettingsIntelligence" />
-    <remove-project name="platform/packages/apps/Stk" />
-    <remove-project name="platform/packages/apps/ThemePicker" />
-    <remove-project name="platform/packages/apps/TvSettings" />
-    <remove-project name="platform/packages/apps/WallpaperPicker2" />
-    <remove-project name="platform/packages/inputmethods/LatinIME" />
-    <remove-project name="platform/packages/modules/adb" />
-    <remove-project name="platform/packages/modules/Bluetooth" />
-    <remove-project name="platform/packages/modules/common" />
-    <remove-project name="platform/packages/modules/Connectivity" />
-    <remove-project name="platform/packages/modules/NeuralNetworks" />
-    <remove-project name="platform/packages/modules/Permission" />
-    <remove-project name="platform/packages/modules/Virtualization" />
-    <remove-project name="platform/packages/modules/Wifi" />
-    <remove-project name="platform/packages/providers/BlockedNumberProvider" />
-    <remove-project name="platform/packages/providers/BookmarkProvider" />
-    <remove-project name="platform/packages/providers/CalendarProvider" />
-    <remove-project name="platform/packages/providers/CallLogProvider" />
-    <remove-project name="platform/packages/providers/ContactsProvider" />
-    <remove-project name="platform/packages/providers/DownloadProvider" />
-    <remove-project name="platform/packages/providers/MediaProvider" />
-    <remove-project name="platform/packages/providers/TelephonyProvider" />
-    <remove-project name="platform/packages/services/AlternativeNetworkAccess" />
-    <remove-project name="platform/packages/services/Mms" />
-    <remove-project name="platform/packages/services/Telecomm" />
-    <remove-project name="platform/packages/services/Telephony" />
+    <!-- <remove-project name="platform/packages/apps/Launcher3" /> -->
+    <!-- <remove-project name="platform/packages/apps/Nfc" /> -->
+    <!-- <remove-project name="platform/packages/apps/ManagedProvisioning" /> -->
+    <!-- <remove-project name="platform/packages/apps/Messaging" /> -->
+    <!-- <remove-project name="platform/packages/apps/Music" /> -->
+    <!-- <remove-project name="platform/packages/apps/MusicFX" /> -->
+    <!-- <remove-project name="platform/packages/apps/QuickSearchBox" /> -->
+    <!-- <remove-project name="platform/packages/apps/Settings" /> -->
+    <!-- <remove-project name="platform/packages/apps/SettingsIntelligence" /> -->
+    <!-- <remove-project name="platform/packages/apps/Stk" /> -->
+    <!-- <remove-project name="platform/packages/apps/ThemePicker" /> -->
+    <!-- <remove-project name="platform/packages/apps/TvSettings" /> -->
+    <!-- <remove-project name="platform/packages/apps/WallpaperPicker2" /> -->
+    <!-- <remove-project name="platform/packages/inputmethods/LatinIME" /> -->
+    <!-- <remove-project name="platform/packages/modules/adb" /> -->
+    <!-- <remove-project name="platform/packages/modules/Bluetooth" /> -->
+    <!-- <remove-project name="platform/packages/modules/common" /> -->
+    <!-- <remove-project name="platform/packages/modules/Connectivity" /> -->
+    <!-- <remove-project name="platform/packages/modules/NeuralNetworks" /> -->
+    <!-- <remove-project name="platform/packages/modules/Permission" /> -->
+    <!-- <remove-project name="platform/packages/modules/Virtualization" /> -->
+    <!-- <remove-project name="platform/packages/modules/Wifi" /> -->
+    <!-- <remove-project name="platform/packages/providers/BlockedNumberProvider" /> -->
+    <!-- <remove-project name="platform/packages/providers/BookmarkProvider" /> -->
+    <!-- <remove-project name="platform/packages/providers/CalendarProvider" /> -->
+    <!-- <remove-project name="platform/packages/providers/CallLogProvider" /> -->
+    <!-- <remove-project name="platform/packages/providers/ContactsProvider" /> -->
+    <!-- <remove-project name="platform/packages/providers/DownloadProvider" /> -->
+    <!-- <remove-project name="platform/packages/providers/MediaProvider" /> -->
+    <!-- <remove-project name="platform/packages/providers/TelephonyProvider" /> -->
+    <!-- <remove-project name="platform/packages/services/AlternativeNetworkAccess" /> -->
+    <!-- <remove-project name="platform/packages/services/Mms" /> -->
+    <!-- <remove-project name="platform/packages/services/Telecomm" /> -->
+    <!-- <remove-project name="platform/packages/services/Telephony" /> -->
 
     <!-- Prebuilts -->
-    <remove-project name="platform/prebuilts/build-tools" />
+    <!-- <remove-project name="platform/prebuilts/build-tools" /> -->
 
     <!-- System-->
-    <remove-project name="platform/system/apex" />
+    <!-- <remove-project name="platform/system/apex" />
     <remove-project name="platform/system/core" />
     <remove-project name="platform/system/extras" />
     <remove-project name="platform/system/keymaster" />
@@ -173,9 +170,6 @@
     <remove-project name="platform/system/timezone" />
     <remove-project name="platform/system/tools/mkbootimg" />
     <remove-project name="platform/system/update_engine" />
-    <remove-project name="platform/system/vold" />
-
-    <!-- Tools -->
-    <remove-project name="platform/tools/apksig" />
+    <remove-project name="platform/system/vold" /> -->
 
 </manifest>
