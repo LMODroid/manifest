@@ -14,7 +14,7 @@
 
     <!-- Device -->
     <remove-project name="device/generic/common" />
-    <remove-project name="device/google/atv" />
+    <!-- <remove-project name="device/google/atv" /> -->
     <!-- <remove-project name="device/google/barbet" />
     <remove-project name="device/google/barbet-sepolicy" />
     <remove-project name="device/google/bluejay" />
@@ -90,9 +90,6 @@
     <remove-project name="platform/hardware/qcom/data/ipacfg-mgr" />
     <remove-project name="platform/hardware/qcom/gps" />
     <remove-project name="platform/hardware/qcom/media" />
-    <remove-project name="platform/hardware/qcom/sdm845/display" />
-    <remove-project name="platform/hardware/qcom/sdm845/gps" />
-    <remove-project name="platform/hardware/qcom/sdm845/media" />
     <remove-project name="platform/hardware/qcom/sm7150/gps" />
     <remove-project name="platform/hardware/qcom/sm7250/display" />
     <remove-project name="platform/hardware/qcom/sm7250/gps" />
