@@ -71,7 +71,7 @@
     <project path="packages/apps/Messaging" name="LMODroid/platform_packages_apps_Messaging" remote="lmodroid" />
     <project path="packages/apps/Music" name="LMODroid/platform_packages_apps_Music" remote="lmodroid" />
     <project path="packages/apps/MusicFX" name="LMODroid/platform_packages_apps_MusicFX" remote="lmodroid" /> -->
-    <project path="packages/apps/OpenEUICC" name="LMODroid/platform_packages_apps_OpenEUICC" remote="lmodroid" />
+    <!-- <project path="packages/apps/OpenEUICC" name="LMODroid/platform_packages_apps_OpenEUICC" remote="lmodroid" /> -->
     <!-- <project path="packages/apps/ParallelSpace" name="LMODroid/platform_packages_apps_ParallelSpace" remote="lmodroid" />
     <project path="packages/apps/PdfViewer" name="LMODroid/platform_packages_apps_PdfViewer" remote="lmodroid" />
     <project path="packages/apps/QuickSearchBox" name="LMODroid/platform_packages_apps_QuickSearchBox" remote="lmodroid" /> -->
