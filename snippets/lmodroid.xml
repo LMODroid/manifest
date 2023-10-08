@@ -101,8 +101,8 @@
     <project path="prebuilts/lmodroid" name="LMODroid/platform_prebuilts_lmodroid" remote="lmodroid" /> -->
 
     <!-- System -->
-    <!-- <project path="system/core" name="LMODroid/platform_system_core" remote="lmodroid" />
-    <project path="system/netd" name="LMODroid/platform_system_netd" remote="lmodroid" /> -->
+    <project path="system/core" name="LMODroid/platform_system_core" remote="lmodroid" />
+    <!-- <project path="system/netd" name="LMODroid/platform_system_netd" remote="lmodroid" /> -->
 
     <!-- Tools -->
     <!-- <project path="tools/apksig" name="LMODroid/platform_tools_apksig" remote="lmodroid" /> -->
