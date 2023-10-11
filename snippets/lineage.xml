@@ -124,9 +124,6 @@
     <project path="development" name="android_development" groups="developers,pdk-cw-fs,pdk-fs" remote="lineage" /> -->
 
     <!-- External -->
-    <!-- <project path="external/android-nn-driver" name="android_external_android-nn-driver" groups="pdk-lassen" remote="lineage" /> -->
-    <!-- <project path="external/armnn" name="android_external_armnn" groups="pdk-lassen" remote="lineage" /> -->
-    <!-- <project path="external/avb" name="android_external_avb" groups="pdk" remote="lineage" /> -->
     <project path="external/bash" name="android_external_bash" remote="lineage" />
     <project path="external/chromium-webview/patches" name="android_external_chromium-webview_patches" groups="pdk" revision="main" remote="lineage" >
       <linkfile src="Android.mk" dest="external/chromium-webview/Android.mk" />
@@ -137,28 +134,14 @@
     <project path="external/chromium-webview/prebuilt/arm64" name="android_external_chromium-webview_prebuilt_arm64" groups="pdk" revision="main" remote="lineage" />
     <project path="external/chromium-webview/prebuilt/x86" name="android_external_chromium-webview_prebuilt_x86" groups="pdk" revision="main" remote="lineage" />
     <project path="external/chromium-webview/prebuilt/x86_64" name="android_external_chromium-webview_prebuilt_x86_64" groups="pdk" revision="main" remote="lineage" />
-    <!-- <project path="external/cldr" name="android_external_cldr" groups="pdk" remote="lineage" />
-    <project path="external/dtc" name="android_external_dtc" groups="pdk" remote="lineage" />
-    <project path="external/e2fsprogs" name="android_external_e2fsprogs" groups="pdk" remote="lineage" />
-    <project path="external/exfatprogs" name="android_external_exfatprogs" remote="lineage" />
-    <project path="external/gptfdisk" name="android_external_gptfdisk" groups="pdk" remote="lineage" /> -->
     <!-- <project path="external/htop" name="android_external_htop" remote="lineage" /> -->
-    <!-- <project path="external/icu" name="android_external_icu" groups="pdk" remote="lineage" />
-    <project path="external/libcxx" name="android_external_libcxx" groups="pdk" remote="lineage" /> -->
-    <project path="external/libncurses" name="android_external_libncurses" remote="lineage" />
-    <!-- <project path="external/libvpx" name="android_external_libvpx" groups="pdk" remote="lineage" /> -->
-    <project path="external/mksh" name="android_external_mksh" groups="pdk" remote="lineage" />
     <project path="external/nano" name="android_external_nano" remote="lineage" />
     <project path="external/ntfs-3g" name="android_external_ntfs-3g" remote="lineage" />
     <project path="external/openssh" name="android_external_openssh" groups="pdk" remote="lineage" />
     <!-- <project path="external/rsync" name="android_external_rsync" remote="lineage" /> -->
-    <!-- <project path="external/tinycompress" name="android_external_tinycompress" groups="pdk" remote="lineage" /> -->
     <project path="external/unrar" name="android_external_unrar" remote="lineage" />
     <project path="external/vim" name="android_external_vim" remote="lineage" />
-    <!-- <project path="external/webp" name="android_external_webp" groups="pdk,qcom_msm8x26" remote="lineage" />
-    <project path="external/wpa_supplicant_8" name="android_external_wpa_supplicant_8" groups="pdk" remote="lineage" />
-    <project path="external/setupcompat" name="android_external_setupcompat" groups="pdk" remote="lineage" />
-    <project path="external/zstd" name="android_external_zstd" groups="pdk" remote="lineage" /> -->
+
 
     <!-- Frameworks -->
     <!-- <project path="frameworks/opt/colorpicker" name="android_frameworks_opt_colorpicker" groups="pdk" remote="lineage" />
