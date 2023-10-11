@@ -34,11 +34,25 @@
     <project path="device/lmodroid/sepolicy" name="LMODroid/platform_device_lmodroid_sepolicy" remote="lmodroid" />
 
     <!-- External -->
-    <!-- <project path="external/libxml2" name="LMODroid/platform_external_libxml2" groups="pdk,libxml2" remote="lmodroid" />
-    <project path="external/svox" name="LMODroid/platform_external_svox" remote="lmodroid" />
-    <project path="external/tigervnc" name="LMODroid/platform_external_tigervnc" remote="lmodroid" />
+    <project path="external/android-nn-driver" name="LMODroid/platform_external_android-nn-driver" groups="pdk-lassen" remote="lmodroid" />
+    <project path="external/armnn" name="LMODroid/platform_external_armnn" groups="pdk-lassen" remote="lmodroid" />
+    <project path="external/avb" name="LMODroid/platform_external_avb" groups="pdk" remote="lmodroid" />
+    <project path="external/dtc" name="LMODroid/platform_external_dtc" groups="pdk" remote="lmodroid" />
+    <project path="external/e2fsprogs" name="LMODroid/platform_external_e2fsprogs" groups="pdk" remote="lmodroid" />
+    <project path="external/exfatprogs" name="LMODroid/platform_external_exfatprogs" remote="lmodroid" />
+    <project path="external/gptfdisk" name="LMODroid/platform_external_gptfdisk" groups="pdk" remote="lmodroid" />
+    <project path="external/libcxx" name="LMODroid/platform_external_libcxx" groups="pdk" remote="lmodroid" />
+    <project path="external/libvpx" name="LMODroid/platform_external_libvpx" groups="pdk" remote="lmodroid" />
+    <project path="external/mksh" name="LMODroid/platform_external_mksh" groups="pdk" remote="lmodroid" />
+    <project path="external/setupcompat" name="LMODroid/platform_external_setupcompat" groups="pdk" remote="lmodroid" />
+    <!-- <project path="external/svox" name="LMODroid/platform_external_svox" remote="lmodroid" /> -->
+    <!-- <project path="external/tigervnc" name="LMODroid/platform_external_tigervnc" remote="lmodroid" /> -->
+    <project path="external/tinycompress" name="LMODroid/platform_external_tinycompress" groups="pdk" remote="lmodroid" />
     <project path="external/tinyxml" name="platform/external/tinyxml" groups="pdk" remote="aosp" revision="refs/tags/android-11.0.0_r46" />
-    <project path="external/yifan" name="LMODroid/platform_external_yifan" remote="lmodroid" /> -->
+    <project path="external/webp" name="LMODroid/platform_external_webp" groups="pdk,qcom_msm8x26" remote="lmodroid" />
+    <project path="external/wpa_supplicant_8" name="LMODroid/platform_external_wpa_supplicant_8" groups="pdk" remote="lmodroid" />
+    <!-- <project path="external/yifan" name="LMODroid/platform_external_yifan" remote="lmodroid" /> -->
+    <project path="external/zstd" name="LMODroid/platform_external_zstd" groups="pdk" remote="lmodroid" />
 
     <!-- Frameworks -->
     <project path="frameworks/av" name="LMODroid/platform_frameworks_av" remote="lmodroid" />
