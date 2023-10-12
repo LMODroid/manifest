@@ -60,9 +60,12 @@
     <!-- Frameworks -->
     <project path="frameworks/av" name="LMODroid/platform_frameworks_av" remote="lmodroid" />
     <project path="frameworks/base" name="LMODroid/platform_frameworks_base" remote="lmodroid" />
-    <!-- <project path="frameworks/libs/net" name="LMODroid/platform_frameworks_libs_net" remote="lmodroid" />
-    <project path="frameworks/libs/systemui" name="LMODroid/platform_frameworks_libs_systemui" groups="pdk-cw-fs,pdk-fs" remote="lmodroid" /> -->
+    <project path="frameworks/libs/net" name="LMODroid/platform_frameworks_libs_net" remote="lmodroid" />
+    <project path="frameworks/libs/systemui" name="LMODroid/platform_frameworks_libs_systemui" groups="pdk-cw-fs,pdk-fs" remote="lmodroid" />
     <project path="frameworks/native" name="LMODroid/platform_frameworks_native" remote="lmodroid" />
+    <project path="frameworks/opt/colorpicker" name="LMODroid/platform_frameworks_opt_colorpicker" groups="pdk" remote="lmodroid" />
+    <project path="frameworks/opt/telephony" name="LMODroid/platform_frameworks_opt_telephony" groups="pdk" remote="lmodroid" />
+    <project path="frameworks/opt/timezonepicker" name="LMODroid/platform_frameworks_opt_timezonepicker" groups="pdk-cw-fs,pdk-fs" remote="lmodroid" />
 
     <!-- Manifest -->
     <project path="manifest" name="LMODroid/manifest" remote="lmodroid" />
