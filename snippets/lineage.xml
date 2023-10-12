@@ -171,9 +171,6 @@
     <project path="hardware/qcom/sm8150/media" name="android_hardware_qcom_sm8150_media" groups="qcom,qcom_sm8150" remote="lineage" />
     <project path="hardware/qcom/wlan" name="android_hardware_qcom_wlan" groups="qcom,qcom_wlan,pdk-qcom" remote="lineage" />
 
-    <!-- Libs -->
-    <!-- <project path="libcore" name="android_libcore" groups="pdk" remote="lineage" /> -->
-
     <!-- NXP additions -->
     <!-- <project path="vendor/nxp/nfc" name="android_vendor_nxp_nfc" remote="lineage" />
     <project path="vendor/nxp/secure_element" name="android_vendor_nxp_secure_element" remote="lineage" />

@@ -77,6 +77,9 @@
     <!-- Kernel -->
     <project path="kernel/configs" name="LMODroid/platform_kernel_configs" groups="vts,pdk" remote="lmodroid" />
 
+    <!-- Libs -->
+    <project path="libcore" name="LMODroid/platform_libcore" groups="pdk" remote="lmodroid" />
+
     <!-- Manifest -->
     <project path="manifest" name="LMODroid/manifest" remote="lmodroid" />
 
