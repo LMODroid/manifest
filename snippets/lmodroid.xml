@@ -151,9 +151,6 @@
     <project path="system/core" name="LMODroid/platform_system_core" remote="lmodroid" />
     <!-- <project path="system/netd" name="LMODroid/platform_system_netd" remote="lmodroid" /> -->
 
-    <!-- Tools -->
-    <!-- <project path="tools/apksig" name="LMODroid/platform_tools_apksig" remote="lmodroid" /> -->
-
     <!-- Vendor -->
     <project path="vendor/lmodroid" name="LMODroid/platform_vendor_lmodroid" remote="lmodroid" />
     <project path="vendor/support" name="LMODroid/platform_vendor_support" remote="lmodroid" />

@@ -165,7 +165,4 @@
     <!-- <remove-project name="platform/system/update_engine" /> -->
     <!-- <remove-project name="platform/system/vold" /> -->
 
-    <!-- Tools -->
-    <!-- <remove-project name="platform/tools/apksig" /> -->
-
 </manifest>
