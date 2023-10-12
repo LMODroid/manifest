@@ -73,14 +73,14 @@
     <remove-project name="platform/frameworks/opt/timezonepicker" />
 
     <!-- Hardware -->
-    <!-- <remove-project name="platform/hardware/broadcom/libbt" />
-    <remove-project name="platform/hardware/google/gchips" />
+    <remove-project name="platform/hardware/broadcom/libbt" />
+    <!-- <remove-project name="platform/hardware/google/gchips" />
     <remove-project name="platform/hardware/google/graphics/common" />
     <remove-project name="platform/hardware/google/pixel" />
-    <remove-project name="platform/hardware/google/pixel-sepolicy" />
+    <remove-project name="platform/hardware/google/pixel-sepolicy" /> -->
     <remove-project name="platform/hardware/interfaces" />
     <remove-project name="platform/hardware/libhardware" />
-    <remove-project name="platform/hardware/libhardware_legacy" /> -->
+    <remove-project name="platform/hardware/libhardware_legacy" />
     <remove-project name="platform/hardware/qcom/audio" />
     <remove-project name="platform/hardware/qcom/camera" />
     <remove-project name="platform/hardware/qcom/display" />
@@ -97,7 +97,7 @@
     <remove-project name="platform/hardware/qcom/sm8150/media" />
     <remove-project name="platform/hardware/qcom/sm8150p/gps" />
     <remove-project name="platform/hardware/qcom/wlan" />
-    <!-- <remove-project name="platform/hardware/ril" /> -->
+    <remove-project name="platform/hardware/ril" />
 
     <!-- Kernel -->
     <!-- <remove-project name="kernel/configs" /> -->
