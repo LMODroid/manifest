@@ -174,9 +174,6 @@
     <!-- Libs -->
     <!-- <project path="libcore" name="android_libcore" groups="pdk" remote="lineage" /> -->
 
-    <!-- Kernel -->
-    <!-- <project path="kernel/configs" name="android_kernel_configs" groups="vts,pdk" remote="lineage" /> -->
-
     <!-- NXP additions -->
     <!-- <project path="vendor/nxp/nfc" name="android_vendor_nxp_nfc" remote="lineage" />
     <project path="vendor/nxp/secure_element" name="android_vendor_nxp_secure_element" remote="lineage" />
