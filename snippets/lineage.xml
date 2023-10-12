@@ -182,20 +182,4 @@
     <project path="tools/extract-utils" name="android_tools_extract-utils" remote="lineage" />
     <project path="prebuilts/extract-tools" name="android_prebuilts_extract-tools" remote="lineage" />
 
-    <!-- System -->
-    <!-- <project path="system/apex" name="android_system_apex" groups="pdk" remote="lineage" />
-    <project path="system/extras" name="android_system_extras" groups="pdk" remote="lineage" />
-    <project path="system/keymaster" name="android_system_keymaster" groups="pdk" remote="lineage" />
-    <project path="system/libhidl" name="android_system_libhidl" groups="pdk" remote="lineage" />
-    <project path="system/libziparchive" name="android_system_libziparchive" groups="pdk" remote="lineage" />
-    <project path="system/logging" name="android_system_logging" groups="pdk" remote="lineage" />
-    <project path="system/media" name="android_system_media" groups="pdk" remote="lineage" />
-    <project path="system/memory/lmkd" name="android_system_memory_lmkd" groups="pdk" remote="lineage" />
-    <project path="system/security" name="android_system_security" groups="pdk" remote="lineage" />
-    <project path="system/sepolicy" name="android_system_sepolicy" groups="pdk" remote="lineage" />
-    <project path="system/timezone" name="android_system_timezone" groups="pdk" remote="lineage" />
-    <project path="system/tools/mkbootimg" name="android_system_tools_mkbootimg" groups="pdk" remote="lineage" />
-    <project path="system/update_engine" name="android_system_update_engine" groups="pdk" remote="lineage" />
-    <project path="system/vold" name="android_system_vold" groups="pdk" remote="lineage" /> -->
-
 </manifest>
