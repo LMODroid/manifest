@@ -100,7 +100,7 @@
     <remove-project name="platform/hardware/ril" />
 
     <!-- Kernel -->
-    <!-- <remove-project name="kernel/configs" /> -->
+    <remove-project name="kernel/configs" />
 
     <!-- Libs -->
     <!-- <remove-project name="platform/libcore" /> -->

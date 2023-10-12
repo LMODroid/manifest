@@ -71,6 +71,9 @@
     <project path="hardware/libhardware_legacy" name="LMODroid/platform_hardware_libhardware_legacy" groups="pdk" remote="lmodroid" />
     <project path="hardware/ril" name="LMODroid/platform_hardware_ril" groups="pdk" remote="lmodroid" />
 
+    <!-- Kernel -->
+    <project path="kernel/configs" name="LMODroid/platform_kernel_configs" groups="vts,pdk" remote="lmodroid" />
+
     <!-- Manifest -->
     <project path="manifest" name="LMODroid/manifest" remote="lmodroid" />
 
