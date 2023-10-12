@@ -41,8 +41,8 @@
     <remove-project name="device/google/trout" />
     <remove-project name="device/google_car" /> -->
 
-    <!-- Development
-    <remove-project name="platform/development" /> -->
+    <!-- Development -->
+    <remove-project name="platform/development" />
 
     <!-- External -->
     <remove-project name="platform/external/android-nn-driver" />
