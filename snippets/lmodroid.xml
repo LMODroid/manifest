@@ -33,6 +33,9 @@
     <!-- <project path="device/lmodroid/atv" name="LMODroid-Devices/device_lmodroid_atv" remote="lmodroid" /> -->
     <project path="device/lmodroid/sepolicy" name="LMODroid/platform_device_lmodroid_sepolicy" remote="lmodroid" />
 
+    <!-- Development -->
+    <project path="development" name="LMODroid/platform_development" remote="lmodroid" />
+
     <!-- External -->
     <project path="external/android-nn-driver" name="LMODroid/platform_external_android-nn-driver" groups="pdk-lassen" remote="lmodroid" />
     <project path="external/armnn" name="LMODroid/platform_external_armnn" groups="pdk-lassen" remote="lmodroid" />
