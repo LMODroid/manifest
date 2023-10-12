@@ -120,9 +120,6 @@
     <!-- <project path="device/google/contexthub" name="android_device_google_contexthub" groups="device,pdk" remote="lineage" /> -->
     <project path="device/lineage/sepolicy" name="android_device_lineage_sepolicy" remote="lineage" />
 
-    <!-- Development
-    <project path="development" name="android_development" groups="developers,pdk-cw-fs,pdk-fs" remote="lineage" /> -->
-
     <!-- External -->
     <project path="external/bash" name="android_external_bash" remote="lineage" />
     <project path="external/chromium-webview/patches" name="android_external_chromium-webview_patches" groups="pdk" revision="main" remote="lineage" >
