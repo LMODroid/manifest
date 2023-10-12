@@ -149,8 +149,22 @@
     <!-- <project path="prebuilts/lmodroid" name="LMODroid/platform_prebuilts_lmodroid" remote="lmodroid" /> -->
 
     <!-- System -->
+    <project path="system/apex" name="LMODroid/platform_system_apex" groups="pdk" remote="lmodroid"/>
     <project path="system/core" name="LMODroid/platform_system_core" remote="lmodroid" />
-    <!-- <project path="system/netd" name="LMODroid/platform_system_netd" remote="lmodroid" /> -->
+    <project path="system/extras" name="LMODroid/platform_system_extras" groups="pdk" remote="lmodroid"/>
+    <project path="system/keymaster" name="LMODroid/platform_system_keymaster" groups="pdk" remote="lmodroid"/>
+    <project path="system/libhidl" name="LMODroid/platform_system_libhidl" groups="pdk" remote="lmodroid"/>
+    <project path="system/libziparchive" name="LMODroid/platform_system_libziparchive" groups="pdk" remote="lmodroid"/>
+    <project path="system/logging" name="LMODroid/platform_system_logging" groups="pdk" remote="lmodroid"/>
+    <project path="system/media" name="LMODroid/platform_system_media" groups="pdk" remote="lmodroid"/>
+    <project path="system/memory/lmkd" name="LMODroid/platform_system_memory_lmkd" groups="pdk" remote="lmodroid"/>
+    <project path="system/netd" name="LMODroid/platform_system_netd" remote="lmodroid" />
+    <project path="system/security" name="LMODroid/platform_system_security" groups="pdk" remote="lmodroid"/>
+    <project path="system/sepolicy" name="LMODroid/platform_system_sepolicy" groups="pdk" remote="lmodroid"/>
+    <project path="system/timezone" name="LMODroid/platform_system_timezone" groups="pdk" remote="lmodroid"/>
+    <project path="system/tools/mkbootimg" name="LMODroid/platform_system_tools_mkbootimg" groups="pdk" remote="lmodroid"/>
+    <project path="system/update_engine" name="LMODroid/platform_system_update_engine" groups="pdk" remote="lmodroid"/>
+    <project path="system/vold" name="LMODroid/platform_system_vold" groups="pdk" remote="lmodroid"/>
 
     <!-- Vendor -->
     <project path="vendor/lmodroid" name="LMODroid/platform_vendor_lmodroid" remote="lmodroid" />
