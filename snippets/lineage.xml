@@ -132,13 +132,13 @@
     <!-- <project path="external/vim" name="android_external_vim" remote="lineage" /> -->
 
     <!-- Hardware -->
-    <!-- <project path="hardware/google/gchips" name="android_hardware_google_gchips" groups="pdk-lassen" remote="lineage" />
-    <project path="hardware/google/graphics/common" name="android_hardware_google_graphics_common" groups="pdk-lassen" remote="lineage" />
-    <project path="hardware/google/pixel" name="android_hardware_google_pixel" groups="generic_fs,pixel" remote="lineage" />
-    <project path="hardware/google/pixel-sepolicy" name="android_hardware_google_pixel-sepolicy" groups="generic_fs,pixel" remote="lineage" />
+    <!-- <project path="hardware/google/gchips" name="android_hardware_google_gchips" groups="pdk-lassen" remote="lineage" /> -->
+    <!-- <project path="hardware/google/graphics/common" name="android_hardware_google_graphics_common" groups="pdk-lassen" remote="lineage" /> -->
+    <!-- <project path="hardware/google/pixel" name="android_hardware_google_pixel" groups="generic_fs,pixel" remote="lineage" /> -->
+    <!-- <project path="hardware/google/pixel-sepolicy" name="android_hardware_google_pixel-sepolicy" groups="generic_fs,pixel" remote="lineage" /> -->
     <project path="hardware/lineage/compat" name="android_hardware_lineage_compat" remote="lineage" />
-    <project path="hardware/lineage/interfaces" name="android_hardware_lineage_interfaces" remote="lineage" />
-    <project path="hardware/lineage/livedisplay" name="android_hardware_lineage_livedisplay" remote="lineage" /> -->
+    <!-- <project path="hardware/lineage/interfaces" name="android_hardware_lineage_interfaces" remote="lineage" /> -->
+    <!-- <project path="hardware/lineage/livedisplay" name="android_hardware_lineage_livedisplay" remote="lineage" /> -->
     <project path="hardware/qcom/audio" name="android_hardware_qcom_audio" groups="qcom,qcom_audio,pdk-qcom" remote="lineage" />
     <project path="hardware/qcom/camera" name="android_hardware_qcom_camera" groups="qcom,qcom_camera,pdk-qcom" remote="lineage" />
     <project path="hardware/qcom/display" name="android_hardware_qcom_display" groups="pdk-qcom,qcom,qcom_display" remote="lineage" />
