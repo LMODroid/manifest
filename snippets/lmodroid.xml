@@ -89,9 +89,12 @@
     <project path="packages/modules/adb" name="LMODroid/platform_packages_modules_adb" remote="lmodroid" />
     <project path="packages/modules/Bluetooth" name="LMODroid/platform_packages_modules_Bluetooth" remote="lmodroid" />
     <project path="packages/modules/Connectivity" name="LMODroid/platform_packages_modules_Connectivity" remote="lmodroid" />
+    <project path="packages/modules/DnsResolver" name="LMODroid/platform_packages_modules_DnsResolver" remote="lmodroid" />
+    <project path="packages/modules/StatsD" name="LMODroid/platform_packages_modules_StatsD" remote="lmodroid" />
     <project path="packages/modules/Wifi" name="LMODroid/platform_packages_modules_Wifi" remote="lmodroid" />
     <project path="packages/overlays/LMODroid" name="LMODroid/platform_packages_overlays_LMODroid" remote="lmodroid" />
     <project path="packages/providers/MediaProvider" name="LMODroid/platform_packages_providers_MediaProvider" remote="lmodroid" />
+    <project path="packages/providers/TelephonyProvider" name="LMODroid/platform_packages_providers_TelephonyProvider" remote="lmodroid" />
     <project path="packages/resources/devicesettings" name="LMODroid/platform_packages_resources_devicesettings" remote="lmodroid" />
     <project path="packages/services/AlternativeNetworkAccess" name="LMODroid/platform_packages_services_AlternativeNetworkAccess" remote="lmodroid" />
     <project path="packages/services/Telecomm" name="LMODroid/platform_packages_services_Telecomm" remote="lmodroid" />
@@ -102,6 +105,7 @@
     <project path="prebuilts/lmodroid" name="LMODroid/platform_prebuilts_lmodroid" remote="lmodroid" />
 
     <!-- System -->
+    <project path="system/ca-certificates" name="LMODroid/platform_system_ca-certificates" remote="lmodroid" />
     <project path="system/core" name="LMODroid/platform_system_core" remote="lmodroid" />
     <project path="system/netd" name="LMODroid/platform_system_netd" remote="lmodroid" />
 
