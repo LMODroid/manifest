@@ -40,7 +40,6 @@
     <project path="external/android-nn-driver" name="LMODroid/platform_external_android-nn-driver" groups="pdk-lassen" remote="lmodroid" />
     <project path="external/armnn" name="LMODroid/platform_external_armnn" groups="pdk-lassen" remote="lmodroid" />
     <project path="external/avb" name="LMODroid/platform_external_avb" groups="pdk" remote="lmodroid" />
-    <project path="external/cldr" name="LMODroid/platform_external_cldr" groups="pdk" remote="lmodroid" />
     <project path="external/dtc" name="LMODroid/platform_external_dtc" groups="pdk" remote="lmodroid" />
     <project path="external/e2fsprogs" name="LMODroid/platform_external_e2fsprogs" groups="pdk" remote="lmodroid" />
     <project path="external/exfatprogs" name="LMODroid/platform_external_exfatprogs" remote="lmodroid" />
@@ -49,7 +48,6 @@
     <project path="external/libncurses" name="LMODroid/platform_external_libncurses" remote="lmodroid" />
     <project path="external/libnl" name="LMODroid/platform_external_libnl" groups="pdk" remote="lmodroid" />
     <project path="external/libvpx" name="LMODroid/platform_external_libvpx" groups="pdk" remote="lmodroid" />
-    <project path="external/libxml2" name="LMODroid/platform_external_libxml2" groups="pdk,libxml2" remote="lmodroid" />
     <project path="external/mksh" name="LMODroid/platform_external_mksh" groups="pdk" remote="lmodroid" />
     <project path="external/setupcompat" name="LMODroid/platform_external_setupcompat" groups="pdk" remote="lmodroid" />
     <!-- <project path="external/svox" name="LMODroid/platform_external_svox" remote="lmodroid" /> -->
@@ -150,7 +148,6 @@
     <!-- <project path="prebuilts/lmodroid" name="LMODroid/platform_prebuilts_lmodroid" remote="lmodroid" /> -->
 
     <!-- System -->
-    <project path="system/apex" name="LMODroid/platform_system_apex" groups="pdk" remote="lmodroid"/>
     <project path="system/core" name="LMODroid/platform_system_core" remote="lmodroid" />
     <project path="system/extras" name="LMODroid/platform_system_extras" groups="pdk" remote="lmodroid"/>
     <project path="system/keymaster" name="LMODroid/platform_system_keymaster" groups="pdk" remote="lmodroid"/>
@@ -158,7 +155,6 @@
     <project path="system/libziparchive" name="LMODroid/platform_system_libziparchive" groups="pdk" remote="lmodroid"/>
     <project path="system/logging" name="LMODroid/platform_system_logging" groups="pdk" remote="lmodroid"/>
     <project path="system/media" name="LMODroid/platform_system_media" groups="pdk" remote="lmodroid"/>
-    <project path="system/memory/lmkd" name="LMODroid/platform_system_memory_lmkd" groups="pdk" remote="lmodroid"/>
     <project path="system/netd" name="LMODroid/platform_system_netd" remote="lmodroid" />
     <project path="system/security" name="LMODroid/platform_system_security" groups="pdk" remote="lmodroid"/>
     <project path="system/sepolicy" name="LMODroid/platform_system_sepolicy" groups="pdk" remote="lmodroid"/>

@@ -49,7 +49,6 @@
     <remove-project name="platform/external/armnn" />
     <remove-project name="platform/external/avb" />
     <remove-project name="platform/external/chromium-webview" />
-    <remove-project name="platform/external/cldr" />
     <remove-project name="platform/external/dtc" />
     <remove-project name="platform/external/e2fsprogs" />
     <remove-project name="platform/external/exfatprogs" />
@@ -57,7 +56,6 @@
     <remove-project name="platform/external/libcxx" />
     <remove-project name="platform/external/libnl" />
     <remove-project name="platform/external/libvpx" />
-    <remove-project name="platform/external/libxml2" />
     <remove-project name="platform/external/mksh" />
     <remove-project name="platform/external/setupcompat" />
     <remove-project name="platform/external/tinycompress" />
@@ -149,7 +147,6 @@
     <remove-project name="platform/prebuilts/build-tools" />
 
     <!-- System-->
-    <remove-project name="platform/system/apex" />
     <remove-project name="platform/system/core" />
     <remove-project name="platform/system/extras" />
     <remove-project name="platform/system/keymaster" />
@@ -157,7 +154,6 @@
     <remove-project name="platform/system/libziparchive" />
     <remove-project name="platform/system/logging" />
     <remove-project name="platform/system/media" />
-    <remove-project name="platform/system/memory/lmkd" />
     <remove-project name="platform/system/netd" />
     <remove-project name="platform/system/security" />
     <remove-project name="platform/system/sepolicy" />
