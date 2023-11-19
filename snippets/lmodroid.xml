@@ -2,9 +2,23 @@
 <manifest>
 
     <remote name="lmodroid"
-        fetch="https://git.libremobileos.com"
-        revision="thirteen"
-        review="gerrit.libremobileos.com" />
+            fetch="https://git.libremobileos.com"
+            revision="thirteen"
+            review="gerrit.libremobileos.com" />
+
+    <remote name="divested"
+            fetch="https://gitlab.com/divested-mobile"
+            revision="master"
+            sync-c="true"
+            sync-j="4" />
+
+    <!-- Switch to the Mulch WebView  -->
+	<remove-project name="android_external_chromium-webview_patches" />
+	<remove-project name="android_external_chromium-webview_prebuilt_arm" />
+	<remove-project name="android_external_chromium-webview_prebuilt_arm64" />
+	<remove-project name="android_external_chromium-webview_prebuilt_x86" />
+	<remove-project name="android_external_chromium-webview_prebuilt_x86_64" />
+	<project path="external/chromium-webview" name="mulch" groups="pdk" clone-depth="1" remote="divested" />
 
     <!-- Bootable -->
     <project path="bootable/recovery" name="LMODroid/platform_bootable_recovery" remote="lmodroid" />
