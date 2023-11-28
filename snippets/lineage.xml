@@ -164,6 +164,19 @@
     <project path="hardware/qcom/sm8150/media" name="android_hardware_qcom_sm8150_media" groups="qcom,qcom_sm8150" remote="lineage" />
     <project path="hardware/qcom/wlan" name="android_hardware_qcom_wlan" groups="qcom,qcom_wlan,pdk-qcom" remote="lineage" />
 
+    <!-- Legacy AOSP additions -->
+    <project path="external/tinyxml" name="platform/external/tinyxml" groups="pdk" remote="aosp" revision="refs/tags/android-11.0.0_r46" />
+    <project path="hardware/qcom/sdm845/bt" name="platform/hardware/qcom/sdm845/bt" groups="generic_fs,qcom,qcom_sdm845" remote="aosp" revision="refs/tags/android-13.0.0_r75" />
+    <project path="hardware/qcom/sdm845/data/ipacfg-mgr" name="android_hardware_qcom_sdm845_data_ipacfg-mgr" groups="generic_fs,vendor,qcom,qcom_sdm845" remote="lineage" >
+        <linkfile src="os_pickup.mk" dest="hardware/qcom/sdm845/Android.mk" />
+        <linkfile src="os_pickup.bp" dest="hardware/qcom/sdm845/Android.bp" />
+    </project>
+    <project path="hardware/qcom/sdm845/display" name="android_hardware_qcom_sdm845_display" groups="generic_fs,qcom,qcom_sdm845" remote="lineage" />
+    <project path="hardware/qcom/sdm845/gps" name="android_hardware_qcom_sdm845_gps" groups="generic_fs,qcom,qcom_sdm845" remote="lineage" />
+    <project path="hardware/qcom/sdm845/media" name="android_hardware_qcom_sdm845_media" groups="generic_fs,qcom,qcom_sdm845" remote="lineage" />
+    <project path="hardware/qcom/sdm845/thermal" name="platform/hardware/qcom/sdm845/thermal" groups="generic_fs,qcom,qcom_sdm845" remote="aosp" revision="refs/tags/android-13.0.0_r75" />
+    <project path="hardware/qcom/sdm845/vr" name="platform/hardware/qcom/sdm845/vr" groups="generic_fs,qcom,qcom_sdm845" remote="aosp" revision="refs/tags/android-13.0.0_r75" />
+
     <!-- NXP additions -->
     <!-- <project path="vendor/nxp/nfc" name="android_vendor_nxp_nfc" remote="lineage" />
     <project path="vendor/nxp/secure_element" name="android_vendor_nxp_secure_element" remote="lineage" />
