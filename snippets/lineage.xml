@@ -112,8 +112,8 @@
     <project path="vendor/qcom/opensource/vibrator" name="android_vendor_qcom_opensource_vibrator" groups="qcom,waipio-vendor" remote="lineage" />
 
     <!-- Device -->
-    <!-- <project path="device/google/atv" name="android_device_google_atv" groups="device,broadcom_pdk,generic_fs,pdk" remote="lineage" /> -->
-    <!-- <project path="device/google/contexthub" name="android_device_google_contexthub" groups="device,pdk" remote="lineage" /> -->
+    <project path="device/google/atv" name="android_device_google_atv" groups="device,broadcom_pdk,generic_fs,pdk" remote="lineage" />
+    <project path="device/google/contexthub" name="android_device_google_contexthub" groups="device,pdk" remote="lineage" />
     <project path="device/lineage/sepolicy" name="android_device_lineage_sepolicy" remote="lineage" />
 
     <!-- External -->
@@ -137,10 +137,10 @@
     <project path="external/vim" name="android_external_vim" remote="lineage" />
 
     <!-- Hardware -->
-    <!-- <project path="hardware/google/gchips" name="android_hardware_google_gchips" groups="pdk-lassen" remote="lineage" /> -->
-    <!-- <project path="hardware/google/graphics/common" name="android_hardware_google_graphics_common" groups="pdk-lassen" remote="lineage" /> -->
-    <!-- <project path="hardware/google/pixel" name="android_hardware_google_pixel" groups="generic_fs,pixel" remote="lineage" /> -->
-    <!-- <project path="hardware/google/pixel-sepolicy" name="android_hardware_google_pixel-sepolicy" groups="generic_fs,pixel" remote="lineage" /> -->
+    <project path="hardware/google/gchips" name="android_hardware_google_gchips" groups="pdk-lassen" remote="lineage" />
+    <project path="hardware/google/graphics/common" name="android_hardware_google_graphics_common" groups="pdk-lassen" remote="lineage" />
+    <project path="hardware/google/pixel" name="android_hardware_google_pixel" groups="generic_fs,pixel" remote="lineage" />
+    <project path="hardware/google/pixel-sepolicy" name="android_hardware_google_pixel-sepolicy" groups="generic_fs,pixel" remote="lineage" />
     <project path="hardware/lineage/compat" name="android_hardware_lineage_compat" remote="lineage" />
     <project path="hardware/lineage/interfaces" name="android_hardware_lineage_interfaces" remote="lineage" />
     <project path="hardware/lineage/livedisplay" name="android_hardware_lineage_livedisplay" remote="lineage" />
