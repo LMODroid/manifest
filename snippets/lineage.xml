@@ -171,7 +171,7 @@
     <project path="vendor/nxp/secure_element_extns" name="android_vendor_nxp_secure_element_extns" remote="lineage" /> -->
 
     <!-- Packages -->
-    <!-- <project path="packages/apps/LineageCustomizer" name="android_packages_apps_LineageCustomizer" remote="lineage" /> -->
+    <project path="packages/apps/LineageCustomizer" name="android_packages_apps_LineageCustomizer" remote="lineage" />
     <project path="packages/apps/Seedvault" name="android_packages_apps_Seedvault" remote="lineage" revision="lineage-20.0" />
     <!-- <project path="packages/apps/SimpleDeviceConfig" name="android_packages_apps_SimpleDeviceConfig" remote="lineage" /> -->
 
