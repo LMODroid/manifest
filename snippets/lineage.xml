@@ -20,7 +20,7 @@
     <project path="external/ant-wireless/hidl" name="android_external_ant-wireless_hidl" groups="qcom,qssi" remote="lineage" />
     <project path="external/json-c" name="android_external_json-c" groups="qcom,qssi" remote="lineage" />
     <project path="hardware/qcom-caf/bootctrl" name="android_hardware_qcom_bootctrl" groups="qcom,lahaina" revision="lineage-21.0-caf" remote="lineage" />
-    <!-- <project path="hardware/qcom-caf/bt" name="android_hardware_qcom_bt" groups="qcom,legacy-qcom" revision="lineage-20.0-caf" remote="lineage" /> -->
+    <project path="hardware/qcom-caf/bt" name="android_hardware_qcom_bt" groups="qcom,legacy-qcom" revision="lineage-21.0-caf" remote="lineage" />
     <project path="hardware/qcom-caf/common" name="android_hardware_qcom-caf_common" groups="qcom" remote="lineage" >
         <!-- add guard for AOSP hardware/qcom dir -->
         <linkfile src="os_pickup_aosp.mk" dest="hardware/qcom/Android.mk" />
