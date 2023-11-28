@@ -18,9 +18,9 @@
     <project path="external/ant-wireless/ant_native" name="android_external_ant-wireless_ant_native" groups="qcom,sdm660" remote="lineage" />
     <project path="external/ant-wireless/ant_service" name="android_external_ant-wireless_ant_service" groups="qcom,sdm660" remote="lineage" />
     <project path="external/ant-wireless/hidl" name="android_external_ant-wireless_hidl" groups="qcom,qssi" remote="lineage" />
-    <project path="external/json-c" name="android_external_json-c" groups="qcom,qssi" remote="lineage" revision="lineage-20.0" />
+    <project path="external/json-c" name="android_external_json-c" groups="qcom,qssi" remote="lineage" />
     <project path="hardware/qcom-caf/bootctrl" name="android_hardware_qcom_bootctrl" groups="qcom,lahaina" revision="lineage-21.0-caf" remote="lineage" />
-    <project path="hardware/qcom-caf/common" name="android_hardware_qcom-caf_common" groups="qcom" remote="lineage" revision="lineage-20.0" >
+    <project path="hardware/qcom-caf/common" name="android_hardware_qcom-caf_common" groups="qcom" remote="lineage" >
         <!-- add guard for AOSP hardware/qcom dir -->
         <linkfile src="os_pickup_aosp.mk" dest="hardware/qcom/Android.mk" />
         <!-- add guards for CAF repositories -->
@@ -106,7 +106,7 @@
     <project path="vendor/qcom/opensource/interfaces" name="android_vendor_qcom_opensource_interfaces" groups="qcom,qssi" remote="lineage" />
     <project path="vendor/qcom/opensource/libfmjni" name="android_vendor_qcom_opensource_libfmjni" groups="qcom" remote="lineage" />
     <project path="vendor/qcom/opensource/power" name="android_vendor_qcom_opensource_power" groups="qcom,waipio-vendor" remote="lineage" />
-    <project path="vendor/qcom/opensource/thermal-engine" name="android_vendor_qcom_opensource_thermal-engine" groups="qcom,waipio-vendor" remote="lineage" revision="lineage-20.0" />
+    <project path="vendor/qcom/opensource/thermal-engine" name="android_vendor_qcom_opensource_thermal-engine" groups="qcom,waipio-vendor" remote="lineage" />
     <project path="vendor/qcom/opensource/usb" name="android_vendor_qcom_opensource_usb" groups="qcom,waipio-vendor" remote="lineage" />
     <project path="vendor/qcom/opensource/vibrator" name="android_vendor_qcom_opensource_vibrator" groups="qcom,waipio-vendor" remote="lineage" />
     <project path="vendor/qcom/opensource/wfd-commonsys" name="android_vendor_qcom_opensource_wfd-commonsys" groups="qcom,waipio-vendor" remote="lineage" />
@@ -185,7 +185,7 @@
 
     <!-- Packages -->
     <project path="packages/apps/LineageCustomizer" name="android_packages_apps_LineageCustomizer" remote="lineage" />
-    <project path="packages/apps/Seedvault" name="android_packages_apps_Seedvault" remote="lineage" revision="lineage-20.0" />
+    <project path="packages/apps/Seedvault" name="android_packages_apps_Seedvault" remote="lineage" />
     <!-- <project path="packages/apps/SimpleDeviceConfig" name="android_packages_apps_SimpleDeviceConfig" remote="lineage" /> -->
 
     <!-- Prebuilts -->
