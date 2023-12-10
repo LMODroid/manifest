@@ -37,8 +37,6 @@
     <project path="development" name="LMODroid/platform_development" remote="lmodroid" />
 
     <!-- External -->
-    <project path="external/android-nn-driver" name="LMODroid/platform_external_android-nn-driver" groups="pdk-lassen" remote="lmodroid" />
-    <project path="external/armnn" name="LMODroid/platform_external_armnn" groups="pdk-lassen" remote="lmodroid" />
     <project path="external/avb" name="LMODroid/platform_external_avb" groups="pdk" remote="lmodroid" />
     <project path="external/dtc" name="LMODroid/platform_external_dtc" groups="pdk" remote="lmodroid" />
     <project path="external/e2fsprogs" name="LMODroid/platform_external_e2fsprogs" groups="pdk" remote="lmodroid" />
@@ -143,7 +141,7 @@
 
     <!-- Prebuilts -->
     <project path="prebuilts/build-tools" name="LMODroid/platform_prebuilts_build-tools" groups="pdk" remote="lmodroid" clone-depth="1" />
-    <project path="prebuilts/kernel-build-tools" name="kernel/prebuilts/build-tools" clone-depth="1" remote="aosp" revision="refs/tags/android-14.0.0_r0.17" />
+    <project path="prebuilts/kernel-build-tools" name="kernel/prebuilts/build-tools" clone-depth="1" remote="aosp" revision="refs/tags/android-14.0.0_r0.25" />
     <project path="prebuilts/lmodroid" name="LMODroid/platform_prebuilts_lmodroid" remote="lmodroid" />
 
     <!-- System -->
