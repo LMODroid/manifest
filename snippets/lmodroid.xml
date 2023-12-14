@@ -48,7 +48,7 @@
     <project path="external/mksh" name="LMODroid/platform_external_mksh" groups="pdk" remote="lmodroid" />
     <project path="external/setupcompat" name="LMODroid/platform_external_setupcompat" groups="pdk" remote="lmodroid" />
     <project path="external/svox" name="LMODroid/platform_external_svox" remote="lmodroid" />
-    <!-- <project path="external/tigervnc" name="LMODroid/platform_external_tigervnc" remote="lmodroid" /> -->
+    <project path="external/tigervnc" name="LMODroid/platform_external_tigervnc" remote="lmodroid" />
     <project path="external/tinycompress" name="LMODroid/platform_external_tinycompress" groups="pdk" remote="lmodroid" />
     <project path="external/webp" name="LMODroid/platform_external_webp" groups="pdk,qcom_msm8x26" remote="lmodroid" />
     <project path="external/wpa_supplicant_8" name="LMODroid/platform_external_wpa_supplicant_8" groups="pdk" remote="lmodroid" />
@@ -88,7 +88,7 @@
     <project path="packages/apps/Car/Settings" name="LMODroid/platform_packages_apps_Car_Settings" remote="lmodroid" />
     <project path="packages/apps/Contacts" name="LMODroid/platform_packages_apps_Contacts" remote="lmodroid" />
     <project path="packages/apps/DeskClock" name="LMODroid/platform_packages_apps_DeskClock" remote="lmodroid" />
-    <!-- <project path="packages/apps/DesktopMode" name="LMODroid/platform_packages_apps_DesktopMode" remote="lmodroid" /> -->
+    <project path="packages/apps/DesktopMode" name="LMODroid/platform_packages_apps_DesktopMode" remote="lmodroid" />
     <project path="packages/apps/Dialer" name="LMODroid/platform_packages_apps_Dialer" remote="lmodroid" />
     <project path="packages/apps/DocumentsUI" name="LMODroid/platform_packages_apps_DocumentsUI" remote="lmodroid" />
     <project path="packages/apps/Etar" name="LMODroid/platform_packages_apps_Etar" remote="lmodroid" />
@@ -139,7 +139,7 @@
     <project path="packages/services/Mms" name="LMODroid/platform_packages_services_Mms" groups="pdk-cw-fs,pdk-fs" remote="lmodroid" />
     <project path="packages/services/Telecomm" name="LMODroid/platform_packages_services_Telecomm" remote="lmodroid" />
     <project path="packages/services/Telephony" name="LMODroid/platform_packages_services_Telephony" groups="pdk-cw-fs,pdk-fs" remote="lmodroid" />
-    <!-- <project path="packages/services/VncFlinger" name="LMODroid/platform_packages_services_VncFlinger" remote="lmodroid" /> -->
+    <project path="packages/services/VncFlinger" name="LMODroid/platform_packages_services_VncFlinger" remote="lmodroid" />
 
     <!-- Prebuilts -->
     <project path="prebuilts/build-tools" name="LMODroid/platform_prebuilts_build-tools" groups="pdk" remote="lmodroid" clone-depth="1" />
