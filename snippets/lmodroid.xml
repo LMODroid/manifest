@@ -117,7 +117,7 @@
     <!-- <project path="packages/apps/SetupWizard" name="LMODroid/platform_packages_apps_SetupWizard" remote="lmodroid" /> -->
     <project path="packages/apps/Stk" name="LMODroid/platform_packages_apps_Stk" groups="apps_stk,pdk-fs" remote="lmodroid" />
     <project path="packages/apps/ThemePicker" name="LMODroid/platform_packages_apps_ThemePicker" remote="lmodroid" />
-    <!-- <project path="packages/apps/TouchGestures" name="LMODroid/platform_packages_apps_TouchGestures" remote="lmodroid" /> -->
+    <project path="packages/apps/TouchGestures" name="LMODroid/platform_packages_apps_TouchGestures" remote="lmodroid" />
     <project path="packages/apps/TvSettings" name="LMODroid/platform_packages_apps_TvSettings" remote="lmodroid" />
     <!-- <project path="packages/apps/Updater" name="LMODroid/platform_packages_apps_Updater" remote="lmodroid" /> -->
     <project path="packages/apps/WallpaperPicker2" name="LMODroid/platform_packages_apps_WallpaperPicker2" remote="lmodroid" />
