@@ -139,7 +139,7 @@
     <project path="packages/services/Mms" name="LMODroid/platform_packages_services_Mms" groups="pdk-cw-fs,pdk-fs" remote="lmodroid" />
     <project path="packages/services/Telecomm" name="LMODroid/platform_packages_services_Telecomm" remote="lmodroid" />
     <project path="packages/services/Telephony" name="LMODroid/platform_packages_services_Telephony" groups="pdk-cw-fs,pdk-fs" remote="lmodroid" />
-    <!-- <project path="packages/services/VncFlinger" name="LMODroid/platform_packages_services_VncFlinger" remote="lmodroid" /> -->
+    <project path="packages/services/VncFlinger" name="LMODroid/platform_packages_services_VncFlinger" remote="lmodroid" />
 
     <!-- Prebuilts -->
     <project path="prebuilts/build-tools" name="LMODroid/platform_prebuilts_build-tools" groups="pdk" remote="lmodroid" clone-depth="1" />
