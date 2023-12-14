@@ -144,7 +144,7 @@
     <!-- Prebuilts -->
     <project path="prebuilts/build-tools" name="LMODroid/platform_prebuilts_build-tools" groups="pdk" remote="lmodroid" clone-depth="1" />
     <project path="prebuilts/kernel-build-tools" name="kernel/prebuilts/build-tools" clone-depth="1" remote="aosp" revision="refs/tags/android-14.0.0_r0.17" />
-    <!-- <project path="prebuilts/lmodroid" name="LMODroid/platform_prebuilts_lmodroid" remote="lmodroid" /> -->
+    <project path="prebuilts/lmodroid" name="LMODroid/platform_prebuilts_lmodroid" remote="lmodroid" />
 
     <!-- System -->
     <project path="system/core" name="LMODroid/platform_system_core" remote="lmodroid" />
