@@ -115,6 +115,9 @@
     <project path="vendor/qcom/opensource/vibrator" name="android_vendor_qcom_opensource_vibrator" groups="qcom,waipio-vendor" remote="lineage" />
     <project path="vendor/qcom/opensource/wfd-commonsys" name="android_vendor_qcom_opensource_wfd-commonsys" groups="qcom,waipio-vendor" remote="lineage" />
 
+    <!-- CTS -->
+    <project path="cts" name="android_cts" groups="cts,pdk-cw-fs,pdk-fs" remote="lineage" />
+
     <!-- Device -->
     <project path="device/google/atv" name="android_device_google_atv" groups="device,broadcom_pdk,generic_fs,pdk" remote="lineage" />
     <project path="device/google/contexthub" name="android_device_google_contexthub" groups="device,pdk" remote="lineage" />

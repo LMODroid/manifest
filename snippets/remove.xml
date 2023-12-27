@@ -12,6 +12,9 @@
     <remove-project name="platform/build/soong" />
     <remove-project name="platform/build/blueprint" />
 
+    <!-- CTS -->
+    <remove-project name="platform/cts" />
+
     <!-- Device -->
     <remove-project name="device/generic/common" />
     <remove-project name="device/google/atv" />
