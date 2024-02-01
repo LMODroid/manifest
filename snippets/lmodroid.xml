@@ -48,6 +48,7 @@
     <project path="external/mksh" name="LMODroid/platform_external_mksh" groups="pdk" remote="lmodroid" />
     <project path="external/setupcompat" name="LMODroid/platform_external_setupcompat" groups="pdk" remote="lmodroid" />
     <project path="external/svox" name="LMODroid/platform_external_svox" remote="lmodroid" />
+    <project path="external/tensorflow" name="LMODroid/platform_external_tensorflow" remote="lmodroid" />
     <project path="external/tigervnc" name="LMODroid/platform_external_tigervnc" remote="lmodroid" />
     <project path="external/tinycompress" name="LMODroid/platform_external_tinycompress" groups="pdk" remote="lmodroid" />
     <project path="external/webp" name="LMODroid/platform_external_webp" groups="pdk,qcom_msm8x26" remote="lmodroid" />
