@@ -72,6 +72,7 @@
     <project path="hardware/interfaces" name="LMODroid/platform_hardware_interfaces" groups="pdk" remote="lmodroid" />
     <project path="hardware/libhardware" name="LMODroid/platform_hardware_libhardware" groups="pdk" remote="lmodroid" />
     <project path="hardware/libhardware_legacy" name="LMODroid/platform_hardware_libhardware_legacy" groups="pdk" remote="lmodroid" />
+    <project path="hardware/lmodroid" name="LMODroid/platform_hardware_lmodroid" groups="pdk" remote="lmodroid" />
     <project path="hardware/ril" name="LMODroid/platform_hardware_ril" groups="pdk" remote="lmodroid" />
 
     <!-- Kernel -->
