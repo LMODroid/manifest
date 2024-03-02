@@ -77,6 +77,8 @@
     <project path="hardware/libhardware" name="LMODroid/platform_hardware_libhardware" groups="pdk" remote="lmodroid" />
     <project path="hardware/lmodroid" name="LMODroid/platform_hardware_lmodroid" groups="pdk" remote="lmodroid" />
     <project path="hardware/ril" name="LMODroid/platform_hardware_ril" groups="pdk" remote="lmodroid" />
+    <project path="hardware/samsung/nfc" name="LMODroid/platform_hardware_samsung_nfc" groups="pdk" remote="lmodroid" />
+    <project path="hardware/st/nfc" name="LMODroid/platform_hardware_st_nfc" groups="pdk" remote="lmodroid" />
 
     <!-- Kernel -->
     <project path="kernel/configs" name="LMODroid/platform_kernel_configs" groups="vts,pdk" remote="lmodroid" />

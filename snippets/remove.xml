@@ -123,6 +123,8 @@
     <remove-project name="platform/hardware/qcom/sm8150p/gps" />
     <remove-project name="platform/hardware/qcom/wlan" />
     <remove-project name="platform/hardware/ril" />
+    <remove-project name="platform/hardware/samsung/nfc" />
+    <remove-project name="platform/hardware/st/nfc" />
 
     <!-- Kernel -->
     <remove-project name="kernel/configs" />
