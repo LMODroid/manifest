@@ -187,6 +187,7 @@
     <project path="packages/apps/LineageCustomizer" name="android_packages_apps_LineageCustomizer" remote="lineage" />
     <project path="packages/apps/Seedvault" name="android_packages_apps_Seedvault" remote="lineage" />
     <project path="packages/apps/SimpleDeviceConfig" name="android_packages_apps_SimpleDeviceConfig" remote="lineage" />
+    <project path="packages/apps/SimpleSettingsConfig" name="android_packages_apps_SimpleSettingsConfig" remote="lineage" />
 
     <!-- Prebuilts -->
     <project path="prebuilts/tools-lmodroid" name="android_prebuilts_tools-lineage" remote="lineage" clone-depth="1" />
