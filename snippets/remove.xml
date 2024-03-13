@@ -10,7 +10,6 @@
     <!-- Build -->
     <remove-project name="platform/build" />
     <remove-project name="platform/build/soong" />
-    <remove-project name="platform/build/blueprint" />
 
     <!-- Device -->
     <remove-project name="device/generic/common" />
@@ -65,7 +64,6 @@
     <!-- Frameworks -->
     <remove-project name="platform/frameworks/av" />
     <remove-project name="platform/frameworks/base" />
-    <remove-project name="platform/frameworks/libs/net" />
     <remove-project name="platform/frameworks/libs/systemui" />
     <remove-project name="platform/frameworks/native" />
     <remove-project name="platform/frameworks/opt/colorpicker" />
@@ -80,7 +78,6 @@
     <remove-project name="platform/hardware/google/pixel-sepolicy" />
     <remove-project name="platform/hardware/interfaces" />
     <remove-project name="platform/hardware/libhardware" />
-    <remove-project name="platform/hardware/libhardware_legacy" />
     <remove-project name="platform/hardware/qcom/audio" />
     <remove-project name="platform/hardware/qcom/camera" />
     <remove-project name="platform/hardware/qcom/display" />
@@ -102,9 +99,6 @@
     <!-- Kernel -->
     <remove-project name="kernel/configs" />
 
-    <!-- Libs -->
-    <remove-project name="platform/libcore" />
-
     <!-- Packages -->
     <remove-project name="platform/packages/apps/Car/Settings" />
     <remove-project name="platform/packages/apps/Calendar" />
@@ -114,7 +108,6 @@
     <remove-project name="platform/packages/apps/DocumentsUI" />
     <remove-project name="platform/packages/apps/Gallery2" />
     <remove-project name="platform/packages/apps/Launcher3" />
-    <remove-project name="platform/packages/apps/Nfc" />
     <remove-project name="platform/packages/apps/ManagedProvisioning" />
     <remove-project name="platform/packages/apps/Messaging" />
     <remove-project name="platform/packages/apps/Music" />
@@ -131,19 +124,13 @@
     <remove-project name="platform/packages/modules/Bluetooth" />
     <remove-project name="platform/packages/modules/common" />
     <remove-project name="platform/packages/modules/Connectivity" />
-    <remove-project name="platform/packages/modules/NeuralNetworks" />
     <remove-project name="platform/packages/modules/Permission" />
-    <remove-project name="platform/packages/modules/Virtualization" />
     <remove-project name="platform/packages/modules/Wifi" />
     <remove-project name="platform/packages/providers/DownloadProvider" />
     <remove-project name="platform/packages/providers/MediaProvider" />
-    <remove-project name="platform/packages/services/AlternativeNetworkAccess" />
     <remove-project name="platform/packages/services/Mms" />
     <remove-project name="platform/packages/services/Telecomm" />
     <remove-project name="platform/packages/services/Telephony" />
-
-    <!-- Prebuilts -->
-    <remove-project name="platform/prebuilts/build-tools" />
 
     <!-- System-->
     <remove-project name="platform/system/core" />
@@ -156,7 +143,6 @@
     <remove-project name="platform/system/netd" />
     <remove-project name="platform/system/security" />
     <remove-project name="platform/system/sepolicy" />
-    <remove-project name="platform/system/timezone" />
     <remove-project name="platform/system/tools/mkbootimg" />
     <remove-project name="platform/system/update_engine" />
     <remove-project name="platform/system/vold" />
