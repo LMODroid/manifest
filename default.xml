@@ -68,6 +68,7 @@
   <project path="device/google/akita-sepolicy" name="device/google/akita-sepolicy" groups="device,akita" />
   <project path="device/google/akita-kernel" name="device/google/akita-kernel" groups="device,akita" clone-depth="1" />
   <project path="device/google/atv" name="device/google/atv" groups="device,broadcom_pdk,generic_fs,pdk" />
+  <project path="device/google_car" name="device/google_car" groups="device,pdk" remote="aosp" />
   <project path="device/google/barbet" name="device/google/barbet" groups="device,barbet" />
   <project path="device/google/barbet-sepolicy" name="device/google/barbet-sepolicy" groups="device,barbet" />
   <project path="device/google/bluejay" name="device/google/bluejay" groups="device,bluejay" />
