@@ -140,6 +140,7 @@
     <project path="prebuilts/lmodroid" name="LMODroid/platform_prebuilts_lmodroid" remote="lmodroid" />
 
     <!-- System -->
+    <project path="system/bpf" name="LMODroid/platform_system_bpf" groups="pdk" remote="lmodroid"/>
     <project path="system/core" name="LMODroid/platform_system_core" remote="lmodroid" />
     <project path="system/extras" name="LMODroid/platform_system_extras" groups="pdk" remote="lmodroid"/>
     <project path="system/keymaster" name="LMODroid/platform_system_keymaster" groups="pdk" remote="lmodroid"/>
