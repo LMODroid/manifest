@@ -136,7 +136,7 @@
     <project path="packages/services/VncFlinger" name="LMODroid/platform_packages_services_VncFlinger" remote="lmodroid" />
 
     <!-- Prebuilts -->
-    <project path="prebuilts/kernel-build-tools" name="kernel/prebuilts/build-tools" clone-depth="1" remote="aosp" revision="refs/tags/android-14.0.0_r0.56" />
+    <project path="prebuilts/kernel-build-tools" name="kernel/prebuilts/build-tools" clone-depth="1" remote="aosp" revision="refs/tags/android-14.0.0_r0.66" />
     <project path="prebuilts/lmodroid" name="LMODroid/platform_prebuilts_lmodroid" remote="lmodroid" />
 
     <!-- System -->
