@@ -3,7 +3,7 @@
 
     <remote name="lmodroid"
         fetch="https://git.libremobileos.com"
-        revision="fourteen"
+        revision="fourteen-qpr1"
         review="gerrit.libremobileos.com" />
 
     <!-- Bootable -->
