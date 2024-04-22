@@ -153,6 +153,9 @@
     <project path="system/update_engine" name="LMODroid/platform_system_update_engine" groups="pdk" remote="lmodroid"/>
     <project path="system/vold" name="LMODroid/platform_system_vold" groups="pdk" remote="lmodroid"/>
 
+    <!-- Toolchain -->
+    <project path="toolchain/pgo-profiles" name="LMODroid/platform_toolchain_pgo-profiles" groups="pdk" remote="lmodroid"/>
+
     <!-- Vendor -->
     <project path="vendor/lmodroid" name="LMODroid/platform_vendor_lmodroid" remote="lmodroid" />
     <project path="vendor/support" name="LMODroid/platform_vendor_support" remote="lmodroid" />

@@ -148,4 +148,7 @@
     <remove-project name="platform/system/update_engine" />
     <remove-project name="platform/system/vold" />
 
+    <!-- Toolchain -->
+    <remove-project name="toolchain/pgo-profiles" />
+
 </manifest>
