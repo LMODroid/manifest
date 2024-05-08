@@ -46,6 +46,7 @@
     <project path="external/libvpx" name="LMODroid/platform_external_libvpx" groups="pdk" remote="lmodroid" />
     <project path="external/mksh" name="LMODroid/platform_external_mksh" groups="pdk" remote="lmodroid" />
     <project path="external/setupcompat" name="LMODroid/platform_external_setupcompat" groups="pdk" remote="lmodroid" />
+    <project path="external/sonivox" name="LMODroid/platform_external_sonivox" remote="lmodroid" />
     <project path="external/svox" name="LMODroid/platform_external_svox" remote="lmodroid" />
     <project path="external/tensorflow" name="LMODroid/platform_external_tensorflow" remote="lmodroid" />
     <project path="external/tigervnc" name="LMODroid/platform_external_tigervnc" remote="lmodroid" />

@@ -55,6 +55,7 @@
     <remove-project name="platform/external/libvpx" />
     <remove-project name="platform/external/mksh" />
     <remove-project name="platform/external/setupcompat" />
+    <remove-project name="platform/external/sonivox" />
     <remove-project name="platform/external/tensorflow" />
     <remove-project name="platform/external/tinycompress" />
     <remove-project name="platform/external/webp" />
