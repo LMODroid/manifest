@@ -98,6 +98,7 @@
     <project path="packages/apps/FlipFlap" name="LMODroid/platform_packages_apps_FlipFlap" remote="lmodroid" />
     <project path="packages/apps/GameSpace" name="LMODroid/platform_packages_apps_GameSpace" remote="lmodroid" />
     <project path="packages/apps/Glimpse" name="LMODroid/platform_packages_apps_Glimpse" remote="lmodroid" />
+    <project path="packages/apps/ImsServiceEntitlement" name="LMODroid/platform_packages_apps_ImsServiceEntitlement" remote="lmodroid" />
     <project path="packages/apps/LMOSettings" name="LMODroid/platform_packages_apps_LMOSettings" remote="lmodroid" />
     <project path="packages/apps/LMOSystemUI" name="LMODroid/platform_packages_apps_LMOSystemUI" remote="lmodroid" />
     <project path="packages/apps/Launcher3" name="LMODroid/platform_packages_apps_Launcher3" remote="lmodroid" />
