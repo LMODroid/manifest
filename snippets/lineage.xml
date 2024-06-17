@@ -256,6 +256,7 @@
     <project path="system/apex" name="android_system_apex" groups="pdk" remote="lineage" />
     <project path="system/extras" name="android_system_extras" groups="pdk" remote="lineage" />
     <project path="system/keymaster" name="android_system_keymaster" groups="pdk" remote="lineage" />
+    <project path="system/libfmq" name="android_system_libfmq" groups="pdk" remote="lineage" />
     <project path="system/libhidl" name="android_system_libhidl" groups="pdk" remote="lineage" />
     <project path="system/libziparchive" name="android_system_libziparchive" groups="pdk" remote="lineage" />
     <project path="system/logging" name="android_system_logging" groups="pdk" remote="lineage" />
