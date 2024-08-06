@@ -65,6 +65,7 @@
     <!-- Frameworks -->
     <remove-project name="platform/frameworks/av" />
     <remove-project name="platform/frameworks/base" />
+    <remove-project name="platform/frameworks/libs/modules-utils" />
     <remove-project name="platform/frameworks/libs/systemui" />
     <remove-project name="platform/frameworks/native" />
     <remove-project name="platform/frameworks/opt/colorpicker" />
@@ -145,6 +146,7 @@
     <remove-project name="platform/system/logging" />
     <remove-project name="platform/system/media" />
     <remove-project name="platform/system/netd" />
+    <remove-project name="platform/system/nfc" />
     <remove-project name="platform/system/security" />
     <remove-project name="platform/system/sepolicy" />
     <remove-project name="platform/system/tools/mkbootimg" />

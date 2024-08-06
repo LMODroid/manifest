@@ -59,6 +59,7 @@
     <!-- Frameworks -->
     <project path="frameworks/av" name="LMODroid/platform_frameworks_av" remote="lmodroid" />
     <project path="frameworks/base" name="LMODroid/platform_frameworks_base" remote="lmodroid" />
+    <project path="frameworks/libs/modules-utils" name="LMODroid/platform_frameworks_libs_modules-utils" remote="lmodroid" />
     <project path="frameworks/libs/systemui" name="LMODroid/platform_frameworks_libs_systemui" groups="pdk-cw-fs,pdk-fs" remote="lmodroid" />
     <project path="frameworks/lmodroid" name="LMODroid/platform_frameworks_lmodroid" remote="lmodroid" />
     <project path="frameworks/native" name="LMODroid/platform_frameworks_native" remote="lmodroid" />
@@ -150,6 +151,7 @@
     <project path="system/logging" name="LMODroid/platform_system_logging" groups="pdk" remote="lmodroid"/>
     <project path="system/media" name="LMODroid/platform_system_media" groups="pdk" remote="lmodroid"/>
     <project path="system/netd" name="LMODroid/platform_system_netd" remote="lmodroid" />
+    <project path="system/nfc" name="LMODroid/platform_system_nfc" remote="lmodroid" />
     <project path="system/security" name="LMODroid/platform_system_security" groups="pdk" remote="lmodroid"/>
     <project path="system/sepolicy" name="LMODroid/platform_system_sepolicy" groups="pdk" remote="lmodroid"/>
     <project path="system/tools/mkbootimg" name="LMODroid/platform_system_tools_mkbootimg" groups="pdk" remote="lmodroid"/>
