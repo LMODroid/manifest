@@ -9,7 +9,7 @@ familiar with [Repo](https://source.android.com/source/using-repo.html) and [Ver
 
 To initialize your local repository using the LMODroid trees, use a command like this:
 ```
-repo init -u https://git.libremobileos.com/LMODroid/manifest.git -b fourteen --git-lfs
+repo init -u https://git.libremobileos.com/LMODroid/manifest.git -b fifteen --git-lfs
 ```
 Then to sync up:
 ```
