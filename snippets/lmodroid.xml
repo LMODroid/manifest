@@ -127,6 +127,8 @@
     <project path="packages/modules/common" name="LMODroid/platform_packages_modules_common" groups="pdk-cw-fs,pdk-fs" remote="lmodroid" />
     <project path="packages/modules/HealthFitness" name="LMODroid/platform_packages_modules_HealthFitness" remote="lmodroid" />
     <project path="packages/modules/Permission" name="LMODroid/platform_packages_modules_Permission" groups="pdk" remote="lmodroid" />
+    <project path="packages/modules/RemoteKeyProvisioning" name="LMODroid/platform_packages_modules_RemoteKeyProvisioning" groups="pdk-cw-fs,pdk-fs" remote="lmodroid"/>
+
     <project path="packages/modules/StatsD" name="LMODroid/platform_packages_modules_StatsD" remote="lmodroid" />
     <project path="packages/modules/Wifi" name="LMODroid/platform_packages_modules_Wifi" remote="lmodroid" />
     <project path="packages/overlays/LMODroid" name="LMODroid/platform_packages_overlays_LMODroid" remote="lmodroid" />

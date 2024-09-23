@@ -128,6 +128,7 @@
     <remove-project name="platform/packages/modules/Connectivity" />
     <remove-project name="platform/packages/modules/HealthFitness" />
     <remove-project name="platform/packages/modules/Permission" />
+    <remove-project name="platform/packages/modules/RemoteKeyProvisioning" />
     <remove-project name="platform/packages/modules/StatsD" />
     <remove-project name="platform/packages/modules/Wifi" />
     <remove-project name="platform/packages/providers/DownloadProvider" />
