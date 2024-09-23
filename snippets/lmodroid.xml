@@ -74,6 +74,7 @@
 
     <!-- Hardware -->
     <project path="hardware/broadcom/libbt" name="LMODroid/platform_hardware_broadcom_libbt" groups="pdk" remote="lmodroid" />
+    <project path="hardware/google/camera" name="LMODroid/platform_hardware_google_camera" groups="pdk" remote="lmodroid" />
     <project path="hardware/google/gchips" name="LMODroid/platform_hardware_google_gchips" groups="pdk-lassen" remote="lmodroid" />
     <project path="hardware/google/graphics/common" name="LMODroid/platform_hardware_google_graphics_common" groups="pdk-lassen" remote="lmodroid" />
     <project path="hardware/interfaces" name="LMODroid/platform_hardware_interfaces" groups="pdk" remote="lmodroid" />
