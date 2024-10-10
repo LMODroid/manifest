@@ -101,6 +101,9 @@
     <!-- Kernel -->
     <remove-project name="kernel/configs" />
 
+    <!-- Library -->
+    <remove-project name="platform/libcore" />
+
     <!-- Packages -->
     <remove-project name="platform/packages/apps/Car/Settings" />
     <remove-project name="platform/packages/apps/Calendar" />
@@ -127,6 +130,7 @@
     <remove-project name="platform/packages/modules/common" />
     <remove-project name="platform/packages/modules/Connectivity" />
     <remove-project name="platform/packages/modules/HealthFitness" />
+    <remove-project name="platform/packages/modules/IntentResolver" />
     <remove-project name="platform/packages/modules/Permission" />
     <remove-project name="platform/packages/modules/RemoteKeyProvisioning" />
     <remove-project name="platform/packages/modules/StatsD" />
