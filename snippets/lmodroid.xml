@@ -28,6 +28,9 @@
     </project>
     <project path="build/blueprint" name="LMODroid/platform_build_blueprint" remote="lmodroid" groups="pdk,tradefed" />
 
+    <!-- CTS -->
+    <project path="cts" name="LMODroid/platform_cts" groups="cts,pdk-cw-fs,pdk-fs" remote="lmodroid" />
+
     <!-- Device -->
     <project path="device/generic/common" name="LMODroid-Devices/device_generic_common" remote="lmodroid" />
     <project path="device/lmodroid/atv" name="LMODroid-Devices/device_lmodroid_atv" remote="lmodroid" />
