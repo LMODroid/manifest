@@ -79,6 +79,7 @@
 
     <!-- Library -->
     <project path="libcore" name="LMODroid/platform_libcore" groups="pdk" remote="lmodroid" />
+    <project path="libnativehelper" name="LMODroid/platform_libnativehelper" groups="pdk" remote="lmodroid" />
 
     <!-- Manifest -->
     <project path="manifest" name="LMODroid/manifest" remote="lmodroid" />

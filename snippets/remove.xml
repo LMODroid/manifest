@@ -103,6 +103,7 @@
 
     <!-- Library -->
     <remove-project name="platform/libcore" />
+    <remove-project name="platform/libnativehelper" />
 
     <!-- Packages -->
     <remove-project name="platform/packages/apps/Car/Settings" />
