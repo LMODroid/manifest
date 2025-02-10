@@ -49,6 +49,7 @@
     <remove-project name="platform/external/dtc" />
     <remove-project name="platform/external/e2fsprogs" />
     <remove-project name="platform/external/exfatprogs" />
+    <remove-project name="platform/external/giflib" />
     <remove-project name="platform/external/gptfdisk" />
     <remove-project name="platform/external/libcxx" />
     <remove-project name="platform/external/libnl" />
@@ -67,6 +68,7 @@
     <remove-project name="platform/frameworks/av" />
     <remove-project name="platform/frameworks/base" />
     <remove-project name="platform/frameworks/libs/modules-utils" />
+    <remove-project name="platform/frameworks/libs/net" />
     <remove-project name="platform/frameworks/libs/systemui" />
     <remove-project name="platform/frameworks/native" />
     <remove-project name="platform/frameworks/opt/colorpicker" />

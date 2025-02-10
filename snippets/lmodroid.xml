@@ -40,6 +40,7 @@
     <project path="external/dtc" name="LMODroid/platform_external_dtc" groups="pdk" remote="lmodroid" />
     <project path="external/e2fsprogs" name="LMODroid/platform_external_e2fsprogs" groups="pdk" remote="lmodroid" />
     <project path="external/exfatprogs" name="LMODroid/platform_external_exfatprogs" remote="lmodroid" />
+    <project path="external/giflib" name="LMODroid/platform_external_giflib" groups="pdk,qcom_msm8x26" remote="lmodroid" />
     <project path="external/gptfdisk" name="LMODroid/platform_external_gptfdisk" groups="pdk" remote="lmodroid" />
     <project path="external/libcxx" name="LMODroid/platform_external_libcxx" groups="pdk" remote="lmodroid" />
     <project path="external/libnl" name="LMODroid/platform_external_libnl" groups="pdk" remote="lmodroid" />
@@ -61,6 +62,7 @@
     <project path="frameworks/av" name="LMODroid/platform_frameworks_av" remote="lmodroid" />
     <project path="frameworks/base" name="LMODroid/platform_frameworks_base" remote="lmodroid" />
     <project path="frameworks/libs/modules-utils" name="LMODroid/platform_frameworks_libs_modules-utils" remote="lmodroid" />
+    <project path="frameworks/libs/net" name="LMODroid/platform_frameworks_libs_net" groups="pdk-cw-fs,pdk-fs" remote="lmodroid" />
     <project path="frameworks/libs/systemui" name="LMODroid/platform_frameworks_libs_systemui" groups="pdk-cw-fs,pdk-fs" remote="lmodroid" />
     <project path="frameworks/lmodroid" name="LMODroid/platform_frameworks_lmodroid" remote="lmodroid" />
     <project path="frameworks/native" name="LMODroid/platform_frameworks_native" remote="lmodroid" />
