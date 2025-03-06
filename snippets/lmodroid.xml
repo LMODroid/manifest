@@ -41,6 +41,7 @@
 
     <!-- External -->
     <project path="external/avb" name="LMODroid/platform_external_avb" groups="pdk" remote="lmodroid" />
+    <project path="external/dng_sdk" name="LMODroid/platform_external_dng_sdk" groups="pdk" remote="lmodroid" />
     <project path="external/dtc" name="LMODroid/platform_external_dtc" groups="pdk" remote="lmodroid" />
     <project path="external/e2fsprogs" name="LMODroid/platform_external_e2fsprogs" groups="pdk" remote="lmodroid" />
     <project path="external/exfatprogs" name="LMODroid/platform_external_exfatprogs" remote="lmodroid" />
