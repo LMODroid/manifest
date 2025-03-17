@@ -163,6 +163,7 @@
     <project path="system/logging" name="LMODroid/platform_system_logging" groups="pdk" remote="lmodroid"/>
     <project path="system/media" name="LMODroid/platform_system_media" groups="pdk" remote="lmodroid"/>
     <project path="system/netd" name="LMODroid/platform_system_netd" remote="lmodroid" />
+    <project path="system/nfc" name="LMODroid/platform_system_nfc" groups="pdk" remote="lmodroid" />
     <project path="system/security" name="LMODroid/platform_system_security" groups="pdk" remote="lmodroid"/>
     <project path="system/sepolicy" name="LMODroid/platform_system_sepolicy" groups="pdk" remote="lmodroid"/>
     <project path="system/tools/mkbootimg" name="LMODroid/platform_system_tools_mkbootimg" groups="pdk" remote="lmodroid"/>
