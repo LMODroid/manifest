@@ -55,6 +55,7 @@
     <project path="external/libremobileos-fonts/Vazirmatn" name="LMODroid/platform_external_libremobileos-fonts_Vazirmatn" remote="lmodroid" />
     <project path="external/mksh" name="LMODroid/platform_external_mksh" groups="pdk" remote="lmodroid" />
     <project path="external/setupcompat" name="LMODroid/platform_external_setupcompat" groups="pdk" remote="lmodroid" />
+    <project path="external/skia" name="LMODroid/platform_external_skia" groups="pdk,qcom_msm8x26" remote="lmodroid" />
     <project path="external/svox" name="LMODroid/platform_external_svox" remote="lmodroid" />
     <project path="external/tensorflow" name="LMODroid/platform_external_tensorflow" remote="lmodroid" />
     <project path="external/tigervnc" name="LMODroid/platform_external_tigervnc" remote="lmodroid" />
@@ -139,6 +140,7 @@
     <project path="packages/modules/Bluetooth" name="LMODroid/platform_packages_modules_Bluetooth" remote="lmodroid" />
     <project path="packages/modules/Connectivity" name="LMODroid/platform_packages_modules_Connectivity" remote="lmodroid" />
     <project path="packages/modules/common" name="LMODroid/platform_packages_modules_common" groups="pdk-cw-fs,pdk-fs" remote="lmodroid" />
+    <project path="packages/modules/IntentResolver" name="LMODroid/platform_packages_modules_IntentResolver" groups="pdk,sysui-studio" remote="lmodroid" />
     <project path="packages/modules/microG" name="LMODroid/platform_packages_modules_microG" remote="lmodroid" />
     <project path="packages/modules/NetworkStack" name="LMODroid/platform_packages_modules_NetworkStack" groups="pdk-cw-fs,pdk-fs" remote="lmodroid" />
     <project path="packages/modules/Permission" name="LMODroid/platform_packages_modules_Permission" groups="pdk" remote="lmodroid" />
