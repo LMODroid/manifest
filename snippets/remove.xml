@@ -50,6 +50,7 @@
     <remove-project name="platform/external/dtc" />
     <remove-project name="platform/external/e2fsprogs" />
     <remove-project name="platform/external/exfatprogs" />
+    <remove-project name="platform/external/freetype" />
     <remove-project name="platform/external/giflib" />
     <remove-project name="platform/external/gptfdisk" />
     <remove-project name="platform/external/libcxx" />
