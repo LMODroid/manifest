@@ -116,6 +116,7 @@
     <project path="packages/apps/LMOFreeform" name="LMODroid/platform_packages_apps_LMOFreeform" remote="lmodroid" />
     <project path="packages/apps/LMOSettings" name="LMODroid/platform_packages_apps_LMOSettings" remote="lmodroid" />
     <project path="packages/apps/LMOSystemUI" name="LMODroid/platform_packages_apps_LMOSystemUI" remote="lmodroid" />
+    <project path="packages/apps/LMOSystemUIClock" name="LMODroid/platform_packages_apps_LMOSystemUIClock" remote="lmodroid" />
     <project path="packages/apps/Launcher3" name="LMODroid/platform_packages_apps_Launcher3" remote="lmodroid" />
     <project path="packages/apps/ManagedProvisioning" name="LMODroid/platform_packages_apps_ManagedProvisioning" remote="lmodroid" />
     <project path="packages/apps/Messaging" name="LMODroid/platform_packages_apps_Messaging" remote="lmodroid" />
