@@ -6,6 +6,9 @@
         revision="fifteen-qpr0"
         review="gerrit.libremobileos.com" />
 
+    <!-- ART -->
+    <project path="art" name="LMODroid/platform_art" groups="pdk" remote="lmodroid" />
+
     <!-- Bootable -->
     <project path="bootable/deprecated-ota" name="LMODroid/platform_bootable_deprecated-ota" remote="lmodroid" />
     <project path="bootable/recovery" name="LMODroid/platform_bootable_recovery" remote="lmodroid" />
@@ -137,6 +140,7 @@
     <project path="packages/apps/WallpaperPicker2" name="LMODroid/platform_packages_apps_WallpaperPicker2" remote="lmodroid" />
     <project path="packages/inputmethods/LatinIME" name="LMODroid/platform_packages_inputmethods_LatinIME" remote="lmodroid" />
     <project path="packages/modules/adb" name="LMODroid/platform_packages_modules_adb" remote="lmodroid" />
+    <project path="packages/modules/AppSearch" name="LMODroid/platform_packages_modules_AppSearch" groups="pdk" remote="lmodroid" />
     <project path="packages/modules/Bluetooth" name="LMODroid/platform_packages_modules_Bluetooth" remote="lmodroid" />
     <project path="packages/modules/Connectivity" name="LMODroid/platform_packages_modules_Connectivity" remote="lmodroid" />
     <project path="packages/modules/common" name="LMODroid/platform_packages_modules_common" groups="pdk-cw-fs,pdk-fs" remote="lmodroid" />

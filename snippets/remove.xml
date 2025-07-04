@@ -1,6 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
 
+    <!-- ART -->
+    <remove-project name="platform/art" />
+
     <!-- Bootable -->
     <remove-project name="platform/bootable/deprecated-ota" />
     <remove-project name="platform/bootable/recovery" />
@@ -163,6 +166,7 @@
     <remove-project name="platform/packages/apps/WallpaperPicker2" />
     <remove-project name="platform/packages/inputmethods/LatinIME" />
     <remove-project name="platform/packages/modules/adb" />
+    <remove-project name="platform/packages/modules/AppSearch" />
     <remove-project name="platform/packages/modules/Bluetooth" />
     <remove-project name="platform/packages/modules/common" />
     <remove-project name="platform/packages/modules/Connectivity" />
