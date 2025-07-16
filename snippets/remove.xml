@@ -1,9 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
 
-    <!-- ART -->
-    <remove-project name="platform/art" />
-
     <!-- Bootable -->
     <remove-project name="platform/bootable/deprecated-ota" />
     <remove-project name="platform/bootable/recovery" />
@@ -13,54 +10,14 @@
 
     <!-- Build -->
     <remove-project name="platform/build" />
-    <remove-project name="platform/build/blueprint" />
-    <remove-project name="platform/build/release" />
     <remove-project name="platform/build/soong" />
 
     <!-- Device -->
     <remove-project name="device/generic/common" />
-    <remove-project name="device/google/akita" />
-    <remove-project name="device/google/akita-kernels/6.1" />
-    <remove-project name="device/google/akita-sepolicy" />
     <remove-project name="device/google/atv" />
-    <remove-project name="device/google/bluejay" />
-    <remove-project name="device/google/bluejay-kernels/6.1" />
-    <remove-project name="device/google/bluejay-sepolicy" />
-    <remove-project name="device/google/caimito" />
-    <remove-project name="device/google/caimito-kernels/6.1" />
-    <remove-project name="device/google/caimito-sepolicy" />
-    <remove-project name="device/google/comet" />
-    <remove-project name="device/google/comet-kernels/6.1" />
-    <remove-project name="device/google/comet-sepolicy" />
     <remove-project name="device/google/common/etm" />
-    <remove-project name="device/google/felix" />
-    <remove-project name="device/google/felix-kernels/6.1" />
-    <remove-project name="device/google/felix-sepolicy" />
     <remove-project name="device/generic/goldfish" />
-    <remove-project name="device/google/gs101" />
-    <remove-project name="device/google/gs101-sepolicy" />
-    <remove-project name="device/google/gs201" />
-    <remove-project name="device/google/gs201-sepolicy" />
-    <remove-project name="device/google/gs-common" />
-    <remove-project name="device/google/lynx" />
-    <remove-project name="device/google/lynx-sepolicy" />
-    <remove-project name="device/google/lynx-kernels/6.1" />
-    <remove-project name="device/google/pantah" />
-    <remove-project name="device/google/pantah-kernels/6.1" />
-    <remove-project name="device/google/pantah-sepolicy" />
-    <remove-project name="device/google/raviole" />
-    <remove-project name="device/google/raviole-kernels/6.1" />
-    <remove-project name="device/google/tangorpro" />
-    <remove-project name="device/google/tangorpro-sepolicy" />
-    <remove-project name="device/google/tangorpro-kernels/6.1" />
-    <remove-project name="device/google/shusky" />
-    <remove-project name="device/google/shusky-kernels/6.1" />
-    <remove-project name="device/google/shusky-sepolicy" />
     <remove-project name="device/google/trout" />
-    <remove-project name="device/google/zuma" />
-    <remove-project name="device/google/zuma-sepolicy" />
-    <remove-project name="device/google/zumapro" />
-    <remove-project name="device/google/zumapro-sepolicy" />
 
     <!-- Development -->
     <remove-project name="platform/development" />
@@ -74,7 +31,6 @@
     <remove-project name="platform/external/federated-compute" />
     <remove-project name="platform/external/flatbuffers" />
     <remove-project name="platform/external/gptfdisk" />
-    <remove-project name="platform/external/kotlinc" />
     <remove-project name="platform/external/mksh" />
     <remove-project name="platform/external/setupcompat" />
     <remove-project name="platform/external/tensorflow" />
@@ -87,9 +43,7 @@
     <remove-project name="platform/frameworks/base" />
     <remove-project name="platform/frameworks/libs/systemui" />
     <remove-project name="platform/frameworks/native" />
-    <remove-project name="platform/frameworks/opt/colorpicker" />
     <remove-project name="platform/frameworks/opt/telephony" />
-    <remove-project name="platform/frameworks/opt/timezonepicker" />
 
     <!-- Hardware -->
     <remove-project name="platform/hardware/broadcom/libbt" />
@@ -109,7 +63,6 @@
     <remove-project name="platform/packages/apps/Car/Settings" />
     <remove-project name="platform/packages/apps/Car/SystemUI" />
     <remove-project name="platform/packages/apps/Calendar" />
-    <remove-project name="platform/packages/apps/Camera2" />
     <remove-project name="platform/packages/apps/Contacts" />
     <remove-project name="platform/packages/apps/DeskClock" />
     <remove-project name="platform/packages/apps/Dialer" />
@@ -140,7 +93,6 @@
     <remove-project name="platform/packages/providers/MediaProvider" />
     <remove-project name="platform/packages/services/Car" />
     <remove-project name="platform/packages/services/DeviceAsWebcam" />
-    <remove-project name="platform/packages/services/Iwlan" />
     <remove-project name="platform/packages/services/Mms" />
     <remove-project name="platform/packages/services/Telecomm" />
     <remove-project name="platform/packages/services/Telephony" />
@@ -149,17 +101,14 @@
     <remove-project name="platform/system/bpf" />
     <remove-project name="platform/system/chre" />
     <remove-project name="platform/system/core" />
-    <remove-project name="platform/system/extras" />
     <remove-project name="platform/system/keymaster" />
     <remove-project name="platform/system/libhidl" />
     <remove-project name="platform/system/libziparchive" />
     <remove-project name="platform/system/logging" />
     <remove-project name="platform/system/media" />
     <remove-project name="platform/system/netd" />
-    <remove-project name="platform/system/nfc" />
     <remove-project name="platform/system/security" />
     <remove-project name="platform/system/sepolicy" />
-    <remove-project name="platform/system/tools/mkbootimg" />
     <remove-project name="platform/system/update_engine" />
     <remove-project name="platform/system/vold" />
 

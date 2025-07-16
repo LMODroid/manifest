@@ -3,11 +3,8 @@
 
     <remote name="lmodroid"
         fetch="https://git.libremobileos.com"
-        revision="fifteen-qpr2"
+        revision="sixteen-qpr0"
         review="gerrit.libremobileos.com" />
-
-    <!-- ART -->
-    <project path="art" name="LMODroid/platform_art" groups="pdk" remote="lmodroid" />
 
     <!-- Bootable -->
     <project path="bootable/deprecated-ota" name="LMODroid/platform_bootable_deprecated-ota" remote="lmodroid" />
@@ -17,7 +14,6 @@
     <project path="bionic" name="LMODroid/platform_bionic" groups="pdk" remote="lmodroid" />
 
     <!-- Build -->
-    <project path="build/blueprint" name="LMODroid/platform_build_blueprint" groups="pdk,tradefed" remote="lmodroid" />
     <project path="build/make" name="LMODroid/platform_build" remote="lmodroid">
         <copyfile src="core/root.mk" dest="Makefile" />
         <linkfile src="CleanSpec.mk" dest="build/CleanSpec.mk" />
@@ -27,7 +23,6 @@
         <linkfile src="target" dest="build/target" />
         <linkfile src="tools" dest="build/tools" />
     </project>
-    <project path="build/release" name="LMODroid/platform_build_release" groups="pdk,tradefed" remote="lmodroid" />
     <project path="build/soong" name="LMODroid/platform_build_soong" remote="lmodroid" >
         <linkfile src="root.bp" dest="Android.bp" />
         <linkfile src="bootstrap.bash" dest="bootstrap.bash" />
@@ -50,7 +45,6 @@
     <project path="external/federated-compute" name="LMODroid/platform_external_federated-compute" remote="lmodroid" />
     <project path="external/flatbuffers" name="LMODroid/platform_external_flatbuffers" remote="lmodroid" />
     <project path="external/gptfdisk" name="LMODroid/platform_external_gptfdisk" groups="pdk" remote="lmodroid" />
-    <project path="external/kotlinc" name="LMODroid/platform_external_kotlinc" groups="pdk" remote="lmodroid" />
     <project path="external/libremobileos-fonts/AlbertSans" name="LMODroid/platform_external_libremobileos-fonts_AlbertSans" remote="lmodroid" />
     <project path="external/libremobileos-fonts/Vazirmatn" name="LMODroid/platform_external_libremobileos-fonts_Vazirmatn" remote="lmodroid" />
     <project path="external/mksh" name="LMODroid/platform_external_mksh" groups="pdk" remote="lmodroid" />
@@ -69,9 +63,7 @@
     <project path="frameworks/libs/systemui" name="LMODroid/platform_frameworks_libs_systemui" groups="pdk-cw-fs,pdk-fs" remote="lmodroid" />
     <project path="frameworks/lmodroid" name="LMODroid/platform_frameworks_lmodroid" remote="lmodroid" />
     <project path="frameworks/native" name="LMODroid/platform_frameworks_native" remote="lmodroid" />
-    <project path="frameworks/opt/colorpicker" name="LMODroid/platform_frameworks_opt_colorpicker" groups="pdk" remote="lmodroid" />
     <project path="frameworks/opt/telephony" name="LMODroid/platform_frameworks_opt_telephony" groups="pdk" remote="lmodroid" />
-    <project path="frameworks/opt/timezonepicker" name="LMODroid/platform_frameworks_opt_timezonepicker" groups="pdk-cw-fs,pdk-fs" remote="lmodroid" />
 
     <!-- Hardware -->
     <project path="hardware/broadcom/libbt" name="LMODroid/platform_hardware_broadcom_libbt" groups="pdk" remote="lmodroid" />
@@ -87,12 +79,11 @@
     <project path="kernel/configs" name="LMODroid/platform_kernel_configs" groups="vts,pdk" remote="lmodroid" />
 
     <!-- Manifest -->
-    <project path="manifest" name="LMODroid/manifest" remote="lmodroid" revision="fifteen" />
+    <project path="manifest" name="LMODroid/manifest" remote="lmodroid" />
 
     <!-- Packages -->
     <project path="packages/apps/Aperture" name="LMODroid/platform_packages_apps_Aperture" remote="lmodroid" />
     <project path="packages/apps/Backgrounds" name="LMODroid/platform_packages_apps_Backgrounds" remote="lmodroid" />
-    <project path="packages/apps/Camera2" name="LMODroid/platform_packages_apps_Camera2" remote="lmodroid" />
     <project path="packages/apps/Car/Settings" name="LMODroid/platform_packages_apps_Car_Settings" remote="lmodroid" />
     <project path="packages/apps/Car/SystemUI" name="LMODroid/platform_packages_apps_Car_SystemUI" remote="lmodroid" />
     <project path="packages/apps/Contacts" name="LMODroid/platform_packages_apps_Contacts" remote="lmodroid" />
@@ -147,7 +138,6 @@
     <project path="packages/resources/devicesettings" name="LMODroid/platform_packages_resources_devicesettings" remote="lmodroid" />
     <project path="packages/services/Car" name="LMODroid/platform_packages_services_Car" groups="pdk-cw-fs,pdk-fs" remote="lmodroid" />
     <project path="packages/services/DeviceAsWebcam" name="LMODroid/platform_packages_services_DeviceAsWebcam" remote="lmodroid" />
-    <project path="packages/services/Iwlan" name="LMODroid/platform_packages_services_Iwlan" remote="lmodroid" />
     <project path="packages/services/LMOStats" name="LMODroid/platform_packages_services_LMOStats" remote="lmodroid" />
     <project path="packages/services/Mms" name="LMODroid/platform_packages_services_Mms" groups="pdk-cw-fs,pdk-fs" remote="lmodroid" />
     <project path="packages/services/Telecomm" name="LMODroid/platform_packages_services_Telecomm" remote="lmodroid" />
@@ -162,17 +152,14 @@
     <project path="system/bpf" name="LMODroid/platform_system_bpf" groups="pdk" remote="lmodroid"/>
     <project path="system/chre" name="LMODroid/platform_system_chre" groups="pdk" remote="lmodroid" />
     <project path="system/core" name="LMODroid/platform_system_core" remote="lmodroid" />
-    <project path="system/extras" name="LMODroid/platform_system_extras" groups="pdk" remote="lmodroid"/>
     <project path="system/keymaster" name="LMODroid/platform_system_keymaster" groups="pdk" remote="lmodroid"/>
     <project path="system/libhidl" name="LMODroid/platform_system_libhidl" groups="pdk" remote="lmodroid"/>
     <project path="system/libziparchive" name="LMODroid/platform_system_libziparchive" groups="pdk" remote="lmodroid"/>
     <project path="system/logging" name="LMODroid/platform_system_logging" groups="pdk" remote="lmodroid"/>
     <project path="system/media" name="LMODroid/platform_system_media" groups="pdk" remote="lmodroid"/>
     <project path="system/netd" name="LMODroid/platform_system_netd" remote="lmodroid" />
-    <project path="system/nfc" name="LMODroid/platform_system_nfc" groups="pdk" remote="lmodroid" />
     <project path="system/security" name="LMODroid/platform_system_security" groups="pdk" remote="lmodroid"/>
     <project path="system/sepolicy" name="LMODroid/platform_system_sepolicy" groups="pdk" remote="lmodroid"/>
-    <project path="system/tools/mkbootimg" name="LMODroid/platform_system_tools_mkbootimg" groups="pdk" remote="lmodroid"/>
     <project path="system/update_engine" name="LMODroid/platform_system_update_engine" groups="pdk" remote="lmodroid"/>
     <project path="system/vold" name="LMODroid/platform_system_vold" groups="pdk" remote="lmodroid"/>
 
