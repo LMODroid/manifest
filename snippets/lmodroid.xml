@@ -6,6 +6,9 @@
         revision="fourteen-qpr1"
         review="gerrit.libremobileos.com" />
 
+    <!-- ART -->
+    <project path="art" name="LMODroid/platform_art" groups="pdk" remote="lmodroid" />
+
     <!-- Bootable -->
     <project path="bootable/recovery" name="LMODroid/platform_bootable_recovery" remote="lmodroid" />
 
