@@ -87,7 +87,7 @@
     <project path="kernel/configs" name="LMODroid/platform_kernel_configs" groups="vts,pdk" remote="lmodroid" />
 
     <!-- Manifest -->
-    <project path="manifest" name="LMODroid/manifest" remote="lmodroid" revision="fifteen" />
+    <project path="manifest" name="LMODroid/manifest" remote="lmodroid" />
 
     <!-- Packages -->
     <project path="packages/apps/Aperture" name="LMODroid/platform_packages_apps_Aperture" remote="lmodroid" />
