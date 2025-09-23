@@ -22,9 +22,7 @@
     <project path="hardware/qcom-caf/bt" name="android_hardware_qcom_bt" groups="qcom,legacy-qcom" revision="lineage-23.0-caf" remote="lineage" />
     <project path="hardware/qcom-caf/common" name="android_hardware_qcom-caf_common" groups="qcom"  remote="lineage" >
         <!-- add guard for AOSP hardware/qcom dir -->
-        <!--
         <linkfile src="os_pickup_aosp.mk" dest="hardware/qcom/Android.mk" />
-        -->
         <!-- add guards for CAF repositories -->
         <linkfile src="os_pickup_sepolicy_vndr.mk" dest="device/qcom/sepolicy_vndr/SEPolicy.mk" />
         <linkfile src="os_pickup_qssi.bp" dest="hardware/qcom-caf/msm8953/Android.bp" />
