@@ -10,6 +10,7 @@
 
     <!-- Build -->
     <remove-project name="platform/build" />
+    <remove-project name="platform/build/release" />
     <remove-project name="platform/build/soong" />
 
     <!-- Device -->
@@ -44,6 +45,7 @@
     <remove-project name="platform/frameworks/libs/systemui" />
     <remove-project name="platform/frameworks/native" />
     <remove-project name="platform/frameworks/opt/telephony" />
+    <remove-project name="platform/frameworks/proto_logging" />
 
     <!-- Hardware -->
     <remove-project name="platform/hardware/broadcom/libbt" />
@@ -100,6 +102,7 @@
     <remove-project name="platform/packages/services/Telephony" />
 
     <!-- System-->
+    <remove-project name="platform/system/apex" />
     <remove-project name="platform/system/bpf" />
     <remove-project name="platform/system/chre" />
     <remove-project name="platform/system/core" />

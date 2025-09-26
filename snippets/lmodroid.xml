@@ -23,6 +23,7 @@
         <linkfile src="target" dest="build/target" />
         <linkfile src="tools" dest="build/tools" />
     </project>
+    <project path="build/release" name="LMODroid/platform_build_release" groups="pdk,tradefed,sysui-studio" remote="lmodroid" />
     <project path="build/soong" name="LMODroid/platform_build_soong" remote="lmodroid" >
         <linkfile src="root.bp" dest="Android.bp" />
         <linkfile src="bootstrap.bash" dest="bootstrap.bash" />
@@ -64,6 +65,7 @@
     <project path="frameworks/lmodroid" name="LMODroid/platform_frameworks_lmodroid" remote="lmodroid" />
     <project path="frameworks/native" name="LMODroid/platform_frameworks_native" remote="lmodroid" />
     <project path="frameworks/opt/telephony" name="LMODroid/platform_frameworks_opt_telephony" groups="pdk" remote="lmodroid" />
+    <project path="frameworks/proto_logging" name="LMODroid/platform_frameworks_proto_logging" groups="pdk-cw-fs,pdk-fs,sysui-studio" remote="lmodroid" />
 
     <!-- Hardware -->
     <project path="hardware/broadcom/libbt" name="LMODroid/platform_hardware_broadcom_libbt" groups="pdk" remote="lmodroid" />
@@ -150,6 +152,7 @@
     <project path="prebuilts/lmodroid" name="LMODroid/platform_prebuilts_lmodroid" remote="lmodroid" />
 
     <!-- System -->
+    <project path="system/apex" name="LMODroid/platform_system_apex" groups="pdk" remote="lmodroid" />
     <project path="system/bpf" name="LMODroid/platform_system_bpf" groups="pdk" remote="lmodroid"/>
     <project path="system/chre" name="LMODroid/platform_system_chre" groups="pdk" remote="lmodroid" />
     <project path="system/core" name="LMODroid/platform_system_core" remote="lmodroid" />
