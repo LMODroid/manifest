@@ -190,4 +190,7 @@
     <project path="tools/extract-utils" name="android_tools_extract-utils" remote="lineage" />
     <project path="prebuilts/extract-tools" name="android_prebuilts_extract-tools" remote="lineage" />
 
+    <!-- Vendor -->
+    <project path="vendor/apn" name="android_vendor_apn" remote="lineage" revision="main" />
+
 </manifest>
