@@ -152,7 +152,6 @@
 
     <!-- System -->
     <project path="system/apex" name="LMODroid/platform_system_apex" groups="pdk" remote="lmodroid" />
-    <project path="system/bpf" name="LMODroid/platform_system_bpf" groups="pdk" remote="lmodroid"/>
     <project path="system/chre" name="LMODroid/platform_system_chre" groups="pdk" remote="lmodroid" />
     <project path="system/core" name="LMODroid/platform_system_core" remote="lmodroid" />
     <project path="system/keymaster" name="LMODroid/platform_system_keymaster" groups="pdk" remote="lmodroid"/>
