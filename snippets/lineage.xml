@@ -8,6 +8,9 @@
     <remote name="lineage-gitlab"
         fetch="https://gitlab.com/LineageOS" />
 
+    <!-- APNs -->
+    <project path="vendor/apn" name="android_vendor_apn" revision="main" remote="lineage" />
+
     <!-- CodeLinaro additions -->
     <project path="device/qcom/sepolicy" name="android_device_qcom_sepolicy" groups="qcom,qssi" remote="lineage" />
     <project path="device/qcom/sepolicy-legacy-um" name="android_device_qcom_sepolicy" groups="qcom,sdm660" revision="lineage-22.2-legacy-um" remote="lineage" />
