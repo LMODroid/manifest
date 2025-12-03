@@ -29,6 +29,7 @@
     <!-- External -->
     <remove-project name="platform/external/avb" />
     <remove-project name="platform/external/chromium-webview" />
+    <remove-project name="platform/external/dng_sdk" />
     <remove-project name="platform/external/dtc" />
     <remove-project name="platform/external/e2fsprogs" />
     <remove-project name="platform/external/exfatprogs" />
@@ -37,6 +38,8 @@
     <remove-project name="platform/external/gptfdisk" />
     <remove-project name="platform/external/mksh" />
     <remove-project name="platform/external/setupcompat" />
+    <remove-project name="platform/external/skia" />
+    <remove-project name="platform/external/sqlite" />
     <remove-project name="platform/external/tensorflow" />
     <remove-project name="platform/external/tinycompress" />
     <remove-project name="platform/external/wpa_supplicant_8" />
@@ -70,6 +73,7 @@
     <remove-project name="platform/packages/apps/Car/Settings" />
     <remove-project name="platform/packages/apps/Car/SystemUI" />
     <remove-project name="platform/packages/apps/Calendar" />
+    <remove-project name="platform/packages/apps/CertInstaller" />
     <remove-project name="platform/packages/apps/Contacts" />
     <remove-project name="platform/packages/apps/DeskClock" />
     <remove-project name="platform/packages/apps/Dialer" />
