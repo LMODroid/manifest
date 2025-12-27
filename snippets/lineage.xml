@@ -174,6 +174,7 @@
     <!-- Packages -->
     <project path="packages/apps/Camelot" name="android_packages_apps_Camelot" remote="lineage" />
     <project path="packages/apps/Catapult" name="android_packages_apps_Catapult" remote="lineage" />
+    <project path="packages/apps/EuiccPolicy" name="android_packages_apps_EuiccPolicy" remote="lineage" />
     <project path="packages/apps/Gallery2" name="android_packages_apps_Gallery2" remote="lineage" />
     <project path="packages/apps/LineageCustomizer" name="android_packages_apps_LineageCustomizer" remote="lineage" />
     <project path="packages/apps/Seedvault" name="android_packages_apps_Seedvault" remote="lineage" />
