@@ -153,6 +153,7 @@
     <!-- System -->
     <project path="system/chre" name="LMODroid/platform_system_chre" groups="pdk" remote="lmodroid" />
     <project path="system/core" name="LMODroid/platform_system_core" remote="lmodroid" />
+    <project path="system/extras" name="LMODroid/platform_system_extras" groups="pdk" remote="lmodroid" />
     <project path="system/keymaster" name="LMODroid/platform_system_keymaster" groups="pdk" remote="lmodroid"/>
     <project path="system/libziparchive" name="LMODroid/platform_system_libziparchive" groups="pdk" remote="lmodroid"/>
     <project path="system/logging" name="LMODroid/platform_system_logging" groups="pdk" remote="lmodroid"/>

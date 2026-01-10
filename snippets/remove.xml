@@ -103,6 +103,7 @@
     <!-- System-->
     <remove-project name="platform/system/chre" />
     <remove-project name="platform/system/core" />
+    <remove-project name="platform/system/extras" />
     <remove-project name="platform/system/keymaster" />
     <remove-project name="platform/system/libziparchive" />
     <remove-project name="platform/system/logging" />
