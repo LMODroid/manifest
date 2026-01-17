@@ -14,6 +14,7 @@
 
     <!-- Device -->
     <remove-project name="device/generic/common" />
+    <remove-project name="device/google_car" />
     <remove-project name="device/google/atv" />
     <remove-project name="device/google/common/etm" />
     <remove-project name="device/generic/goldfish" />
