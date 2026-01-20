@@ -26,12 +26,14 @@
     <!-- External -->
     <remove-project name="platform/external/avb" />
     <remove-project name="platform/external/chromium-webview" />
+    <remove-project name="platform/external/dng_sdk" />
     <remove-project name="platform/external/dtc" />
     <remove-project name="platform/external/e2fsprogs" />
     <remove-project name="platform/external/exfatprogs" />
     <remove-project name="platform/external/federated-compute" />
     <remove-project name="platform/external/flatbuffers" />
     <remove-project name="platform/external/gptfdisk" />
+    <remove-project name="platform/external/libjxl" />
     <remove-project name="platform/external/mksh" />
     <remove-project name="platform/external/setupcompat" />
     <remove-project name="platform/external/tensorflow" />
