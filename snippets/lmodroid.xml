@@ -29,6 +29,7 @@
     </project>
 
     <!-- Device -->
+    <project path="device/generic/car" name="LMODroid-Devices/device_generic_car" groups="pdk" remote="lmodroid" />
     <project path="device/generic/common" name="LMODroid-Devices/device_generic_common" remote="lmodroid" />
     <project path="device/generic/goldfish" name="LMODroid-Devices/device_generic_goldfish" remote="lmodroid" />
     <project path="device/google_car" name="LMODroid-Devices/device_google_car" remote="lmodroid" />
@@ -87,6 +88,7 @@
     <!-- Packages -->
     <project path="packages/apps/Aperture" name="LMODroid/platform_packages_apps_Aperture" remote="lmodroid" />
     <project path="packages/apps/Backgrounds" name="LMODroid/platform_packages_apps_Backgrounds" remote="lmodroid" />
+    <project path="packages/apps/Car/References" name="LMODroid/platform_packages_apps_Car_References" remote="lmodroid" />
     <project path="packages/apps/Car/Settings" name="LMODroid/platform_packages_apps_Car_Settings" remote="lmodroid" />
     <project path="packages/apps/Car/SystemUI" name="LMODroid/platform_packages_apps_Car_SystemUI" remote="lmodroid" />
     <project path="packages/apps/Contacts" name="LMODroid/platform_packages_apps_Contacts" remote="lmodroid" />

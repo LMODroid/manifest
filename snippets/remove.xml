@@ -13,6 +13,7 @@
     <remove-project name="platform/build/soong" />
 
     <!-- Device -->
+    <remove-project name="device/generic/car" />
     <remove-project name="device/generic/common" />
     <remove-project name="device/google_car" />
     <remove-project name="device/google/atv" />
@@ -65,6 +66,7 @@
     <remove-project name="kernel/configs" />
 
     <!-- Packages -->
+    <remove-project name="platform/packages/apps/Car/References" />
     <remove-project name="platform/packages/apps/Car/Settings" />
     <remove-project name="platform/packages/apps/Car/SystemUI" />
     <remove-project name="platform/packages/apps/Calendar" />
