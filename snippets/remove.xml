@@ -36,6 +36,7 @@
     <remove-project name="platform/external/federated-compute" />
     <remove-project name="platform/external/flatbuffers" />
     <remove-project name="platform/external/gptfdisk" />
+    <remove-project name="platform/external/libopenapv" />
     <remove-project name="platform/external/mksh" />
     <remove-project name="platform/external/setupcompat" />
     <remove-project name="platform/external/skia" />
@@ -100,10 +101,13 @@
     <remove-project name="platform/packages/modules/Connectivity" />
     <remove-project name="platform/packages/modules/IntentResolver" />
     <remove-project name="platform/packages/modules/Permission" />
+    <remove-project name="platform/packages/modules/Profiling" />
     <remove-project name="platform/packages/modules/UprobeStats" />
+    <remove-project name="platform/packages/modules/Virtualization" />
     <remove-project name="platform/packages/modules/Wifi" />
     <remove-project name="platform/packages/providers/DownloadProvider" />
     <remove-project name="platform/packages/providers/MediaProvider" />
+    <remove-project name="platform/packages/providers/TelephonyProvider" />
     <remove-project name="platform/packages/services/Car" />
     <remove-project name="platform/packages/services/DeviceAsWebcam" />
     <remove-project name="platform/packages/services/Mms" />

@@ -49,6 +49,7 @@
     <project path="external/federated-compute" name="LMODroid/platform_external_federated-compute" remote="lmodroid" />
     <project path="external/flatbuffers" name="LMODroid/platform_external_flatbuffers" remote="lmodroid" />
     <project path="external/gptfdisk" name="LMODroid/platform_external_gptfdisk" groups="pdk" remote="lmodroid" />
+    <project path="external/libopenapv" name="LMODroid/platform_external_libopenapv" groups="pdk" remote="lmodroid" />
     <project path="external/libremobileos-fonts/AlbertSans" name="LMODroid/platform_external_libremobileos-fonts_AlbertSans" remote="lmodroid" />
     <project path="external/libremobileos-fonts/Vazirmatn" name="LMODroid/platform_external_libremobileos-fonts_Vazirmatn" remote="lmodroid" />
     <project path="external/mksh" name="LMODroid/platform_external_mksh" groups="pdk" remote="lmodroid" />
@@ -142,11 +143,14 @@
     <project path="packages/modules/IntentResolver" name="LMODroid/platform_packages_modules_IntentResolver" groups="pdk,sysui-studio" remote="lmodroid" />
     <project path="packages/modules/microG" name="LMODroid/platform_packages_modules_microG" remote="lmodroid" />
     <project path="packages/modules/Permission" name="LMODroid/platform_packages_modules_Permission" groups="pdk" remote="lmodroid" />
+    <project path="packages/modules/Profiling" name="LMODroid/platform_packages_modules_Profiling" groups="pdk" remote="lmodroid" />
     <project path="packages/modules/UprobeStats" name="LMODroid/platform_packages_modules_UprobeStats" groups="pdk-cw-fs,pdk-fs" remote="lmodroid" />
+    <project path="packages/modules/Virtualization" name="LMODroid/platform_packages_modules_Virtualization" groups="pdk" remote="lmodroid" />
     <project path="packages/modules/Wifi" name="LMODroid/platform_packages_modules_Wifi" remote="lmodroid" />
     <project path="packages/overlays/LMODroid" name="LMODroid/platform_packages_overlays_LMODroid" remote="lmodroid" />
     <project path="packages/providers/DownloadProvider" name="LMODroid/platform_packages_providers_DownloadProvider" groups="pdk-cw-fs,pdk-fs" remote="lmodroid" />
     <project path="packages/providers/MediaProvider" name="LMODroid/platform_packages_providers_MediaProvider" remote="lmodroid" />
+    <project path="packages/providers/TelephonyProvider" name="LMODroid/platform_packages_providers_TelephonyProvider" groups="pdk-cw-fs,pdk-fs" remote="lmodroid" />
     <project path="packages/resources/devicesettings" name="LMODroid/platform_packages_resources_devicesettings" remote="lmodroid" />
     <project path="packages/services/Car" name="LMODroid/platform_packages_services_Car" groups="pdk-cw-fs,pdk-fs" remote="lmodroid" />
     <project path="packages/services/DeviceAsWebcam" name="LMODroid/platform_packages_services_DeviceAsWebcam" remote="lmodroid" />
