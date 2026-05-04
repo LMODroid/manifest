@@ -2,7 +2,7 @@
 <manifest>
 
     <remote name="lmodroid"
-        fetch="https://git.libremobileos.com"
+        fetch="https://github.com"
         revision="fourteen"
         review="gerrit.libremobileos.com" />
 
