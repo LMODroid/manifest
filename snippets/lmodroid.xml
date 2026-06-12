@@ -53,6 +53,7 @@
     <project path="external/tensorflow" name="LMODroid/platform_external_tensorflow" remote="lmodroid" />
     <project path="external/tigervnc" name="LMODroid/platform_external_tigervnc" remote="lmodroid" />
     <project path="external/tinycompress" name="LMODroid/platform_external_tinycompress" groups="pdk" remote="lmodroid" />
+    <project path="external/v4l2_codec2" name="LMODroid/platform_external_v4l2_codec2" groups="pdk" remote="lmodroid" />
     <project path="external/wpa_supplicant_8" name="LMODroid/platform_external_wpa_supplicant_8" groups="pdk" remote="lmodroid" />
     <project path="external/yifan" name="LMODroid/platform_external_yifan" remote="lmodroid" />
     <project path="external/zstd" name="LMODroid/platform_external_zstd" groups="pdk" remote="lmodroid" />
