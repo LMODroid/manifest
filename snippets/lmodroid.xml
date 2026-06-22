@@ -155,6 +155,7 @@
     <project path="packages/overlays/LMODroid" name="LMODroid/platform_packages_overlays_LMODroid" remote="lmodroid" />
     <project path="packages/providers/DownloadProvider" name="LMODroid/platform_packages_providers_DownloadProvider" groups="pdk-cw-fs,pdk-fs" remote="lmodroid" />
     <project path="packages/providers/MediaProvider" name="LMODroid/platform_packages_providers_MediaProvider" remote="lmodroid" />
+    <project path="packages/providers/TelephonyProvider" name="LMODroid/platform_packages_providers_TelephonyProvider" groups="pdk-cw-fs,pdk-fs" remote="lmodroid" />
     <project path="packages/resources/devicesettings" name="LMODroid/platform_packages_resources_devicesettings" remote="lmodroid" />
     <project path="packages/services/Car" name="LMODroid/platform_packages_services_Car" groups="pdk-cw-fs,pdk-fs" remote="lmodroid" />
     <project path="packages/services/Mms" name="LMODroid/platform_packages_services_Mms" groups="pdk-cw-fs,pdk-fs" remote="lmodroid" />
