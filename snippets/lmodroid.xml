@@ -57,6 +57,7 @@
     <project path="external/mksh" name="LMODroid/platform_external_mksh" groups="pdk" remote="lmodroid" />
     <project path="external/setupcompat" name="LMODroid/platform_external_setupcompat" groups="pdk" remote="lmodroid" />
     <project path="external/skia" name="LMODroid/platform_external_skia" groups="pdk,qcom_msm8x26" remote="lmodroid" />
+    <project path="external/sqlite" name="LMODroid/platform_external_sqlite" groups="pdk" remote="lmodroid" />
     <project path="external/svox" name="LMODroid/platform_external_svox" remote="lmodroid" />
     <project path="external/tensorflow" name="LMODroid/platform_external_tensorflow" remote="lmodroid" />
     <project path="external/tigervnc" name="LMODroid/platform_external_tigervnc" remote="lmodroid" />
@@ -101,6 +102,7 @@
     <project path="packages/apps/Backgrounds" name="LMODroid/platform_packages_apps_Backgrounds" remote="lmodroid" />
     <project path="packages/apps/Camera2" name="LMODroid/platform_packages_apps_Camera2" remote="lmodroid" />
     <project path="packages/apps/Car/Settings" name="LMODroid/platform_packages_apps_Car_Settings" remote="lmodroid" />
+    <project path="packages/apps/CertInstaller" name="LMODroid/platform_packages_apps_CertInstaller" groups="pdk-cw-fs,pdk-fs" remote="lmodroid" />
     <project path="packages/apps/Contacts" name="LMODroid/platform_packages_apps_Contacts" remote="lmodroid" />
     <project path="packages/apps/DeskClock" name="LMODroid/platform_packages_apps_DeskClock" remote="lmodroid" />
     <project path="packages/apps/DesktopMode" name="LMODroid/platform_packages_apps_DesktopMode" remote="lmodroid" />
