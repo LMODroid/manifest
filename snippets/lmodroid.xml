@@ -117,6 +117,7 @@
     <project path="packages/apps/GameSpace" name="LMODroid/platform_packages_apps_GameSpace" remote="lmodroid" />
     <project path="packages/apps/Glimpse" name="LMODroid/platform_packages_apps_Glimpse" remote="lmodroid" />
     <project path="packages/apps/ImsServiceEntitlement" name="LMODroid/platform_packages_apps_ImsServiceEntitlement" remote="lmodroid" />
+    <project path="packages/apps/KeyChain" name="LMODroid/platform_packages_apps_KeyChain" groups="pdk-fs" remote="lmodroid" />
     <project path="packages/apps/LMOFreeform" name="LMODroid/platform_packages_apps_LMOFreeform" remote="lmodroid" />
     <project path="packages/apps/LMOSettings" name="LMODroid/platform_packages_apps_LMOSettings" remote="lmodroid" />
     <project path="packages/apps/LMOSystemUI" name="LMODroid/platform_packages_apps_LMOSystemUI" remote="lmodroid" />
@@ -153,6 +154,7 @@
     <project path="packages/modules/Virtualization" name="LMODroid/platform_packages_modules_Virtualization" remote="lmodroid" />
     <project path="packages/modules/Wifi" name="LMODroid/platform_packages_modules_Wifi" remote="lmodroid" />
     <project path="packages/overlays/LMODroid" name="LMODroid/platform_packages_overlays_LMODroid" remote="lmodroid" />
+    <project path="packages/providers/ContactsProvider" name="LMODroid/platform_packages_providers_ContactsProvider" groups="pdk-cw-fs,pdk-fs" remote="lmodroid" />
     <project path="packages/providers/DownloadProvider" name="LMODroid/platform_packages_providers_DownloadProvider" groups="pdk-cw-fs,pdk-fs" remote="lmodroid" />
     <project path="packages/providers/MediaProvider" name="LMODroid/platform_packages_providers_MediaProvider" remote="lmodroid" />
     <project path="packages/providers/TelephonyProvider" name="LMODroid/platform_packages_providers_TelephonyProvider" groups="pdk-cw-fs,pdk-fs" remote="lmodroid" />
