@@ -65,7 +65,11 @@
   <project path="kernel/platform/kernel-6.18/external/googletest" name="platform/external/googletest" groups="kernel-platform,kernel-platform-618" revision="main-kernel-2026" remote="aosp"/>
   <project path="kernel/platform/kernel-6.18/external/mtools" name="platform/external/mtools" groups="kernel-platform,kernel-platform-618" revision="main-kernel-2026" remote="aosp"/>
   <project path="kernel/platform/kernel-6.18/external/rust/android-crates-io" name="platform/external/rust/android-crates-io" groups="kernel-platform,kernel-platform-618" revision="main-kernel-2026" remote="aosp"/>
-  <project path="kernel/platform/kernel-6.18/external/rust/crates/smoltcp" name="platform/external/rust/crates/smoltcp" groups="kernel-platform,kernel-platform-618" revision="main-kernel-2026" remote="aosp"/>
-  <project path="kernel/platform/kernel-6.18/external/rust/crates/zune-inflate" name="platform/external/rust/crates/zune-inflate" groups="kernel-platform,kernel-platform-618" revision="main-kernel-2026" remote="aosp"/>
   <project path="kernel/platform/kernel-6.18/prebuilts/fuchsia_sdk" name="platform/prebuilts/fuchsia_sdk" clone-depth="1" groups="kernel-platform,kernel-platform-618" revision="35c2e878b0c3af33eb7bf769c9f8ecebc54e26ef" remote="aosp"/>
+  <project path="kernel/platform/kernel-6.18/prebuilts/vmm" name="device/google/cuttlefish_vmm" clone-depth="1" groups="kernel-platform,kernel-platform-618" revision="main-kernel-2026" remote="aosp"/>
+
+  <!-- dependencies for u-boot -->
+  <project path="kernel/platform/kernel-6.18/prebuilts/gcc/linux-x86/aarch64/aarch64-linux-android-4.9" name="platform/prebuilts/gcc/linux-x86/aarch64/aarch64-linux-android-4.9" clone-depth="1" groups="kernel-platform,kernel-platform-618" revision="main-kernel-2026" remote="aosp"/>
+  <project path="kernel/platform/kernel-6.18/prebuilts/gcc/linux-x86/x86/x86_64-linux-android-4.9" name="platform/prebuilts/gcc/linux-x86/x86/x86_64-linux-android-4.9" clone-depth="1" groups="kernel-platform,kernel-platform-618" revision="main-kernel-2026" remote="aosp"/>
+  <project path="kernel/platform/kernel-6.18/u-boot" name="platform/external/u-boot" groups="kernel-platform,kernel-platform-618" revision="adffd291a17b6c017e73fc6075b91044834f4a26" remote="aosp"/>
 </manifest>
