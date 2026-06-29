@@ -156,7 +156,6 @@
     <project path="system/core" name="LMODroid/platform_system_core" remote="lmodroid" />
     <project path="system/extras" name="LMODroid/platform_system_extras" groups="pdk" remote="lmodroid" />
     <project path="system/fs/fs_mgr" name="LMODroid/platform_system_fs_fs_mgr" groups="pdk" remote="lmodroid" />
-    <project path="system/keymaster" name="LMODroid/platform_system_keymaster" groups="pdk" remote="lmodroid"/>
     <project path="system/libziparchive" name="LMODroid/platform_system_libziparchive" groups="pdk" remote="lmodroid"/>
     <project path="system/logging" name="LMODroid/platform_system_logging" groups="pdk" remote="lmodroid"/>
     <project path="system/media" name="LMODroid/platform_system_media" groups="pdk" remote="lmodroid"/>
