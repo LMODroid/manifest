@@ -7,7 +7,7 @@
     <linkfile src="kleaf/bzlmod/bazel.WORKSPACE.bzlmod" dest="kernel/platform/kernel-6.6/WORKSPACE.bzlmod" />
   </project>
   <project path="kernel/platform/kernel-6.6/build/bazel_common_rules" name="platform/build/bazel_common_rules" revision="main-kernel-build-2024" remote="aosp" groups="kernel-platform,kernel-platform-66" />
-  <project path="kernel/platform/kernel-6.6/common" name="kernel/common" revision="android15-6.6-2026-04" upstream="android15-6.6-2026-07" dest-branch="android15-6.6-2026-07" remote="aosp" groups="kernel-platform,kernel-platform-66" />
+  <project path="kernel/platform/kernel-6.6/common" name="kernel/common" revision="android15-6.6-2026-07" upstream="android15-6.6-2026-07" dest-branch="android15-6.6-2026-07" remote="aosp" groups="kernel-platform,kernel-platform-66" />
   <!-- Uncomment for local testing only -->
   <!-- project path="kernel/tests" name="kernel/tests" revision="main-kernel" clone-depth="1" / -->
   <project path="kernel/platform/kernel-6.6/kernel/configs" name="kernel/configs" revision="main" upstream="main" dest-branch="main" remote="aosp" groups="kernel-platform,kernel-platform-66" />
