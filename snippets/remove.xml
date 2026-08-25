@@ -38,6 +38,7 @@
     <remove-project name="platform/external/mksh" />
     <remove-project name="platform/external/setupcompat" />
     <remove-project name="platform/external/tensorflow" />
+    <remove-project name="platform/external/tinyalsa" />
     <remove-project name="platform/external/tinycompress" />
     <remove-project name="platform/external/v4l2_codec2" />
     <remove-project name="platform/external/wpa_supplicant_8" />
