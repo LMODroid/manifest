@@ -111,6 +111,7 @@
     <remove-project name="platform/system/libziparchive" />
     <remove-project name="platform/system/logging" />
     <remove-project name="platform/system/media" />
+    <remove-project name="platform/system/memory/libdmabufheap" />
     <remove-project name="platform/system/memory/libion" />
     <remove-project name="platform/system/netd" />
     <remove-project name="platform/system/security" />

@@ -160,6 +160,7 @@
     <project path="system/libziparchive" name="LMODroid/platform_system_libziparchive" groups="pdk" remote="lmodroid"/>
     <project path="system/logging" name="LMODroid/platform_system_logging" groups="pdk" remote="lmodroid"/>
     <project path="system/media" name="LMODroid/platform_system_media" groups="pdk" remote="lmodroid"/>
+    <project path="system/memory/libdmabufheap" name="LMODroid/platform_system_memory_libdmabufheap" groups="pdk" remote="lmodroid" />
     <project path="system/memory/libion" name="LMODroid/platform_system_memory_libion" groups="pdk" remote="lmodroid" />
     <project path="system/netd" name="LMODroid/platform_system_netd" remote="lmodroid" />
     <project path="system/security" name="LMODroid/platform_system_security" groups="pdk" remote="lmodroid"/>
