@@ -47,6 +47,7 @@
     <!-- Frameworks -->
     <remove-project name="platform/frameworks/av" />
     <remove-project name="platform/frameworks/base" />
+    <remove-project name="platform/frameworks/hardware/interfaces" />
     <remove-project name="platform/frameworks/libs/systemui" />
     <remove-project name="platform/frameworks/native" />
     <remove-project name="platform/frameworks/opt/car/services" />
@@ -55,6 +56,7 @@
     <!-- Hardware -->
     <remove-project name="platform/hardware/broadcom/libbt" />
     <remove-project name="platform/hardware/google/camera" />
+    <remove-project name="platform/hardware/google/interfaces" />
     <remove-project name="platform/hardware/interfaces" />
     <remove-project name="platform/hardware/invensense" />
     <remove-project name="platform/hardware/libhardware" />
@@ -119,6 +121,7 @@
     <remove-project name="platform/system/security" />
     <remove-project name="platform/system/sepolicy" />
     <remove-project name="platform/system/update_engine" />
+    <remove-project name="platform/system/usb" />
     <remove-project name="platform/system/vold" />
 
 </manifest>

@@ -62,6 +62,7 @@
     <!-- Frameworks -->
     <project path="frameworks/av" name="LMODroid/platform_frameworks_av" remote="lmodroid" />
     <project path="frameworks/base" name="LMODroid/platform_frameworks_base" remote="lmodroid" />
+    <project path="frameworks/hardware/interfaces" name="LMODroid/platform_frameworks_hardware_interfaces" groups="pdk,sysui-studio" remote="lmodroid" />
     <project path="frameworks/libs/systemui" name="LMODroid/platform_frameworks_libs_systemui" groups="pdk-cw-fs,pdk-fs" remote="lmodroid" />
     <project path="frameworks/lmodroid" name="LMODroid/platform_frameworks_lmodroid" remote="lmodroid" />
     <project path="frameworks/native" name="LMODroid/platform_frameworks_native" remote="lmodroid" />
@@ -71,6 +72,7 @@
     <!-- Hardware -->
     <project path="hardware/broadcom/libbt" name="LMODroid/platform_hardware_broadcom_libbt" groups="pdk" remote="lmodroid" />
     <project path="hardware/google/camera" name="LMODroid/platform_hardware_google_camera" groups="pdk" remote="lmodroid" />
+    <project path="hardware/google/interfaces" name="LMODroid/platform_hardware_google_interfaces" groups="pdk,sysui-studio" remote="lmodroid" />
     <project path="hardware/google/pixel" name="LMODroid/platform_hardware_google_pixel" groups="generic_fs,pixel" remote="lmodroid" />
     <project path="hardware/interfaces" name="LMODroid/platform_hardware_interfaces" groups="pdk" remote="lmodroid" />
     <project path="hardware/libhardware" name="LMODroid/platform_hardware_libhardware" groups="pdk" remote="lmodroid" />
@@ -168,6 +170,7 @@
     <project path="system/security" name="LMODroid/platform_system_security" groups="pdk" remote="lmodroid"/>
     <project path="system/sepolicy" name="LMODroid/platform_system_sepolicy" groups="pdk" remote="lmodroid"/>
     <project path="system/update_engine" name="LMODroid/platform_system_update_engine" groups="pdk" remote="lmodroid"/>
+    <project path="system/usb" name="LMODroid/platform_system_usb" groups="pdk" remote="lmodroid" />
     <project path="system/vold" name="LMODroid/platform_system_vold" groups="pdk" remote="lmodroid"/>
 
     <!-- Vendor -->
