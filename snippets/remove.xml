@@ -53,21 +53,17 @@
     <!-- Hardware -->
     <remove-project name="platform/hardware/broadcom/libbt" />
     <remove-project name="platform/hardware/google/camera" />
-    <remove-project name="platform/hardware/google/pixel" />
-    <remove-project name="platform/hardware/google/pixel-sepolicy" />
     <remove-project name="platform/hardware/interfaces" />
     <remove-project name="platform/hardware/invensense" />
     <remove-project name="platform/hardware/libhardware" />
     <remove-project name="platform/hardware/nxp/nfc" />
     <remove-project name="platform/hardware/qcom/wlan" />
-    <remove-project name="platform/hardware/samsung/nfc" />
     <remove-project name="platform/hardware/st/nfc" />
 
     <!-- Kernel -->
     <remove-project name="kernel/configs" />
 
     <!-- Packages -->
-    <remove-project name="platform/packages/apps/Car/References" />
     <remove-project name="platform/packages/apps/Car/Settings" />
     <remove-project name="platform/packages/apps/Car/SystemUI" />
     <remove-project name="platform/packages/apps/Calendar" />
@@ -96,7 +92,6 @@
     <remove-project name="platform/packages/modules/common" />
     <remove-project name="platform/packages/modules/Connectivity" />
     <remove-project name="platform/packages/modules/Permission" />
-    <remove-project name="platform/packages/modules/UprobeStats" />
     <remove-project name="platform/packages/modules/Wifi" />
     <remove-project name="platform/packages/providers/DownloadProvider" />
     <remove-project name="platform/packages/providers/MediaProvider" />
@@ -111,6 +106,7 @@
     <remove-project name="platform/system/chre" />
     <remove-project name="platform/system/core" />
     <remove-project name="platform/system/extras" />
+    <remove-project name="platform/system/fs/fs_mgr" />
     <remove-project name="platform/system/keymaster" />
     <remove-project name="platform/system/libziparchive" />
     <remove-project name="platform/system/logging" />
