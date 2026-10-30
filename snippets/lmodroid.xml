@@ -46,9 +46,12 @@
     <project path="external/dng_sdk" name="LMODroid/platform_external_dng_sdk" groups="pdk" remote="lmodroid" />
     <project path="external/dtc" name="LMODroid/platform_external_dtc" groups="pdk" remote="lmodroid" />
     <project path="external/e2fsprogs" name="LMODroid/platform_external_e2fsprogs" groups="pdk" remote="lmodroid" />
+    <project path="external/exfatprogs" name="LMODroid/platform_external_exfatprogs" groups="pdk" remote="lmodroid" />
     <project path="external/federated-compute" name="LMODroid/platform_external_federated-compute" remote="lmodroid" />
     <project path="external/flatbuffers" name="LMODroid/platform_external_flatbuffers" remote="lmodroid" />
+    <project path="external/freetype" name="LMODroid/platform_external_freetype" groups="pdk" remote="lmodroid" />
     <project path="external/gptfdisk" name="LMODroid/platform_external_gptfdisk" groups="pdk" remote="lmodroid" />
+    <project path="external/libhevc" name="LMODroid/platform_external_libhevc" groups="pdk" remote="lmodroid" />
     <project path="external/libopenapv" name="LMODroid/platform_external_libopenapv" groups="pdk" remote="lmodroid" />
     <project path="external/libpng" name="LMODroid/platform_external_libpng" groups="pdk" remote="lmodroid" />
     <project path="external/libremobileos-fonts/AlbertSans" name="LMODroid/platform_external_libremobileos-fonts_AlbertSans" remote="lmodroid" />
@@ -82,6 +85,7 @@
     <project path="hardware/libhardware" name="LMODroid/platform_hardware_libhardware" groups="pdk" remote="lmodroid" />
     <project path="hardware/lmodroid" name="LMODroid/platform_hardware_lmodroid" groups="pdk" remote="lmodroid" />
     <project path="hardware/nxp/nfc" name="LMODroid/platform_hardware_nxp_nfc" groups="pdk" remote="lmodroid" />
+    <project path="hardware/nxp/secure_element" name="LMODroid/platform_hardware_nxp_secure_element" groups="pdk" remote="lmodroid" />
     <project path="hardware/samsung/nfc" name="LMODroid/platform_hardware_samsung_nfc" groups="pdk" remote="lmodroid" />
     <project path="hardware/st/nfc" name="LMODroid/platform_hardware_st_nfc" groups="pdk" remote="lmodroid" />
 
@@ -131,6 +135,7 @@
     <project path="packages/apps/Settings" name="LMODroid/platform_packages_apps_Settings" remote="lmodroid" />
     <project path="packages/apps/SettingsIntelligence" name="LMODroid/platform_packages_apps_SettingsIntelligence" groups="pdk-fs" remote="lmodroid" />
     <project path="packages/apps/SetupWizard" name="LMODroid/platform_packages_apps_SetupWizard" remote="lmodroid" />
+    <project path="packages/apps/TV" name="LMODroid/platform_packages_apps_TV" groups="pdk" remote="lmodroid" />
     <project path="packages/apps/ThemePicker" name="LMODroid/platform_packages_apps_ThemePicker" remote="lmodroid" />
     <project path="packages/apps/TouchGestures" name="LMODroid/platform_packages_apps_TouchGestures" remote="lmodroid" />
     <project path="packages/apps/TvSettings" name="LMODroid/platform_packages_apps_TvSettings" remote="lmodroid" />
@@ -138,6 +143,7 @@
     <project path="packages/apps/Updater" name="LMODroid/platform_packages_apps_Updater" remote="lmodroid" />
     <project path="packages/apps/WallpaperPicker2" name="LMODroid/platform_packages_apps_WallpaperPicker2" remote="lmodroid" />
     <project path="packages/inputmethods/LatinIME" name="LMODroid/platform_packages_inputmethods_LatinIME" remote="lmodroid" />
+    <project path="packages/modules/Uwb" name="LMODroid/platform_packages_modules_Uwb" groups="pdk-cw-fs,pdk-fs" remote="lmodroid" />
     <project path="packages/modules/adb" name="LMODroid/platform_packages_modules_adb" remote="lmodroid" />
     <project path="packages/modules/Bluetooth" name="LMODroid/platform_packages_modules_Bluetooth" remote="lmodroid" />
     <project path="packages/modules/Connectivity" name="LMODroid/platform_packages_modules_Connectivity" remote="lmodroid" />
@@ -156,6 +162,7 @@
     <project path="packages/providers/MediaProvider" name="LMODroid/platform_packages_providers_MediaProvider" remote="lmodroid" />
     <project path="packages/providers/TelephonyProvider" name="LMODroid/platform_packages_providers_TelephonyProvider" groups="pdk-cw-fs,pdk-fs" remote="lmodroid" />
     <project path="packages/resources/devicesettings" name="LMODroid/platform_packages_resources_devicesettings" remote="lmodroid" />
+    <project path="packages/services/BuiltInPrintService" name="LMODroid/platform_packages_services_BuiltInPrintService" groups="pdk-cw-fs,pdk-fs" remote="lmodroid" />
     <project path="packages/services/Car" name="LMODroid/platform_packages_services_Car" groups="pdk-cw-fs,pdk-fs" remote="lmodroid" />
     <project path="packages/services/DeviceAsWebcam" name="LMODroid/platform_packages_services_DeviceAsWebcam" remote="lmodroid" />
     <project path="packages/services/LMOStats" name="LMODroid/platform_packages_services_LMOStats" remote="lmodroid" />
@@ -172,8 +179,11 @@
     <project path="system/apex" name="LMODroid/platform_system_apex" groups="pdk" remote="lmodroid" />
     <project path="system/chre" name="LMODroid/platform_system_chre" groups="pdk" remote="lmodroid" />
     <project path="system/core" name="LMODroid/platform_system_core" remote="lmodroid" />
+    <project path="system/incremental_delivery" name="LMODroid/platform_system_incremental_delivery" groups="pdk" remote="lmodroid" />
     <project path="system/keymaster" name="LMODroid/platform_system_keymaster" groups="pdk" remote="lmodroid"/>
+    <project path="system/libfmq" name="LMODroid/platform_system_libfmq" groups="pdk" remote="lmodroid" />
     <project path="system/libhidl" name="LMODroid/platform_system_libhidl" groups="pdk" remote="lmodroid"/>
+    <project path="system/libufdt" name="LMODroid/platform_system_libufdt" groups="pdk" remote="lmodroid" />
     <project path="system/libziparchive" name="LMODroid/platform_system_libziparchive" groups="pdk" remote="lmodroid"/>
     <project path="system/logging" name="LMODroid/platform_system_logging" groups="pdk" remote="lmodroid"/>
     <project path="system/media" name="LMODroid/platform_system_media" groups="pdk" remote="lmodroid"/>
