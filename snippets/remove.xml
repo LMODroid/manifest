@@ -66,6 +66,7 @@
 
     <!-- Hardware -->
     <remove-project name="platform/hardware/broadcom/libbt" />
+    <remove-project name="platform/hardware/broadcom/wlan" />
     <remove-project name="platform/hardware/google/camera" />
     <remove-project name="platform/hardware/google/interfaces" />
     <remove-project name="platform/hardware/interfaces" />

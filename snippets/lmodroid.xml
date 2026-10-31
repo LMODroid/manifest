@@ -83,6 +83,7 @@
 
     <!-- Hardware -->
     <project path="hardware/broadcom/libbt" name="LMODroid/platform_hardware_broadcom_libbt" groups="pdk" remote="lmodroid" />
+    <project path="hardware/broadcom/wlan" name="LMODroid/platform_hardware_broadcom_wlan" groups="pdk,broadcom_wlan" remote="lmodroid" />
     <project path="hardware/google/camera" name="LMODroid/platform_hardware_google_camera" groups="pdk" remote="lmodroid" />
     <project path="hardware/google/interfaces" name="LMODroid/platform_hardware_google_interfaces" groups="pdk,sysui-studio" remote="lmodroid" />
     <project path="hardware/google/pixel" name="LMODroid/platform_hardware_google_pixel" groups="generic_fs,pixel" remote="lmodroid" />
