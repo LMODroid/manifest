@@ -145,7 +145,6 @@
     <project path="external/chromium-webview/prebuilt/arm64" name="android_external_chromium-webview_prebuilt_arm64" groups="pdk" revision="main" remote="lineage" />
     <project path="external/chromium-webview/prebuilt/x86" name="android_external_chromium-webview_prebuilt_x86" groups="pdk" revision="main" remote="lineage" />
     <project path="external/chromium-webview/prebuilt/x86_64" name="android_external_chromium-webview_prebuilt_x86_64" groups="pdk" revision="main" remote="lineage" />
-    <project path="external/exfatprogs" name="android_external_exfatprogs" remote="lineage" />
     <project path="external/google-fonts/google-sans-flex" name="android_external_google-fonts_google-sans-flex" remote="lineage" />
     <project path="external/htop" name="android_external_htop" remote="lineage" />
     <project path="external/libncurses" name="android_external_libncurses" remote="lineage" />
