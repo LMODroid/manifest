@@ -42,6 +42,7 @@
     <remove-project name="platform/external/libpng" />
     <remove-project name="platform/external/libppd" />
     <remove-project name="platform/external/mksh" />
+    <remove-project name="platform/external/selinux" />
     <remove-project name="platform/external/setupcompat" />
     <remove-project name="platform/external/tensorflow" />
     <remove-project name="platform/external/tinyalsa" />
