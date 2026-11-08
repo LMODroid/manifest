@@ -26,6 +26,7 @@
     <remove-project name="platform/development" />
 
     <!-- External -->
+    <remove-project name="platform/external/aac" />
     <remove-project name="platform/external/avb" />
     <remove-project name="platform/external/chromium-webview" />
     <remove-project name="platform/external/dng_sdk" />
@@ -36,9 +37,11 @@
     <remove-project name="platform/external/flatbuffers" />
     <remove-project name="platform/external/freetype" />
     <remove-project name="platform/external/gptfdisk" />
+    <remove-project name="platform/external/hplip" />
     <remove-project name="platform/external/libcupsfilters" />
     <remove-project name="platform/external/libhevc" />
     <remove-project name="platform/external/libjxl" />
+    <remove-project name="platform/external/libopenapv" />
     <remove-project name="platform/external/libpng" />
     <remove-project name="platform/external/libppd" />
     <remove-project name="platform/external/mksh" />
@@ -47,6 +50,7 @@
     <remove-project name="platform/external/tensorflow" />
     <remove-project name="platform/external/tinyalsa" />
     <remove-project name="platform/external/tinycompress" />
+    <remove-project name="platform/external/tremolo" />
     <remove-project name="platform/external/v4l2_codec2" />
     <remove-project name="platform/external/wpa_supplicant_8" />
     <remove-project name="platform/external/zstd" />
@@ -101,7 +105,10 @@
     <remove-project name="platform/packages/apps/TvSystemUI" />
     <remove-project name="platform/packages/apps/WallpaperPicker2" />
     <remove-project name="platform/packages/inputmethods/LatinIME" />
+    <remove-project name="platform/packages/modules/IntentResolver" />
+    <remove-project name="platform/packages/modules/NeuralNetworks" />
     <remove-project name="platform/packages/modules/Nfc" />
+    <remove-project name="platform/packages/modules/Profiling" />
     <remove-project name="platform/packages/modules/Telephony" />
     <remove-project name="platform/packages/modules/Uwb" />
     <remove-project name="platform/packages/modules/adb" />
@@ -118,6 +125,7 @@
     <remove-project name="platform/packages/services/BuiltInPrintService" />
     <remove-project name="platform/packages/services/Car" />
     <remove-project name="platform/packages/services/DeviceAsWebcam" />
+    <remove-project name="platform/packages/services/Iwlan" />
     <remove-project name="platform/packages/services/Mms" />
     <remove-project name="platform/packages/services/Telecomm" />
     <remove-project name="platform/packages/services/Telephony" />
@@ -128,6 +136,7 @@
     <remove-project name="platform/system/core" />
     <remove-project name="platform/system/extras" />
     <remove-project name="platform/system/fs/fs_mgr" />
+    <remove-project name="platform/system/gsid" />
     <remove-project name="platform/system/libfmq" />
     <remove-project name="platform/system/libufdt" />
     <remove-project name="platform/system/libziparchive" />
@@ -141,5 +150,6 @@
     <remove-project name="platform/system/update_engine" />
     <remove-project name="platform/system/usb" />
     <remove-project name="platform/system/vold" />
+    <remove-project name="trusty/lib" />
 
 </manifest>
