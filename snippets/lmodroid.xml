@@ -109,6 +109,7 @@
     <project path="packages/apps/ContactsPicker" name="LMODroid/platform_packages_apps_ContactsPicker" groups="pdk-fs" remote="lmodroid" />
     <project path="packages/apps/DeskClock" name="LMODroid/platform_packages_apps_DeskClock" remote="lmodroid" />
     <project path="packages/apps/DesktopMode" name="LMODroid/platform_packages_apps_DesktopMode" remote="lmodroid" />
+    <project path="packages/apps/DeviceDiagnostics" name="LMODroid/platform_packages_apps_DeviceDiagnostics" groups="pdk" remote="lmodroid" />
     <project path="packages/apps/Dialer" name="LMODroid/platform_packages_apps_Dialer" remote="lmodroid" />
     <project path="packages/apps/DocumentsUI" name="LMODroid/platform_packages_apps_DocumentsUI" remote="lmodroid" />
     <project path="packages/apps/EmergencyInfo" name="LMODroid/platform_packages_apps_EmergencyInfo" remote="lmodroid" />
