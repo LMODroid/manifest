@@ -102,6 +102,7 @@
 
     <!-- Packages -->
     <project path="packages/apps/Aperture" name="LMODroid/platform_packages_apps_Aperture" remote="lmodroid" />
+    <project path="packages/apps/AvatarPicker" name="LMODroid/platform_packages_apps_AvatarPicker" groups="pdk-fs" remote="lmodroid" />
     <project path="packages/apps/Backgrounds" name="LMODroid/platform_packages_apps_Backgrounds" remote="lmodroid" />
     <project path="packages/apps/Car/Settings" name="LMODroid/platform_packages_apps_Car_Settings" remote="lmodroid" />
     <project path="packages/apps/Car/SystemUI" name="LMODroid/platform_packages_apps_Car_SystemUI" remote="lmodroid" />

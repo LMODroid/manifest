@@ -81,6 +81,7 @@
     <remove-project name="kernel/configs" />
 
     <!-- Packages -->
+    <remove-project name="platform/packages/apps/AvatarPicker" />
     <remove-project name="platform/packages/apps/Car/Settings" />
     <remove-project name="platform/packages/apps/Car/SystemUI" />
     <remove-project name="platform/packages/apps/Calendar" />
