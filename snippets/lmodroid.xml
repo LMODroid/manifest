@@ -115,7 +115,6 @@
     <project path="packages/apps/DocumentsUI" name="LMODroid/platform_packages_apps_DocumentsUI" remote="lmodroid" />
     <project path="packages/apps/EmergencyInfo" name="LMODroid/platform_packages_apps_EmergencyInfo" remote="lmodroid" />
     <project path="packages/apps/Etar" name="LMODroid/platform_packages_apps_Etar" remote="lmodroid" />
-    <project path="packages/apps/F-DroidPrivilegedExtension" name="LMODroid/platform_packages_apps_F-DroidPrivilegedExtension" remote="lmodroid" />
     <project path="packages/apps/FaceUnlock" name="LMODroid/platform_packages_apps_FaceUnlock" remote="lmodroid" />
     <project path="packages/apps/FMRadio" name="LMODroid/platform_packages_apps_FMRadio" remote="lmodroid" />
     <project path="packages/apps/FlipFlap" name="LMODroid/platform_packages_apps_FlipFlap" remote="lmodroid" />
